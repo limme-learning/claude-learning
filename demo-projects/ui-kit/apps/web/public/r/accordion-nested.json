@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "accordion-nested",
+  "title": "Nested",
+  "description": "A sub-accordion inside a parent item's content for progressive disclosure.",
+  "registryDependencies": [
+    "accordion"
+  ],
+  "files": [
+    {
+      "path": "registry/accordion/accordion-nested.tsx",
+      "content": "import {\n  Accordion,\n  AccordionContent,\n  AccordionItem,\n  AccordionTrigger,\n} from \"@workspace/ui/components/accordion\"\n\nexport default function AccordionNested() {\n  return (\n    <Accordion defaultValue={[\"item-1\"]} className=\"w-full max-w-md\">\n      <AccordionItem value=\"item-1\">\n        <AccordionTrigger>Billing & plans</AccordionTrigger>\n        <AccordionContent>\n          <p className=\"mb-3\">Common billing questions, grouped below.</p>\n          <Accordion className=\"border-l border-border/60 pl-3\">\n            <AccordionItem value=\"sub-1\">\n              <AccordionTrigger className=\"text-sm\">Can I switch plans mid-cycle?</AccordionTrigger>\n              <AccordionContent>\n                Yes, prorated automatically on your next invoice.\n              </AccordionContent>\n            </AccordionItem>\n            <AccordionItem value=\"sub-2\">\n              <AccordionTrigger className=\"text-sm\">What payment methods are accepted?</AccordionTrigger>\n              <AccordionContent>Major credit cards and ACH for annual plans.</AccordionContent>\n            </AccordionItem>\n          </Accordion>\n        </AccordionContent>\n      </AccordionItem>\n      <AccordionItem value=\"item-2\">\n        <AccordionTrigger>Account & security</AccordionTrigger>\n        <AccordionContent>Two-factor auth and SSO are available on all plans.</AccordionContent>\n      </AccordionItem>\n    </Accordion>\n  )\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "accordion"
+  ],
+  "type": "registry:block"
+}
