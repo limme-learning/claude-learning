@@ -39,9 +39,11 @@ Run in this exact order. Do not skip steps.
 | 4 | `/before-pr` | Final gate before opening a PR/MR |
 | 5 | Open PR/MR | After all gates pass |
 
-If the change is a visual/UI change under `frontend/`: run `/qa-visual` before Step 4. If it
-adds a missing shadcn component: run `/add-shadcn` as part of Step 3. If it adds a new
-table/endpoint: run `/new-backend-resource` as part of Step 3.
+If the change is a visual/UI change under `frontend/`: run `/qa-visual` before Step 4, and reach
+for `impeccable audit`/`critique`/`live` during Step 3 if the change is a real design pass, not
+just a tweak (see `nextjs-vercel-skills/SKILL.md` §3d for which of the three fits). If it adds a
+missing shadcn component: run `/add-shadcn` as part of Step 3. If it adds a new table/endpoint:
+run `/new-backend-resource` as part of Step 3.
 
 ---
 

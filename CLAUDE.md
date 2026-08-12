@@ -68,6 +68,7 @@ Slash commands (type `/` in Claude Code):
 | `/git-work <type> <desc>` | Generate branch name and commit message — enforces `.claude/rules/git.md` |
 | `/git-push [api\|frontend]` | Safely push the current branch, once a remote exists |
 | `/qa-visual [route]` | Local browser check (screenshot + contrast/a11y) for a `frontend/` change |
+| `impeccable init` / `document` / `audit` / `critique` / `live` | Design skill (installed) — product context, `DESIGN.md` generation, a11y/perf audit, UX critique, interactive live iteration. See `nextjs-vercel-skills/SKILL.md` §3a/§3d |
 | `/add-shadcn <component>` | Install a missing shadcn/ui component and wire the import |
 | `/new-backend-resource <name>` | Scaffold a new `api/` endpoint + typed frontend client wiring |
 

@@ -38,6 +38,17 @@ This registers 7 skills for Claude Code: `next-best-practices`, `next-cache-comp
 `turborepo` and `ai-sdk` (only relevant if `frontend/` ends up using a Turborepo pipeline or the
 Vercel AI SDK — neither is decided yet).
 
+Also install Impeccable (full design skill — audit/critique/live iteration, see §3a/§3d).
+**Already installed** in this repo at `.claude/skills/impeccable/` (project scope, v4.0.4, via
+`npx impeccable install`). Keep it current with:
+
+```bash
+npx impeccable update
+```
+
+Requires Node 22.12+. Source: https://impeccable.style — external tool, don't hand-roll a
+design-review skill either (see §5).
+
 ---
 
 ## 2. Skill precedence — consult in this order
@@ -60,9 +71,19 @@ If a project rule and a Vercel skill conflict, the Vercel skill wins by default.
 
 ### 3a. Design system
 
-Not set up yet. Once a design doc exists (Tailwind tokens, spacing, typography), read it before
-writing any UI and use only the tokens it defines — no unauthorized utility classes (e.g. an
-arbitrary gradient). Update this section with the doc's real path the day it's created.
+Owned by Impeccable (installed in §1), not a hand-written `design.md` — it defines its own
+`PRODUCT.md` (durable product context) and `DESIGN.md` (tokens/visual language) convention:
+
+- `impeccable init` — capture product context into `PRODUCT.md`. Run once, early, the first time
+  `frontend/` has anything worth describing.
+- `impeccable document` — generate `DESIGN.md` from existing project code, once there's a real
+  design language in the code to extract from (not on day one of an empty `frontend/`).
+- `impeccable extract [target]` — pull reusable tokens/components into the design system as it
+  grows.
+
+Until `PRODUCT.md`/`DESIGN.md` exist, Impeccable's own `context.mjs` setup step (see its
+`SKILL.md` §Setup) handles the "nothing to load yet" case — don't invent a placeholder design
+doc ahead of it.
 
 ### 3b. UI component library
 
@@ -80,8 +101,22 @@ endpoint + client wiring.
 
 ### 3d. Visual QA
 
-After editing any visual client component, verify locally with `/qa-visual` before calling the
-task done — don't assert a visual claim you haven't actually checked in a browser.
+Three complementary tools, different jobs — don't conflate them:
+
+- **`/qa-visual`** — this project's own automated gate. Screenshots the changed route, checks
+  WCAG contrast and layout breaks, self-corrects, no human needed. Run every time before calling
+  a visual change done — it's the fast, mechanical check.
+- **`impeccable audit [target]`** — deeper automated technical check: a11y, performance,
+  responsive behavior, beyond what `/qa-visual` covers. Run before `impeccable polish` or when a
+  surface needs a real quality gate, not just contrast/layout.
+- **`impeccable critique [target]`** — UX heuristic review (hierarchy, cognitive load, IA) —
+  qualitative, not pass/fail.
+- **`impeccable live`** — interactive design iteration. Pick an element in the running dev
+  server (Next.js is one of its supported frameworks — `scripts/live/frameworks/nextjs.mjs`),
+  get 3 production-quality variants, pick one, and it writes back to source as real CSS via HMR
+  — not inline styles. Use when a component needs an actual design pass, not just a check.
+  First run against a strict CSP dev server offers a one-time dev-only CSP patch so the picker
+  overlay can load — accept that prompt rather than disabling CSP entirely.
 
 ---
 
@@ -90,6 +125,11 @@ task done — don't assert a visual claim you haven't actually checked in a brow
 | Command | What it does |
 |---|---|
 | `/qa-visual [route]` | Screenshot + contrast/a11y check against the local dev server |
+| `impeccable init` | Capture durable product context into `PRODUCT.md` |
+| `impeccable document` | Generate `DESIGN.md` from existing project code |
+| `impeccable audit [target]` | Technical quality check: a11y, perf, responsive |
+| `impeccable critique [target]` | UX heuristic review |
+| `impeccable live` | Interactive design iteration — pick an element, choose from 3 variants, writes back to source CSS via HMR |
 | `/add-shadcn <component>` | Install a missing shadcn/ui component and wire the import |
 | `/new-backend-resource <name>` | Scaffold a new `api/` endpoint + typed frontend client wiring |
 
@@ -98,6 +138,8 @@ task done — don't assert a visual claim you haven't actually checked in a brow
 ## 5. Non-goals
 
 Don't write a custom skill duplicating `next-cache-components` or `next-best-practices` — they
-already cover that ground and are maintained upstream by Vercel. If they're ever wrong for this
-project (e.g. this repo pins an older Next.js major), say so explicitly in §3 above rather than
-silently working around it.
+already cover that ground and are maintained upstream by Vercel. Same for design review/critique
+— don't hand-roll an "AI slop" checklist or a custom `design.md` convention; Impeccable already
+owns that (`PRODUCT.md`/`DESIGN.md`, `audit`/`critique`/`live`) and updates its rules over time
+(`npx impeccable update`). If either pack is ever wrong for this project (e.g. this repo pins an
+older Next.js major), say so explicitly in §3 above rather than silently working around it.
