@@ -20,21 +20,42 @@ start it in the background from `frontend/` (`pnpm dev` / `npm run dev` — chec
 `frontend/package.json` for the actual script name) and wait for the "ready" log line before
 continuing.
 
-## Step 1 — Capture the route
+## Step 1 — Run the automated check
 
-Use a headless browser (e.g. `npx playwright test --ui-mode=headless`, or an equivalent
-screenshot script already present in this repo — check for one before writing a new one) to:
+Don't install a separate headless-browser stack for this — Impeccable (installed at
+`.claude/skills/impeccable/`) already bundles a Puppeteer-driven detector that includes a
+contrast/layout engine, and running it doubles as `nextjs-vercel-skills/SKILL.md` §3d's
+`impeccable audit` step. Run it at the default viewport, then again at a mobile width:
 
-- Load the target route at the default viewport, plus one mobile width (e.g. 390px).
-- Capture a screenshot of each.
-- Extract computed foreground/background colors for text elements changed in this session.
+```bash
+node .claude/skills/impeccable/scripts/detect.mjs <url>
+node .claude/skills/impeccable/scripts/detect.mjs --viewport 390x844 <url>
+```
 
-## Step 2 — Check contrast and layout
+First run in a repo needs Puppeteer resolvable from an ancestor of `.claude/skills/impeccable`
+— Node ESM `import()` doesn't honor `NODE_PATH`, so `npm install --save-dev puppeteer` at the
+workspace root the skill lives under (not just the target app's own `node_modules`) if the
+command errors with "puppeteer is required." Chromium download needs pnpm's build-script
+approval (`allowBuilds`/`onlyBuiltDependencies` in `pnpm-workspace.yaml`, not the piped
+`pnpm approve-builds` picker — that hangs badly on non-interactive stdin).
 
-- Compute WCAG contrast ratio for changed text/background pairs. Flag anything under 4.5:1 for
-  normal text or 3:1 for large text.
-- Look at the screenshots for obvious layout breaks (overlap, overflow, clipped content) at both
-  viewports captured.
+Exit code 0 with no output = clean pass at that viewport. Non-zero = findings printed to
+stderr, including the specific contrast/line-length/overused-pattern issue and why it matters.
+
+For a one-off visual sanity check beyond what the detector's rules cover (spacing that "reads
+wrong" but isn't a rule violation), grab actual screenshots the same way, then delete them —
+they're a verification aid, not a deliverable:
+
+```bash
+node -e "const puppeteer=require('puppeteer');(async()=>{const b=await puppeteer.launch();const p=await b.newPage();await p.setViewport({width:1280,height:900});await p.goto('<url>',{waitUntil:'networkidle0'});await p.screenshot({path:'.qa-desktop.png',fullPage:true});await b.close();})();"
+```
+
+## Step 2 — Read the findings
+
+- Any contrast finding (WCAG under 4.5:1 normal / 3:1 large text) or layout-breaking finding is
+  blocking.
+- A floating circular "N" overlay in screenshots is the Next.js dev-mode indicator, not a real
+  layout defect — it doesn't ship in production builds. Don't "fix" it.
 
 ## Step 3 — Report and self-correct
 
