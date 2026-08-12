@@ -25,7 +25,7 @@ export default function AccordionBordered() {
         <AccordionItem
           key={faq.value}
           value={faq.value}
-          className="rounded-lg border border-border/60 px-3 not-last:border-b"
+          className="rounded-lg border border-border/60 px-3 py-1 not-last:border-b"
         >
           <AccordionTrigger>{faq.question}</AccordionTrigger>
           <AccordionContent>{faq.answer}</AccordionContent>

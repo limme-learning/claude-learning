@@ -1,5 +1,5 @@
 import { getItemSource, type RegistryItem } from "@/lib/registry"
-import { getPreviewLoader } from "@/registry"
+import { getPreviewLoader } from "@/registry/index"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@workspace/ui/components/tabs"
 
 import { CopyButton } from "./copy-button"
@@ -17,19 +17,19 @@ export async function ComponentPreview({
   const Demo = mod?.default
 
   return (
-    <div className="overflow-hidden rounded-lg border border-border/60">
-      <div className="flex items-center justify-between border-b border-border/60 px-4 py-2">
-        <span className="text-sm font-medium">{item.title}</span>
+    <div>
+      <div className="flex items-center justify-between pb-3">
+        <h2 className="font-heading text-base font-medium">{item.title}</h2>
       </div>
       <Tabs defaultValue="preview">
-        <div className="border-b border-border/60 px-4">
+        <div className="border-b border-border/60">
           <TabsList variant="line">
             <TabsTrigger value="preview">Preview</TabsTrigger>
             <TabsTrigger value="code">Code</TabsTrigger>
           </TabsList>
         </div>
         <TabsContent value="preview" className="m-0">
-          <div className="flex min-h-48 items-center justify-center p-8">
+          <div className="flex min-h-48 items-center justify-center py-8">
             {Demo ? (
               <Demo />
             ) : (

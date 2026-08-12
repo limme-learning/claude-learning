@@ -25,7 +25,7 @@ export default function AccordionFilled() {
         <AccordionItem
           key={faq.value}
           value={faq.value}
-          className="rounded-lg bg-muted/50 px-3 not-last:border-b-0"
+          className="rounded-lg bg-muted/50 px-3 py-1 not-last:border-b-0"
         >
           <AccordionTrigger>{faq.question}</AccordionTrigger>
           <AccordionContent>{faq.answer}</AccordionContent>
