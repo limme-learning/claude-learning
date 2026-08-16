@@ -23,10 +23,28 @@ export function CategorySearch({
   const containerRef = React.useRef<HTMLDivElement>(null)
   const [query, setQuery] = React.useState("")
   const kindParam = searchParams.get("kind")
-  const kind: Kind = isKind(kindParam) ? kindParam : "component"
+  const urlKind: Kind = isKind(kindParam) ? kindParam : "component"
+
+  // `Tabs` is controlled by this state, not directly by the URL. Deriving
+  // it straight from `searchParams` made the tab's own value lag behind
+  // the click that changed it — `router.replace` is async, so a second
+  // click landing before the first one's navigation finished re-rendering
+  // the component would see the trigger it clicked as already "active"
+  // (per the stale `value` prop) and Radix would silently skip firing
+  // `onValueChange`, swallowing the click. Updating local state
+  // synchronously on click keeps the tab responsive regardless of router
+  // timing; the effect below still syncs external changes (back/forward).
+  const [kind, setKindState] = React.useState<Kind>(urlKind)
+  const [syncedUrlKind, setSyncedUrlKind] = React.useState(urlKind)
+  if (urlKind !== syncedUrlKind) {
+    setSyncedUrlKind(urlKind)
+    setKindState(urlKind)
+  }
+
   const [hasMatches, setHasMatches] = React.useState(true)
 
   function setKind(next: Kind) {
+    setKindState(next)
     const params = new URLSearchParams(searchParams.toString())
     if (next === "component") {
       params.delete("kind")
