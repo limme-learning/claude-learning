@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { Component, startTransition, useEffect, useRef, useState } from "react"
 import type { ComponentType, ReactNode } from "react"
 
 import { loadPreview } from "@/lib/generated/component-preview-loaders"
@@ -11,6 +11,27 @@ function PreviewSkeleton() {
       <span className="size-12 animate-pulse rounded-lg border border-border/40 bg-muted/40" />
     </div>
   )
+}
+
+// Catches a render-time throw from a mounted demo (bad prop, missing
+// dependency in one of ~140 packages x 2 engines x 8 styles) so one broken
+// preview degrades to its own fallback instead of taking down the whole
+// grid. Load-time failures are handled separately via the `failed` state
+// below — this only covers failures after `Demo` has already started
+// rendering.
+class PreviewErrorBoundary extends Component<
+  { fallback: ReactNode; children: ReactNode },
+  { hasError: boolean }
+> {
+  state = { hasError: false }
+
+  static getDerivedStateFromError() {
+    return { hasError: true }
+  }
+
+  render() {
+    return this.state.hasError ? this.props.fallback : this.props.children
+  }
 }
 
 export function PreviewMount({
@@ -51,21 +72,42 @@ export function PreviewMount({
   }, [lazy, ready])
 
   useEffect(() => {
-    if (!ready) return
+    if (!ready || !name) return
     let cancelled = false
-    if (name) {
-      loadPreview(base, kind, category, name)
+
+    // Defer the actual import to idle time so it doesn't compete with an
+    // in-flight scroll/paint when several previews cross the intersection
+    // threshold in the same frame, and mark the resulting state update as
+    // low-priority so React doesn't block input handling while a heavy
+    // demo (data-grid, chart) renders.
+    function runLoad() {
+      loadPreview(base, kind, category, name!)
         .then((mod) => {
           if (cancelled) return
-          if (mod?.default) setDemo(() => mod.default)
-          else setFailed(true)
+          startTransition(() => {
+            if (mod?.default) setDemo(() => mod.default)
+            else setFailed(true)
+          })
         })
         .catch(() => {
-          if (!cancelled) setFailed(true)
+          if (!cancelled) startTransition(() => setFailed(true))
         })
     }
+
+    let idleId: number | null = null
+    let timeoutId: ReturnType<typeof setTimeout> | null = null
+    if (typeof window !== "undefined" && "requestIdleCallback" in window) {
+      idleId = window.requestIdleCallback(runLoad, { timeout: 1500 })
+    } else {
+      timeoutId = setTimeout(runLoad, 150)
+    }
+
     return () => {
       cancelled = true
+      if (idleId != null && typeof window.cancelIdleCallback === "function") {
+        window.cancelIdleCallback(idleId)
+      }
+      if (timeoutId != null) clearTimeout(timeoutId)
     }
   }, [ready, base, kind, category, name])
 
@@ -79,5 +121,9 @@ export function PreviewMount({
   }
   if (failed) return fallback ?? null
   if (!Demo) return <PreviewSkeleton />
-  return <Demo />
+  return (
+    <PreviewErrorBoundary fallback={fallback ?? <PreviewSkeleton />}>
+      <Demo />
+    </PreviewErrorBoundary>
+  )
 }

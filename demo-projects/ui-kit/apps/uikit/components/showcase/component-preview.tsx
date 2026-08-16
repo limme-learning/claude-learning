@@ -63,6 +63,7 @@ export async function ComponentPreview({
               kind={kind}
               category={category}
               name={item.name}
+              lazy
               fallback={
                 <p className="text-sm text-muted-foreground">
                   No preview available.
