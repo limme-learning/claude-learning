@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-pagination-1",
+  "type": "registry:block",
+  "title": "Basic pagination.",
+  "description": "Basic pagination.",
+  "categories": [
+    "pagination"
+  ],
+  "registryDependencies": [
+    "@ui-kit/pagination",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/pagination/c-pagination-1.tsx",
+      "type": "registry:block",
+      "content": "import {\n  Pagination,\n  PaginationContent,\n  PaginationItem,\n  PaginationLink,\n  PaginationNext,\n  PaginationPrevious,\n} from \"@/components/ui/pagination\"\n\nexport default function Pattern() {\n  return (\n    <Pagination>\n      <PaginationContent>\n        <PaginationItem>\n          <PaginationPrevious href=\"#\" />\n        </PaginationItem>\n        <PaginationItem>\n          <PaginationLink href=\"#\">1</PaginationLink>\n        </PaginationItem>\n        <PaginationItem>\n          <PaginationLink href=\"#\" isActive>\n            2\n          </PaginationLink>\n        </PaginationItem>\n        <PaginationItem>\n          <PaginationLink href=\"#\">3</PaginationLink>\n        </PaginationItem>\n        <PaginationItem>\n          <PaginationNext href=\"#\" />\n        </PaginationItem>\n      </PaginationContent>\n    </Pagination>\n  )\n}\n",
+      "target": "components/examples/c-pagination-1.tsx"
+    }
+  ],
+  "meta": {
+    "order": 1
+  }
+}

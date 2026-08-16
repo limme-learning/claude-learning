@@ -1,0 +1,51 @@
+import { Card } from "@ui-kit/ui/components/card"
+import { Checkbox } from "@ui-kit/ui/components/checkbox"
+import {
+  Field,
+  FieldGroup,
+  FieldLabel,
+  FieldTitle,
+} from "@ui-kit/ui/components/field"
+import { Separator } from "@ui-kit/ui/components/separator"
+import { LaptopIcon, MailIcon, SmartphoneIcon } from "lucide-react"
+
+export default function Pattern() {
+  return (
+    <Card className="w-full max-w-xs p-0">
+      <FieldGroup className="gap-0">
+        <Field>
+          <FieldLabel className="justify-between px-4 py-3">
+            <FieldTitle className="flex items-center gap-2">
+              <LaptopIcon aria-hidden="true" className="size-4 opacity-60" />
+              Push notifications
+            </FieldTitle>
+            <Checkbox defaultChecked />
+          </FieldLabel>
+        </Field>
+        <Separator />
+        <Field>
+          <FieldLabel className="justify-between px-4 py-3">
+            <FieldTitle className="flex items-center gap-2">
+              <MailIcon aria-hidden="true" className="size-4 opacity-60" />
+              Email notifications
+            </FieldTitle>
+            <Checkbox />
+          </FieldLabel>
+        </Field>
+        <Separator />
+        <Field>
+          <FieldLabel className="justify-between px-4 py-3">
+            <FieldTitle className="flex items-center gap-2">
+              <SmartphoneIcon
+                aria-hidden="true"
+                className="size-4 opacity-60"
+              />
+              SMS notifications
+            </FieldTitle>
+            <Checkbox />
+          </FieldLabel>
+        </Field>
+      </FieldGroup>
+    </Card>
+  )
+}

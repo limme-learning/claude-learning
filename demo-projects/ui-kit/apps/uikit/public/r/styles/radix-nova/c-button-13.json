@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-13",
+  "type": "registry:block",
+  "title": "Button in a loading state",
+  "description": "Button in a loading state",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/spinner",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-13.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { Spinner } from \"@/components/ui/spinner\"\n\nexport default function Pattern() {\n  return (\n    <Button disabled>\n      <Spinner aria-hidden=\"true\" />\n      Please wait\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-13.tsx"
+    }
+  ],
+  "meta": {
+    "order": 13
+  }
+}

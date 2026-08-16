@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-48",
+  "type": "registry:block",
+  "title": "Icon button with notification badge",
+  "description": "Icon button with notification badge",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/badge-block",
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button/c-button-48.tsx",
+      "type": "registry:block",
+      "content": "import { Badge } from \"@/components/reui/badge\"\n\nimport { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button\n      size=\"icon\"\n      variant=\"outline\"\n      className=\"relative\"\n      aria-label=\"Notifications (8)\"\n    >\n      <IconPlaceholder\n        lucide=\"BellIcon\"\n        tabler=\"IconBell\"\n        hugeicons=\"NotificationIcon\"\n        phosphor=\"BellIcon\"\n        remixicon=\"RiNotificationLine\"\n        aria-hidden=\"true\"\n      />\n      <Badge\n        variant=\"destructive\"\n        size=\"xs\"\n        className=\"absolute -top-1 -right-1 rounded-full px-1\"\n        aria-hidden=\"true\"\n      >\n        8\n      </Badge>\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-48.tsx"
+    }
+  ],
+  "meta": {
+    "order": 48
+  }
+}

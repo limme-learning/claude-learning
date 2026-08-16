@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-phone-input-1",
+  "type": "registry:block",
+  "title": "Basic phone input",
+  "description": "Basic phone input",
+  "categories": [
+    "phone-input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/phone-input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/phone-input/c-phone-input-1.tsx",
+      "type": "registry:block",
+      "content": "import { PhoneInput } from \"@/components/reui/phone-input\"\n\nexport default function Pattern() {\n  return <PhoneInput placeholder=\"Enter phone number\" />\n}\n",
+      "target": "components/examples/c-phone-input-1.tsx"
+    }
+  ],
+  "meta": {
+    "order": 1
+  }
+}

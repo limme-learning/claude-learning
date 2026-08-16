@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-alert-6",
+  "type": "registry:block",
+  "title": "Success alert",
+  "description": "Success alert",
+  "categories": [
+    "alert"
+  ],
+  "registryDependencies": [
+    "@ui-kit/alert-block",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/alert/c-alert-6.tsx",
+      "type": "registry:block",
+      "content": "import {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/components/reui/alert\"\n\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Alert variant=\"success\">\n      <IconPlaceholder\n        lucide=\"CircleCheckIcon\"\n        tabler=\"IconCircleCheck\"\n        hugeicons=\"CheckmarkCircle01Icon\"\n        phosphor=\"CheckCircleIcon\"\n        remixicon=\"RiCheckboxCircleLine\"\n      />\n      <AlertTitle>Success! All good</AlertTitle>\n      <AlertDescription>\n        Everything is working as expected. You can continue with your task.\n      </AlertDescription>\n    </Alert>\n  )\n}\n",
+      "target": "components/examples/c-alert-6.tsx"
+    }
+  ],
+  "meta": {
+    "order": 6
+  }
+}

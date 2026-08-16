@@ -1,0 +1,45 @@
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogMedia,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@ui-kit/ui/base-components/alert-dialog"
+import { Button } from "@ui-kit/ui/base-components/button"
+import { IconPlaceholder } from "@ui-kit/ui/components/icon-placeholder"
+
+export default function Pattern() {
+  return (
+    <AlertDialog>
+      <AlertDialogTrigger
+        render={<Button variant="outline">Small (Media)</Button>}
+      />
+      <AlertDialogContent size="sm">
+        <AlertDialogHeader>
+          <AlertDialogMedia>
+            <IconPlaceholder
+              lucide="BluetoothIcon"
+              tabler="IconBluetooth"
+              hugeicons="BluetoothIcon"
+              phosphor="BluetoothIcon"
+              remixicon="RiBluetoothLine"
+            />
+          </AlertDialogMedia>
+          <AlertDialogTitle>Allow accessory to connect?</AlertDialogTitle>
+          <AlertDialogDescription>
+            Do you want to allow the USB accessory to connect to this device?
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel>Don&apos;t allow</AlertDialogCancel>
+          <AlertDialogAction>Allow</AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  )
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-avatar-2",
+  "type": "registry:block",
+  "title": "Avatar with fallback",
+  "description": "Avatar with fallback",
+  "categories": [
+    "avatar"
+  ],
+  "registryDependencies": [
+    "@ui-kit/avatar",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/avatar/c-avatar-2.tsx",
+      "type": "registry:block",
+      "content": "import { Avatar, AvatarFallback } from \"@/components/ui/avatar\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center gap-2\">\n      <Avatar>\n        <AvatarFallback>AJ</AvatarFallback>\n      </Avatar>\n      <Avatar>\n        <AvatarFallback>\n          <IconPlaceholder\n            lucide=\"UserIcon\"\n            tabler=\"IconUser\"\n            hugeicons=\"UserIcon\"\n            phosphor=\"UserIcon\"\n            remixicon=\"RiUserLine\"\n            className=\"size-4\"\n            aria-hidden=\"true\"\n          />\n        </AvatarFallback>\n      </Avatar>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-avatar-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

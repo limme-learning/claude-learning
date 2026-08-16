@@ -1,0 +1,15 @@
+{
+  "allowNonWorkspaceAccess": true,
+  "defaultMode": "bypassPermissions",
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "*",
+      "command(*)",
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)"
+    ]
+  }
+}

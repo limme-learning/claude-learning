@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-spinner-1",
+  "type": "registry:block",
+  "title": "Basic spinner.",
+  "description": "Basic spinner.",
+  "categories": [
+    "spinner"
+  ],
+  "registryDependencies": [
+    "@ui-kit/spinner",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/spinner/c-spinner-1.tsx",
+      "type": "registry:block",
+      "content": "import { Spinner } from \"@/components/ui/spinner\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center justify-center gap-6\">\n      <Spinner />\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-spinner-1.tsx"
+    }
+  ],
+  "meta": {
+    "order": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "checkbox",
+  "type": "registry:ui",
+  "title": "checkbox",
+  "categories": [
+    "ui"
+  ],
+  "registryDependencies": [
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles",
+    "@ui-kit/utils"
+  ],
+  "dependencies": [
+    "radix-ui"
+  ],
+  "files": [
+    {
+      "path": "packages/ui/src/components/checkbox.tsx",
+      "type": "registry:ui",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { Checkbox as CheckboxPrimitive } from \"radix-ui\"\n\nimport { cn } from \"@/lib/utils\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nfunction Checkbox({\n  className,\n  ...props\n}: React.ComponentProps<typeof CheckboxPrimitive.Root>) {\n  return (\n    <CheckboxPrimitive.Root\n      data-slot=\"checkbox\"\n      className={cn(\n        \"cn-checkbox peer relative shrink-0 outline-none after:absolute after:-inset-x-3 after:-inset-y-2 disabled:cursor-not-allowed disabled:opacity-50\",\n        className\n      )}\n      {...props}\n    >\n      <CheckboxPrimitive.Indicator\n        data-slot=\"checkbox-indicator\"\n        className=\"cn-checkbox-indicator grid place-content-center text-current transition-none\"\n      >\n        <IconPlaceholder\n          lucide=\"CheckIcon\"\n          tabler=\"IconCheck\"\n          hugeicons=\"Tick02Icon\"\n          phosphor=\"CheckIcon\"\n          remixicon=\"RiCheckLine\"\n        />\n      </CheckboxPrimitive.Indicator>\n    </CheckboxPrimitive.Root>\n  )\n}\n\nexport { Checkbox }\n",
+      "target": "components/ui/checkbox.tsx"
+    }
+  ]
+}

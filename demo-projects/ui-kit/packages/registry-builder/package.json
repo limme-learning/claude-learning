@@ -1,0 +1,22 @@
+{
+  "name": "@ui-kit/registry-builder",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build:components": "tsx ./src/build-components.ts",
+    "build:packages": "tsx ./src/build-component-packages.ts",
+    "build:registry": "tsx ./src/build-registry.ts",
+    "verify:registry": "tsx ./src/verify-registry.ts",
+    "registry:build": "npm run build:components && npm run build:packages && npm run build:registry && npm run verify:registry"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@ui-kit/typescript-config": "workspace:*"
+  }
+}

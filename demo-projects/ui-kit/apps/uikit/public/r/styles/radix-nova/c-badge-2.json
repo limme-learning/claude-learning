@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-badge-2",
+  "type": "registry:block",
+  "title": "Secondary badge",
+  "description": "Secondary badge",
+  "categories": [
+    "badge"
+  ],
+  "registryDependencies": [
+    "@ui-kit/badge-block",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/badge/c-badge-2.tsx",
+      "type": "registry:block",
+      "content": "import { Badge } from \"@/components/reui/badge\"\n\nexport default function Pattern() {\n  return <Badge variant=\"secondary\">Badge</Badge>\n}\n",
+      "target": "components/examples/c-badge-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-group-1",
+  "type": "registry:block",
+  "title": "Basic button group with two buttons",
+  "description": "Basic button group with two buttons",
+  "categories": [
+    "button-group"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/button-group",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button-group/c-button-group-1.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { ButtonGroup } from \"@/components/ui/button-group\"\n\nexport default function Pattern() {\n  return (\n    <ButtonGroup>\n      <Button variant=\"outline\">Button</Button>\n      <Button variant=\"outline\">Another Button</Button>\n    </ButtonGroup>\n  )\n}\n",
+      "target": "components/examples/c-button-group-1.tsx"
+    }
+  ],
+  "meta": {
+    "order": 1
+  }
+}

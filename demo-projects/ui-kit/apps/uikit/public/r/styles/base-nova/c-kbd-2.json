@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-kbd-2",
+  "type": "registry:block",
+  "title": "Keyboard keys grouped together.",
+  "description": "Keyboard keys grouped together.",
+  "categories": [
+    "kbd"
+  ],
+  "registryDependencies": [
+    "@ui-kit/kbd",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/kbd/c-kbd-2.tsx",
+      "type": "registry:block",
+      "content": "import { Kbd, KbdGroup } from \"@/components/ui/kbd\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <KbdGroup>\n        <Kbd>Ctrl</Kbd>\n        <Kbd>Shift</Kbd>\n        <Kbd>P</Kbd>\n      </KbdGroup>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-kbd-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

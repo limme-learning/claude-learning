@@ -1,6 +1,7 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "ui": "tui",
+  "globalEnv": ["NODE_ENV"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
@@ -19,6 +20,24 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "build:registry": {
+      "dependsOn": [],
+      "inputs": [
+        "registry/**",
+        "packages/ui/src/**",
+        "packages/registry-builder/src/**"
+      ],
+      "outputs": ["apps/uikit/public/r/**", "apps/uikit/registry.json"]
+    },
+    "verify:registry": {
+      "dependsOn": ["build:registry"],
+      "inputs": [
+        "registry/**",
+        "packages/ui/src/**",
+        "packages/registry-builder/src/**"
+      ],
+      "outputs": []
     }
   }
 }

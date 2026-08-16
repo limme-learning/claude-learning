@@ -1,0 +1,161 @@
+{
+  "items": [
+    {
+      "name": "c-event-calendar-1",
+      "type": "registry:block",
+      "title": "Event calendar with all views and live settings",
+      "categories": [
+        "event-calendar"
+      ],
+      "description": "Event calendar with all views and live settings",
+      "registryDependencies": [
+        "event-calendar",
+        "avatar",
+        "button",
+        "card",
+        "label",
+        "popover",
+        "select",
+        "switch",
+        "tabs"
+      ],
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/event-calendar/c-event-calendar-1.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-event-calendar-1.tsx"
+        }
+      ],
+      "meta": {
+        "order": 1,
+        "gridSize": 2
+      }
+    },
+    {
+      "name": "c-event-calendar-2",
+      "type": "registry:block",
+      "title": "Event calendar with resource view for room bookings",
+      "categories": [
+        "event-calendar"
+      ],
+      "description": "Event calendar with resource view for room bookings",
+      "registryDependencies": [
+        "event-calendar",
+        "button",
+        "card"
+      ],
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/event-calendar/c-event-calendar-2.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-event-calendar-2.tsx"
+        }
+      ],
+      "meta": {
+        "order": 2,
+        "gridSize": 2
+      }
+    },
+    {
+      "name": "c-event-calendar-3",
+      "type": "registry:block",
+      "title": "Event calendar with create and edit dialog",
+      "categories": [
+        "event-calendar"
+      ],
+      "description": "Month calendar with event CRUD in one dialog: open from an empty day, an event, or Add event, commit via apiRef. Title, color, start, duration, all-day fields. ReUI EventCalendar, Nav, Toolbar; shadcn Dialog, Field, Select, Switch. Scheduling apps.",
+      "registryDependencies": [
+        "event-calendar",
+        "button",
+        "card",
+        "dialog",
+        "field",
+        "input",
+        "select",
+        "switch"
+      ],
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/event-calendar/c-event-calendar-3.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-event-calendar-3.tsx"
+        }
+      ],
+      "meta": {
+        "order": 3,
+        "gridSize": 2
+      }
+    },
+    {
+      "name": "c-event-calendar-4",
+      "type": "registry:block",
+      "title": "Event calendar with custom event chips",
+      "categories": [
+        "event-calendar"
+      ],
+      "description": "Event calendar with custom event chips",
+      "registryDependencies": [
+        "event-calendar",
+        "button",
+        "card"
+      ],
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/event-calendar/c-event-calendar-4.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-event-calendar-4.tsx"
+        }
+      ],
+      "meta": {
+        "order": 4,
+        "gridSize": 2
+      }
+    },
+    {
+      "name": "c-event-calendar-5",
+      "type": "registry:block",
+      "title": "Event calendar with drag-to-book appointments",
+      "categories": [
+        "event-calendar"
+      ],
+      "description": "Event calendar with drag-to-book appointments",
+      "registryDependencies": [
+        "event-calendar",
+        "avatar",
+        "button",
+        "card"
+      ],
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/event-calendar/c-event-calendar-5.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-event-calendar-5.tsx"
+        }
+      ],
+      "meta": {
+        "order": 5,
+        "gridSize": 2
+      }
+    }
+  ]
+}

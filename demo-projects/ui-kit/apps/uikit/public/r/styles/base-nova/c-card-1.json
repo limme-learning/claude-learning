@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-card-1",
+  "type": "registry:block",
+  "title": "Basic card",
+  "description": "Basic card",
+  "categories": [
+    "card"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/card",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/card/c-card-1.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardFooter,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/card\"\n\nexport default function Pattern() {\n  return (\n    <Card className=\"w-full max-w-xs\">\n      <CardHeader>\n        <CardTitle>Default Card</CardTitle>\n        <CardDescription>\n          This card uses the default size variant.\n        </CardDescription>\n      </CardHeader>\n      <CardContent>\n        <p>\n          The card component supports a size prop that defaults to\n          &quot;default&quot; for standard spacing and sizing.\n        </p>\n      </CardContent>\n      <CardFooter>\n        <Button variant=\"outline\" className=\"w-full\">\n          Action\n        </Button>\n      </CardFooter>\n    </Card>\n  )\n}\n",
+      "target": "components/examples/c-card-1.tsx"
+    }
+  ],
+  "meta": {
+    "order": 1
+  }
+}

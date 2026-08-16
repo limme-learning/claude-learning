@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-badge-3",
+  "type": "registry:block",
+  "title": "Destructive badge",
+  "description": "Destructive badge",
+  "categories": [
+    "badge"
+  ],
+  "registryDependencies": [
+    "@ui-kit/badge-block",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/badge/c-badge-3.tsx",
+      "type": "registry:block",
+      "content": "import { Badge } from \"@/components/reui/badge\"\n\nexport default function Pattern() {\n  return <Badge variant=\"destructive\">Badge</Badge>\n}\n",
+      "target": "components/examples/c-badge-3.tsx"
+    }
+  ],
+  "meta": {
+    "order": 3
+  }
+}

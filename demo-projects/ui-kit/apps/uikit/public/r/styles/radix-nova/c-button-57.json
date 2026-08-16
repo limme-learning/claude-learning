@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-57",
+  "type": "registry:block",
+  "title": "Small button with avatar",
+  "description": "Small button with avatar",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/avatar",
+    "@ui-kit/button",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-57.tsx",
+      "type": "registry:block",
+      "content": "import {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/components/ui/avatar\"\nimport { Button } from \"@/components/ui/button\"\n\nexport default function Pattern() {\n  return (\n    <Button size=\"sm\">\n      <Avatar className=\"size-5\">\n        <AvatarImage src=\"https://github.com/shadcn.png\" alt=\"@shadcn\" />\n        <AvatarFallback>CH</AvatarFallback>\n      </Avatar>\n      <span className=\"text-xs\">@shadcn</span>\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-57.tsx"
+    }
+  ],
+  "meta": {
+    "order": 57
+  }
+}

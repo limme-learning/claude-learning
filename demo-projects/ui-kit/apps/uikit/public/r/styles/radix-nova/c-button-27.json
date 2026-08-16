@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-27",
+  "type": "registry:block",
+  "title": "Button rendered as a Next.js Link",
+  "description": "Button rendered as a Next.js Link",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-27.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\n\nexport default function Pattern() {\n  return (\n    <Button asChild>\n      <a href=\"/\">Back to Home</a>\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-27.tsx"
+    }
+  ],
+  "meta": {
+    "order": 27
+  }
+}

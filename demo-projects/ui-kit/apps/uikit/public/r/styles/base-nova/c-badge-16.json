@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-badge-16",
+  "type": "registry:block",
+  "title": "Info light badge",
+  "description": "Info light badge",
+  "categories": [
+    "badge"
+  ],
+  "registryDependencies": [
+    "@ui-kit/badge-block",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/badge/c-badge-16.tsx",
+      "type": "registry:block",
+      "content": "import { Badge } from \"@/components/reui/badge\"\n\nexport default function Pattern() {\n  return <Badge variant=\"info-light\">Badge</Badge>\n}\n",
+      "target": "components/examples/c-badge-16.tsx"
+    }
+  ],
+  "meta": {
+    "order": 16
+  }
+}

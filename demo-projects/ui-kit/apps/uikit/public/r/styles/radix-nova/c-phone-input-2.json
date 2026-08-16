@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-phone-input-2",
+  "type": "registry:block",
+  "title": "Small phone input",
+  "description": "Small phone input",
+  "categories": [
+    "phone-input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/phone-input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/phone-input/c-phone-input-2.tsx",
+      "type": "registry:block",
+      "content": "import { PhoneInput } from \"@/components/reui/phone-input\"\n\nexport default function Pattern() {\n  return (\n    <PhoneInput\n      variant=\"sm\"\n      placeholder=\"Enter phone number\"\n      defaultCountry=\"NL\"\n      value=\"+31612345678\"\n    />\n  )\n}\n",
+      "target": "components/examples/c-phone-input-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

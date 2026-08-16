@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-skeleton-3",
+  "type": "registry:block",
+  "title": "Skeleton loader for text and paragraphs.",
+  "description": "Skeleton loader for text and paragraphs.",
+  "categories": [
+    "skeleton"
+  ],
+  "registryDependencies": [
+    "@ui-kit/skeleton",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/skeleton/c-skeleton-3.tsx",
+      "type": "registry:block",
+      "content": "import { Skeleton } from \"@/components/ui/skeleton\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"mx-auto w-full max-w-xs\">\n      {/* Skeleton pattern */}\n      <div className=\"flex flex-col gap-2\">\n        <Skeleton className=\"h-4 w-full\" />\n        <Skeleton className=\"h-4 w-full\" />\n        <Skeleton className=\"h-4 w-3/4\" />\n        <div className=\"mt-4 flex flex-col gap-2\">\n          <Skeleton className=\"h-4 w-full\" />\n          <Skeleton className=\"h-4 w-5/6\" />\n        </div>\n      </div>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-skeleton-3.tsx"
+    }
+  ],
+  "meta": {
+    "order": 3,
+    "gridSize": 1
+  }
+}

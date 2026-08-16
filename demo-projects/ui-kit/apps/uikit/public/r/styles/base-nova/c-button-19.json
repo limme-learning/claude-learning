@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-19",
+  "type": "registry:block",
+  "title": "Outline button with an icon on the right",
+  "description": "Outline button with an icon on the right",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button/c-button-19.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button variant=\"outline\">\n      Options\n      <IconPlaceholder\n        lucide=\"Settings2Icon\"\n        tabler=\"IconAdjustmentsHorizontal\"\n        hugeicons=\"FilterHorizontalIcon\"\n        phosphor=\"SlidersHorizontalIcon\"\n        remixicon=\"RiEqualizer2Line\"\n        aria-hidden=\"true\"\n      />\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-19.tsx"
+    }
+  ],
+  "meta": {
+    "order": 19
+  }
+}

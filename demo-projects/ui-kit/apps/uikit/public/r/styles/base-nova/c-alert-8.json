@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-alert-8",
+  "type": "registry:block",
+  "title": "Error alert",
+  "description": "Error alert",
+  "categories": [
+    "alert"
+  ],
+  "registryDependencies": [
+    "@ui-kit/alert-block",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/alert/c-alert-8.tsx",
+      "type": "registry:block",
+      "content": "import {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/components/reui/alert\"\n\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Alert variant=\"destructive\">\n      <IconPlaceholder\n        lucide=\"CircleAlertIcon\"\n        tabler=\"IconAlertCircle\"\n        hugeicons=\"AlertCircleIcon\"\n        phosphor=\"WarningCircleIcon\"\n        remixicon=\"RiErrorWarningLine\"\n      />\n      <AlertTitle>Error! Something went wrong</AlertTitle>\n      <AlertDescription>\n        Please try again. If the problem persists, contact support.\n      </AlertDescription>\n    </Alert>\n  )\n}\n",
+      "target": "components/examples/c-alert-8.tsx"
+    }
+  ],
+  "meta": {
+    "order": 8
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-5",
+  "type": "registry:block",
+  "title": "Destructive button",
+  "description": "Destructive button",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button/c-button-5.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\n\nexport default function Pattern() {\n  return <Button variant=\"destructive\">Destructive</Button>\n}\n",
+      "target": "components/examples/c-button-5.tsx"
+    }
+  ],
+  "meta": {
+    "order": 5
+  }
+}

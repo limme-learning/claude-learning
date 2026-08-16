@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-phone-input-6",
+  "type": "registry:block",
+  "title": "Phone input with error state",
+  "description": "Phone input with error state",
+  "categories": [
+    "phone-input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/phone-input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/phone-input/c-phone-input-6.tsx",
+      "type": "registry:block",
+      "content": "import { PhoneInput } from \"@/components/reui/phone-input\"\n\nexport default function Pattern() {\n  return <PhoneInput aria-invalid=\"true\" placeholder=\"Enter phone number\" />\n}\n",
+      "target": "components/examples/c-phone-input-6.tsx"
+    }
+  ],
+  "meta": {
+    "order": 6
+  }
+}

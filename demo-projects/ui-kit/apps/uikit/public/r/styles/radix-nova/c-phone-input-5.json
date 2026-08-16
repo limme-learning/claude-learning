@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-phone-input-5",
+  "type": "registry:block",
+  "title": "Phone input with preset value",
+  "description": "Phone input with preset value",
+  "categories": [
+    "phone-input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/phone-input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/phone-input/c-phone-input-5.tsx",
+      "type": "registry:block",
+      "content": "import { PhoneInput } from \"@/components/reui/phone-input\"\n\nexport default function Pattern() {\n  return <PhoneInput value=\"+12125551234\" placeholder=\"Enter phone number\" />\n}\n",
+      "target": "components/examples/c-phone-input-5.tsx"
+    }
+  ],
+  "meta": {
+    "order": 5
+  }
+}

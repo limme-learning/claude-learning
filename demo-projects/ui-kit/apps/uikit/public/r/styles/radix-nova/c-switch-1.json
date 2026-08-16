@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-switch-1",
+  "type": "registry:block",
+  "title": "Basic switch.",
+  "description": "Basic switch.",
+  "categories": [
+    "switch"
+  ],
+  "registryDependencies": [
+    "@ui-kit/field",
+    "@ui-kit/styles",
+    "@ui-kit/switch"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/switch/c-switch-1.tsx",
+      "type": "registry:block",
+      "content": "import { Field, FieldLabel } from \"@/components/ui/field\"\nimport { Switch } from \"@/components/ui/switch\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <Field orientation=\"horizontal\">\n        <Switch id=\"switch-basic\" />\n        <FieldLabel htmlFor=\"switch-basic\">Airplane Mode</FieldLabel>\n      </Field>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-switch-1.tsx"
+    }
+  ],
+  "meta": {
+    "order": 1
+  }
+}

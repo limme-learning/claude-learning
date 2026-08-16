@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-alert-5",
+  "type": "registry:block",
+  "title": "Info alert with icon and action buttons",
+  "description": "Info alert with icon and action buttons",
+  "categories": [
+    "alert"
+  ],
+  "registryDependencies": [
+    "@ui-kit/alert-block",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/alert/c-alert-5.tsx",
+      "type": "registry:block",
+      "content": "import {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/components/reui/alert\"\n\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Alert variant=\"info\">\n      <IconPlaceholder\n        lucide=\"CircleAlertIcon\"\n        tabler=\"IconAlertCircle\"\n        hugeicons=\"AlertCircleIcon\"\n        phosphor=\"WarningCircleIcon\"\n        remixicon=\"RiErrorWarningLine\"\n      />\n      <AlertTitle>Info! Something important</AlertTitle>\n      <AlertDescription>\n        This is an important message. Please read it carefully.\n      </AlertDescription>\n    </Alert>\n  )\n}\n",
+      "target": "components/examples/c-alert-5.tsx"
+    }
+  ],
+  "meta": {
+    "order": 5
+  }
+}

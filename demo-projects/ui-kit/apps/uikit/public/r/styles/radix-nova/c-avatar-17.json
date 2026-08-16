@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-avatar-17",
+  "type": "registry:block",
+  "title": "Avatar with grayscale image filter",
+  "description": "Avatar with grayscale image filter",
+  "categories": [
+    "avatar"
+  ],
+  "registryDependencies": [
+    "@ui-kit/avatar",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/avatar/c-avatar-17.tsx",
+      "type": "registry:block",
+      "content": "import {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/components/ui/avatar\"\n\nexport default function Pattern() {\n  return (\n    <Avatar>\n      <AvatarImage\n        src=\"https://github.com/shadcn.png\"\n        alt=\"@shadcn\"\n        className=\"grayscale\"\n      />\n      <AvatarFallback>CN</AvatarFallback>\n    </Avatar>\n  )\n}\n",
+      "target": "components/examples/c-avatar-17.tsx"
+    }
+  ],
+  "meta": {
+    "order": 17
+  }
+}

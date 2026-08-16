@@ -1,0 +1,869 @@
+{
+  "categories": [
+    {
+      "category": "accordion",
+      "kind": "components",
+      "base": "base",
+      "count": 11
+    },
+    {
+      "category": "alert",
+      "kind": "components",
+      "base": "base",
+      "count": 20
+    },
+    {
+      "category": "alert-dialog",
+      "kind": "components",
+      "base": "base",
+      "count": 14
+    },
+    {
+      "category": "aspect-ratio",
+      "kind": "components",
+      "base": "base",
+      "count": 8
+    },
+    {
+      "category": "autocomplete",
+      "kind": "components",
+      "base": "base",
+      "count": 12
+    },
+    {
+      "category": "avatar",
+      "kind": "components",
+      "base": "base",
+      "count": 35
+    },
+    {
+      "category": "badge",
+      "kind": "components",
+      "base": "base",
+      "count": 25
+    },
+    {
+      "category": "breadcrumb",
+      "kind": "components",
+      "base": "base",
+      "count": 15
+    },
+    {
+      "category": "button",
+      "kind": "components",
+      "base": "base",
+      "count": 61
+    },
+    {
+      "category": "button-group",
+      "kind": "components",
+      "base": "base",
+      "count": 57
+    },
+    {
+      "category": "calendar",
+      "kind": "components",
+      "base": "base",
+      "count": 30
+    },
+    {
+      "category": "card",
+      "kind": "components",
+      "base": "base",
+      "count": 18
+    },
+    {
+      "category": "carousel",
+      "kind": "components",
+      "base": "base",
+      "count": 11
+    },
+    {
+      "category": "chart",
+      "kind": "components",
+      "base": "base",
+      "count": 25
+    },
+    {
+      "category": "checkbox",
+      "kind": "components",
+      "base": "base",
+      "count": 22
+    },
+    {
+      "category": "collapsible",
+      "kind": "components",
+      "base": "base",
+      "count": 10
+    },
+    {
+      "category": "combobox",
+      "kind": "components",
+      "base": "base",
+      "count": 28
+    },
+    {
+      "category": "command",
+      "kind": "components",
+      "base": "base",
+      "count": 8
+    },
+    {
+      "category": "context-menu",
+      "kind": "components",
+      "base": "base",
+      "count": 10
+    },
+    {
+      "category": "data-grid",
+      "kind": "components",
+      "base": "base",
+      "count": 30
+    },
+    {
+      "category": "date-selector",
+      "kind": "components",
+      "base": "base",
+      "count": 4
+    },
+    {
+      "category": "dialog",
+      "kind": "components",
+      "base": "base",
+      "count": 10
+    },
+    {
+      "category": "drawer",
+      "kind": "components",
+      "base": "base",
+      "count": 5
+    },
+    {
+      "category": "dropdown-menu",
+      "kind": "components",
+      "base": "base",
+      "count": 18
+    },
+    {
+      "category": "empty",
+      "kind": "components",
+      "base": "base",
+      "count": 20
+    },
+    {
+      "category": "event-calendar",
+      "kind": "components",
+      "base": "base",
+      "count": 5
+    },
+    {
+      "category": "field",
+      "kind": "components",
+      "base": "base",
+      "count": 11
+    },
+    {
+      "category": "file-upload",
+      "kind": "components",
+      "base": "base",
+      "count": 10
+    },
+    {
+      "category": "filters",
+      "kind": "components",
+      "base": "base",
+      "count": 12
+    },
+    {
+      "category": "frame",
+      "kind": "components",
+      "base": "base",
+      "count": 19
+    },
+    {
+      "category": "gantt",
+      "kind": "components",
+      "base": "base",
+      "count": 5
+    },
+    {
+      "category": "hover-card",
+      "kind": "components",
+      "base": "base",
+      "count": 8
+    },
+    {
+      "category": "icon-stack",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "icon-tile",
+      "kind": "components",
+      "base": "base",
+      "count": 17
+    },
+    {
+      "category": "input",
+      "kind": "components",
+      "base": "base",
+      "count": 31
+    },
+    {
+      "category": "input-group",
+      "kind": "components",
+      "base": "base",
+      "count": 40
+    },
+    {
+      "category": "input-otp",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "item",
+      "kind": "components",
+      "base": "base",
+      "count": 12
+    },
+    {
+      "category": "kanban",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "kbd",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "label",
+      "kind": "components",
+      "base": "base",
+      "count": 13
+    },
+    {
+      "category": "menubar",
+      "kind": "components",
+      "base": "base",
+      "count": 5
+    },
+    {
+      "category": "native-select",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "navigation-menu",
+      "kind": "components",
+      "base": "base",
+      "count": 4
+    },
+    {
+      "category": "number-field",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "pagination",
+      "kind": "components",
+      "base": "base",
+      "count": 15
+    },
+    {
+      "category": "phone-input",
+      "kind": "components",
+      "base": "base",
+      "count": 8
+    },
+    {
+      "category": "popover",
+      "kind": "components",
+      "base": "base",
+      "count": 11
+    },
+    {
+      "category": "progress",
+      "kind": "components",
+      "base": "base",
+      "count": 8
+    },
+    {
+      "category": "radio-group",
+      "kind": "components",
+      "base": "base",
+      "count": 17
+    },
+    {
+      "category": "rating",
+      "kind": "components",
+      "base": "base",
+      "count": 9
+    },
+    {
+      "category": "resizable",
+      "kind": "components",
+      "base": "base",
+      "count": 10
+    },
+    {
+      "category": "scroll-area",
+      "kind": "components",
+      "base": "base",
+      "count": 5
+    },
+    {
+      "category": "scrollspy",
+      "kind": "components",
+      "base": "base",
+      "count": 2
+    },
+    {
+      "category": "select",
+      "kind": "components",
+      "base": "base",
+      "count": 33
+    },
+    {
+      "category": "separator",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "sheet",
+      "kind": "components",
+      "base": "base",
+      "count": 4
+    },
+    {
+      "category": "skeleton",
+      "kind": "components",
+      "base": "base",
+      "count": 10
+    },
+    {
+      "category": "slider",
+      "kind": "components",
+      "base": "base",
+      "count": 12
+    },
+    {
+      "category": "sonner",
+      "kind": "components",
+      "base": "base",
+      "count": 21
+    },
+    {
+      "category": "sortable",
+      "kind": "components",
+      "base": "base",
+      "count": 8
+    },
+    {
+      "category": "spinner",
+      "kind": "components",
+      "base": "base",
+      "count": 12
+    },
+    {
+      "category": "stepper",
+      "kind": "components",
+      "base": "base",
+      "count": 15
+    },
+    {
+      "category": "switch",
+      "kind": "components",
+      "base": "base",
+      "count": 14
+    },
+    {
+      "category": "table",
+      "kind": "components",
+      "base": "base",
+      "count": 17
+    },
+    {
+      "category": "tabs",
+      "kind": "components",
+      "base": "base",
+      "count": 9
+    },
+    {
+      "category": "textarea",
+      "kind": "components",
+      "base": "base",
+      "count": 6
+    },
+    {
+      "category": "timeline",
+      "kind": "components",
+      "base": "base",
+      "count": 12
+    },
+    {
+      "category": "toggle",
+      "kind": "components",
+      "base": "base",
+      "count": 14
+    },
+    {
+      "category": "toggle-group",
+      "kind": "components",
+      "base": "base",
+      "count": 16
+    },
+    {
+      "category": "tooltip",
+      "kind": "components",
+      "base": "base",
+      "count": 16
+    },
+    {
+      "category": "tree",
+      "kind": "components",
+      "base": "base",
+      "count": 7
+    },
+    {
+      "category": "accordion",
+      "kind": "components",
+      "base": "radix",
+      "count": 11
+    },
+    {
+      "category": "alert",
+      "kind": "components",
+      "base": "radix",
+      "count": 20
+    },
+    {
+      "category": "alert-dialog",
+      "kind": "components",
+      "base": "radix",
+      "count": 14
+    },
+    {
+      "category": "aspect-ratio",
+      "kind": "components",
+      "base": "radix",
+      "count": 8
+    },
+    {
+      "category": "autocomplete",
+      "kind": "components",
+      "base": "radix",
+      "count": 12
+    },
+    {
+      "category": "avatar",
+      "kind": "components",
+      "base": "radix",
+      "count": 35
+    },
+    {
+      "category": "badge",
+      "kind": "components",
+      "base": "radix",
+      "count": 25
+    },
+    {
+      "category": "breadcrumb",
+      "kind": "components",
+      "base": "radix",
+      "count": 15
+    },
+    {
+      "category": "button",
+      "kind": "components",
+      "base": "radix",
+      "count": 61
+    },
+    {
+      "category": "button-group",
+      "kind": "components",
+      "base": "radix",
+      "count": 57
+    },
+    {
+      "category": "calendar",
+      "kind": "components",
+      "base": "radix",
+      "count": 30
+    },
+    {
+      "category": "card",
+      "kind": "components",
+      "base": "radix",
+      "count": 18
+    },
+    {
+      "category": "carousel",
+      "kind": "components",
+      "base": "radix",
+      "count": 11
+    },
+    {
+      "category": "chart",
+      "kind": "components",
+      "base": "radix",
+      "count": 25
+    },
+    {
+      "category": "checkbox",
+      "kind": "components",
+      "base": "radix",
+      "count": 22
+    },
+    {
+      "category": "collapsible",
+      "kind": "components",
+      "base": "radix",
+      "count": 10
+    },
+    {
+      "category": "combobox",
+      "kind": "components",
+      "base": "radix",
+      "count": 28
+    },
+    {
+      "category": "command",
+      "kind": "components",
+      "base": "radix",
+      "count": 8
+    },
+    {
+      "category": "context-menu",
+      "kind": "components",
+      "base": "radix",
+      "count": 10
+    },
+    {
+      "category": "data-grid",
+      "kind": "components",
+      "base": "radix",
+      "count": 30
+    },
+    {
+      "category": "date-selector",
+      "kind": "components",
+      "base": "radix",
+      "count": 4
+    },
+    {
+      "category": "dialog",
+      "kind": "components",
+      "base": "radix",
+      "count": 10
+    },
+    {
+      "category": "drawer",
+      "kind": "components",
+      "base": "radix",
+      "count": 5
+    },
+    {
+      "category": "dropdown-menu",
+      "kind": "components",
+      "base": "radix",
+      "count": 18
+    },
+    {
+      "category": "empty",
+      "kind": "components",
+      "base": "radix",
+      "count": 20
+    },
+    {
+      "category": "event-calendar",
+      "kind": "components",
+      "base": "radix",
+      "count": 5
+    },
+    {
+      "category": "field",
+      "kind": "components",
+      "base": "radix",
+      "count": 11
+    },
+    {
+      "category": "file-upload",
+      "kind": "components",
+      "base": "radix",
+      "count": 10
+    },
+    {
+      "category": "filters",
+      "kind": "components",
+      "base": "radix",
+      "count": 12
+    },
+    {
+      "category": "frame",
+      "kind": "components",
+      "base": "radix",
+      "count": 19
+    },
+    {
+      "category": "gantt",
+      "kind": "components",
+      "base": "radix",
+      "count": 5
+    },
+    {
+      "category": "hover-card",
+      "kind": "components",
+      "base": "radix",
+      "count": 8
+    },
+    {
+      "category": "icon-stack",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "icon-tile",
+      "kind": "components",
+      "base": "radix",
+      "count": 17
+    },
+    {
+      "category": "input",
+      "kind": "components",
+      "base": "radix",
+      "count": 31
+    },
+    {
+      "category": "input-group",
+      "kind": "components",
+      "base": "radix",
+      "count": 40
+    },
+    {
+      "category": "input-otp",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "item",
+      "kind": "components",
+      "base": "radix",
+      "count": 12
+    },
+    {
+      "category": "kanban",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "kbd",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "label",
+      "kind": "components",
+      "base": "radix",
+      "count": 13
+    },
+    {
+      "category": "menubar",
+      "kind": "components",
+      "base": "radix",
+      "count": 5
+    },
+    {
+      "category": "native-select",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "navigation-menu",
+      "kind": "components",
+      "base": "radix",
+      "count": 4
+    },
+    {
+      "category": "number-field",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "pagination",
+      "kind": "components",
+      "base": "radix",
+      "count": 15
+    },
+    {
+      "category": "phone-input",
+      "kind": "components",
+      "base": "radix",
+      "count": 8
+    },
+    {
+      "category": "popover",
+      "kind": "components",
+      "base": "radix",
+      "count": 11
+    },
+    {
+      "category": "progress",
+      "kind": "components",
+      "base": "radix",
+      "count": 8
+    },
+    {
+      "category": "radio-group",
+      "kind": "components",
+      "base": "radix",
+      "count": 17
+    },
+    {
+      "category": "rating",
+      "kind": "components",
+      "base": "radix",
+      "count": 9
+    },
+    {
+      "category": "resizable",
+      "kind": "components",
+      "base": "radix",
+      "count": 10
+    },
+    {
+      "category": "scroll-area",
+      "kind": "components",
+      "base": "radix",
+      "count": 5
+    },
+    {
+      "category": "scrollspy",
+      "kind": "components",
+      "base": "radix",
+      "count": 2
+    },
+    {
+      "category": "select",
+      "kind": "components",
+      "base": "radix",
+      "count": 33
+    },
+    {
+      "category": "separator",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "sheet",
+      "kind": "components",
+      "base": "radix",
+      "count": 4
+    },
+    {
+      "category": "skeleton",
+      "kind": "components",
+      "base": "radix",
+      "count": 10
+    },
+    {
+      "category": "slider",
+      "kind": "components",
+      "base": "radix",
+      "count": 12
+    },
+    {
+      "category": "sonner",
+      "kind": "components",
+      "base": "radix",
+      "count": 21
+    },
+    {
+      "category": "sortable",
+      "kind": "components",
+      "base": "radix",
+      "count": 8
+    },
+    {
+      "category": "spinner",
+      "kind": "components",
+      "base": "radix",
+      "count": 12
+    },
+    {
+      "category": "stepper",
+      "kind": "components",
+      "base": "radix",
+      "count": 15
+    },
+    {
+      "category": "switch",
+      "kind": "components",
+      "base": "radix",
+      "count": 14
+    },
+    {
+      "category": "table",
+      "kind": "components",
+      "base": "radix",
+      "count": 17
+    },
+    {
+      "category": "tabs",
+      "kind": "components",
+      "base": "radix",
+      "count": 9
+    },
+    {
+      "category": "textarea",
+      "kind": "components",
+      "base": "radix",
+      "count": 6
+    },
+    {
+      "category": "timeline",
+      "kind": "components",
+      "base": "radix",
+      "count": 12
+    },
+    {
+      "category": "toggle",
+      "kind": "components",
+      "base": "radix",
+      "count": 14
+    },
+    {
+      "category": "toggle-group",
+      "kind": "components",
+      "base": "radix",
+      "count": 16
+    },
+    {
+      "category": "tooltip",
+      "kind": "components",
+      "base": "radix",
+      "count": 16
+    },
+    {
+      "category": "tree",
+      "kind": "components",
+      "base": "radix",
+      "count": 7
+    }
+  ],
+  "totalComponents": 144
+}

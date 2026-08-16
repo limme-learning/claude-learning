@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-20",
+  "type": "registry:block",
+  "title": "Ghost button with an icon on the left",
+  "description": "Ghost button with an icon on the left",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button/c-button-20.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button variant=\"ghost\">\n      <IconPlaceholder\n        lucide=\"SettingsIcon\"\n        tabler=\"IconSettings\"\n        hugeicons=\"SettingsIcon\"\n        phosphor=\"GearIcon\"\n        remixicon=\"RiSettings3Line\"\n        aria-hidden=\"true\"\n      />\n      Settings\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-20.tsx"
+    }
+  ],
+  "meta": {
+    "order": 20
+  }
+}

@@ -1,8 +1,12 @@
 {
-  "extends": "@workspace/typescript-config/react-library.json",
+  "extends": "@ui-kit/typescript-config/react-library.json",
   "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noUncheckedIndexedAccess": false,
     "paths": {
-      "@workspace/ui/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@ui-kit/ui/*": ["./src/*"]
     }
   },
   "include": ["."],

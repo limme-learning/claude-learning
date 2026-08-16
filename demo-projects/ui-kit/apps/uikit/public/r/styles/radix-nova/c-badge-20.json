@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-badge-20",
+  "type": "registry:block",
+  "title": "Badge with an icon",
+  "description": "Badge with an icon",
+  "categories": [
+    "badge"
+  ],
+  "registryDependencies": [
+    "@ui-kit/badge-block",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/badge/c-badge-20.tsx",
+      "type": "registry:block",
+      "content": "import { Badge } from \"@/components/reui/badge\"\n\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Badge variant=\"outline\">\n      <IconPlaceholder\n        lucide=\"CheckIcon\"\n        tabler=\"IconCheck\"\n        hugeicons=\"Tick02Icon\"\n        phosphor=\"CheckIcon\"\n        remixicon=\"RiCheckLine\"\n      />\n      Badge\n    </Badge>\n  )\n}\n",
+      "target": "components/examples/c-badge-20.tsx"
+    }
+  ],
+  "meta": {
+    "order": 20
+  }
+}

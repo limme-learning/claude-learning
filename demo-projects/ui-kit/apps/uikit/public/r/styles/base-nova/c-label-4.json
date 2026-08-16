@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-label-4",
+  "type": "registry:block",
+  "title": "Label in a disabled state.",
+  "description": "Label in a disabled state.",
+  "categories": [
+    "label"
+  ],
+  "registryDependencies": [
+    "@ui-kit/field",
+    "@ui-kit/input",
+    "@ui-kit/label",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/label/c-label-4.tsx",
+      "type": "registry:block",
+      "content": "import { Field } from \"@/components/ui/field\"\nimport { Input } from \"@/components/ui/input\"\nimport { Label } from \"@/components/ui/label\"\n\nexport default function Pattern() {\n  return (\n    <Field data-disabled={true} className=\"w-full max-w-xs\">\n      <Label htmlFor=\"label-demo-disabled\">Disabled Field</Label>\n      <Input id=\"label-demo-disabled\" placeholder=\"Disabled input…\" disabled />\n    </Field>\n  )\n}\n",
+      "target": "components/examples/c-label-4.tsx"
+    }
+  ],
+  "meta": {
+    "order": 4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-avatar-21",
+  "type": "registry:block",
+  "title": "Compact social proof with initials",
+  "description": "Compact social proof with initials",
+  "categories": [
+    "avatar"
+  ],
+  "registryDependencies": [
+    "@ui-kit/avatar",
+    "@ui-kit/frame",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/avatar/c-avatar-21.tsx",
+      "type": "registry:block",
+      "content": "import { Frame, FramePanel } from \"@/components/reui/frame\"\n\nimport {\n  Avatar,\n  AvatarFallback,\n  AvatarGroup,\n  AvatarImage,\n} from \"@/components/ui/avatar\"\n\nexport default function Pattern() {\n  return (\n    <Frame>\n      <FramePanel className=\"flex items-center gap-2 p-2!\">\n        <AvatarGroup>\n          <Avatar className=\"size-7\">\n            <AvatarImage src=\"https://github.com/shadcn.png\" alt=\"@shadcn\" />\n            <AvatarFallback>CH</AvatarFallback>\n          </Avatar>\n          <Avatar className=\"size-7\">\n            <AvatarImage\n              src=\"https://github.com/maxleiter.png\"\n              alt=\"@maxleiter\"\n            />\n            <AvatarFallback>CH</AvatarFallback>\n          </Avatar>\n          <Avatar className=\"size-7\">\n            <AvatarImage\n              src=\"https://github.com/evilrabbit.png\"\n              alt=\"@evilrabbit\"\n            />\n            <AvatarFallback>CH</AvatarFallback>\n          </Avatar>\n          <Avatar className=\"size-7\">\n            <AvatarImage src=\"https://github.com/leerob.png\" alt=\"@leerob\" />\n            <AvatarFallback>CH</AvatarFallback>\n          </Avatar>\n        </AvatarGroup>\n\n        <p className=\"text-muted-foreground me-1.5 text-xs\">\n          Joined by <span className=\"text-foreground font-semibold\">500+</span>{\" \"}\n          developers.\n        </p>\n      </FramePanel>\n    </Frame>\n  )\n}\n",
+      "target": "components/examples/c-avatar-21.tsx"
+    }
+  ],
+  "meta": {
+    "order": 21
+  }
+}

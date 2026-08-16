@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "kbd",
+  "type": "registry:ui",
+  "title": "kbd",
+  "categories": [
+    "ui"
+  ],
+  "registryDependencies": [
+    "@ui-kit/styles",
+    "@ui-kit/utils"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "packages/ui/src/base-components/kbd.tsx",
+      "type": "registry:ui",
+      "content": "import { cn } from \"@/lib/utils\"\n\nfunction Kbd({ className, ...props }: React.ComponentProps<\"kbd\">) {\n  return (\n    <kbd\n      data-slot=\"kbd\"\n      className={cn(\n        \"cn-kbd pointer-events-none inline-flex items-center justify-center select-none\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n\nfunction KbdGroup({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <kbd\n      data-slot=\"kbd-group\"\n      className={cn(\"cn-kbd-group inline-flex items-center\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Kbd, KbdGroup }\n",
+      "target": "components/ui/kbd.tsx"
+    }
+  ]
+}

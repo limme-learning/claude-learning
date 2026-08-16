@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-input-7",
+  "type": "registry:block",
+  "title": "Input with password type",
+  "description": "Input with password type",
+  "categories": [
+    "input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/field",
+    "@ui-kit/input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/input/c-input-7.tsx",
+      "type": "registry:block",
+      "content": "import { Field, FieldLabel } from \"@/components/ui/field\"\nimport { Input } from \"@/components/ui/input\"\n\nexport default function Pattern() {\n  return (\n    <Field className=\"max-w-xs\">\n      <FieldLabel htmlFor=\"input-demo-password\">Password</FieldLabel>\n      <Input id=\"input-demo-password\" type=\"password\" placeholder=\"Password\" />\n    </Field>\n  )\n}\n",
+      "target": "components/examples/c-input-7.tsx"
+    }
+  ],
+  "meta": {
+    "order": 7
+  }
+}

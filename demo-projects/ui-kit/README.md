@@ -1,22 +1,25 @@
-# shadcn/ui monorepo template
+# ui-kit
 
-This is a Next.js monorepo template with shadcn/ui.
+A dual-engine (Base UI + Radix UI) design-system component library with a showcase app, a
+reusable `packages/ui` component + style source, and a registry builder for `shadcn`-style
+installs.
 
-## Adding components
+## Layout
 
-To add components to your app, run the following command at the root of your `web` app:
+- `apps/uikit` — Next.js showcase (`/base` and `/radix` engine variants, 8 styles, Components/Blocks tabs).
+- `packages/ui` — component primitives (`components`/`base-components`), blocks
+  (`blocks`/`base-blocks`), and `style-*` CSS layers — source of truth for the registry.
+- `packages/registry` — per-engine, per-category example source (`bases/base`, `bases/radix`).
+- `packages/registry-builder` — builds `shadcn`-compatible registry JSON for the install command.
+
+## Getting started
 
 ```bash
-pnpm dlx shadcn@latest add button -c apps/web
+pnpm install
+pnpm --filter @ui-kit/uikit dev
 ```
 
-This will place the ui components in the `packages/ui/src/components` directory.
+## Rules
 
-## Using components
-
-To use the components in your app, import them from the `ui` package.
-
-```tsx
-import { Button } from "@workspace/ui/components/button";
-```
-# ui-kit
+See `AGENTS.md` — `packages/ui` is a pure shadcn/reui install layer (CLI or systematic audit
+only, no one-off hand edits). Customization and variety belong in `packages/registry`.

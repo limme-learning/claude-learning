@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-group-30",
+  "type": "registry:block",
+  "title": "Active state button group with count",
+  "description": "Active state button group with count",
+  "categories": [
+    "button-group"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/button-group",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button-group/c-button-group-30.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport {\n  ButtonGroup,\n  ButtonGroupText,\n} from \"@/components/ui/button-group\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <ButtonGroup>\n      <Button\n        size=\"sm\"\n        variant=\"default\"\n        aria-label=\"Following 2.4k\"\n        className=\"border-primary\"\n      >\n        <IconPlaceholder\n          lucide=\"StarIcon\"\n          tabler=\"IconStar\"\n          hugeicons=\"StarIcon\"\n          phosphor=\"StarIcon\"\n          remixicon=\"RiStarLine\"\n        />\n        Star\n      </Button>\n      <ButtonGroupText className=\"border-primary\">2.4k</ButtonGroupText>\n    </ButtonGroup>\n  )\n}\n",
+      "target": "components/examples/c-button-group-30.tsx"
+    }
+  ],
+  "meta": {
+    "order": 30
+  }
+}

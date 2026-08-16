@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-index.json",
+  "name": "ui-kit",
+  "styles": [
+    {
+      "name": "vega",
+      "label": "vega",
+      "default": false
+    },
+    {
+      "name": "nova",
+      "label": "nova",
+      "default": true
+    },
+    {
+      "name": "maia",
+      "label": "maia",
+      "default": false
+    },
+    {
+      "name": "lyra",
+      "label": "lyra",
+      "default": false
+    },
+    {
+      "name": "mira",
+      "label": "mira",
+      "default": false
+    },
+    {
+      "name": "luma",
+      "label": "luma",
+      "default": false
+    },
+    {
+      "name": "sera",
+      "label": "sera",
+      "default": false
+    },
+    {
+      "name": "rhea",
+      "label": "rhea",
+      "default": false
+    }
+  ],
+  "default": "radix-nova"
+}

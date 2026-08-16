@@ -1,0 +1,42 @@
+"use client"
+
+import { useId, useState } from "react"
+import { format } from "date-fns"
+
+import { cn } from "@ui-kit/ui/lib/utils"
+import { Button } from "@ui-kit/ui/components/button"
+import { Calendar } from "@ui-kit/ui/components/calendar"
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@ui-kit/ui/components/popover"
+import { CalendarIcon } from "lucide-react"
+
+export default function Pattern() {
+  const id = useId()
+  const [date, setDate] = useState<Date | undefined>()
+
+  return (
+    <Popover>
+      <PopoverTrigger>
+        <Button
+          className="group/pick-date w-60 justify-between"
+          id={id}
+          variant="outline"
+        >
+          <span className={cn("truncate", !date && "text-muted-foreground")}>
+            {date ? format(date, "PPP") : "Pick a date"}
+          </span>
+          <CalendarIcon
+            aria-hidden="true"
+            className="opacity-60 transition-opacity group-hover/pick-date:opacity-100"
+          />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent align="start" className="w-auto p-0">
+        <Calendar mode="single" onSelect={setDate} selected={date} />
+      </PopoverContent>
+    </Popover>
+  )
+}

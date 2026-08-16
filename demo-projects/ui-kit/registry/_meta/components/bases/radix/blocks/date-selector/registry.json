@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "name": "c-date-selector-1",
+      "type": "registry:block",
+      "title": "Basic date selector",
+      "categories": [
+        "date-selector"
+      ],
+      "description": "Basic date selector",
+      "registryDependencies": [
+        "date-selector",
+        "card"
+      ],
+      "dependencies": [
+        "date-fns"
+      ],
+      "files": [
+        {
+          "path": "blocks/date-selector/c-date-selector-1.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-date-selector-1.tsx"
+        }
+      ],
+      "meta": {
+        "order": 1,
+        "gridSize": 2
+      }
+    },
+    {
+      "name": "c-date-selector-2",
+      "type": "registry:block",
+      "title": "Date selector with popover",
+      "categories": [
+        "date-selector"
+      ],
+      "description": "Date selector with popover",
+      "registryDependencies": [
+        "date-selector",
+        "button",
+        "popover",
+        "separator"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/date-selector/c-date-selector-2.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-date-selector-2.tsx"
+        }
+      ],
+      "meta": {
+        "order": 2,
+        "gridSize": 2
+      }
+    },
+    {
+      "name": "c-date-selector-3",
+      "type": "registry:block",
+      "title": "Date selector with dialog",
+      "categories": [
+        "date-selector"
+      ],
+      "description": "Date selector with dialog",
+      "registryDependencies": [
+        "date-selector",
+        "button",
+        "dialog"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/date-selector/c-date-selector-3.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-date-selector-3.tsx"
+        }
+      ],
+      "meta": {
+        "order": 3,
+        "gridSize": 2
+      }
+    },
+    {
+      "name": "c-date-selector-4",
+      "type": "registry:block",
+      "title": "Date selector with dropdown menu",
+      "categories": [
+        "date-selector"
+      ],
+      "description": "Date selector with dropdown menu",
+      "registryDependencies": [
+        "date-selector",
+        "button",
+        "dialog",
+        "dropdown-menu"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "blocks/date-selector/c-date-selector-4.tsx",
+          "type": "registry:block",
+          "target": "components/examples/c-date-selector-4.tsx"
+        }
+      ],
+      "meta": {
+        "order": 4,
+        "gridSize": 2
+      }
+    }
+  ]
+}

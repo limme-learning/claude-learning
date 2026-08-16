@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "appRoot": "E:\\me\\devops\\claude-partices\\demo-projects\\ui-kit\\apps\\uikit",
+  "repoRoot": "E:\\me\\devops\\claude-partices\\demo-projects\\ui-kit",
+  "contextRoot": "E:\\me\\devops\\claude-partices\\demo-projects\\ui-kit",
+  "sessionRoot": "E:\\me\\devops\\claude-partices\\demo-projects\\ui-kit\\apps\\uikit\\.impeccable\\live",
+  "productPath": "E:\\me\\devops\\claude-partices\\demo-projects\\ui-kit\\PRODUCT.md",
+  "designPath": "E:\\me\\devops\\claude-partices\\demo-projects\\ui-kit\\DESIGN.md",
+  "resolvedFrom": "target:demo-projects\\ui-kit\\apps\\uikit"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-rating-3",
+  "type": "registry:block",
+  "title": "Rating with show value.",
+  "description": "Rating with show value.",
+  "categories": [
+    "rating"
+  ],
+  "registryDependencies": [
+    "@ui-kit/rating",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/rating/c-rating-3.tsx",
+      "type": "registry:block",
+      "content": "import { Rating } from \"@/components/reui/rating\"\n\nexport default function Pattern() {\n  return <Rating rating={4.5} showValue={true} />\n}\n",
+      "target": "components/examples/c-rating-3.tsx"
+    }
+  ],
+  "meta": {
+    "order": 3
+  }
+}

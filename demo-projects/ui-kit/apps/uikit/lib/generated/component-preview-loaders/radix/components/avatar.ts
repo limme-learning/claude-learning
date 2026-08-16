@@ -1,0 +1,42 @@
+// Auto-generated preview loader shard. Do not edit manually.
+import type { ComponentType } from "react"
+
+export type PreviewModule = { default: ComponentType }
+
+export const loaders: Record<string, () => Promise<PreviewModule>> = {
+  "c-avatar-1": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-1"),
+  "c-avatar-10": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-10"),
+  "c-avatar-11": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-11"),
+  "c-avatar-12": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-12"),
+  "c-avatar-13": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-13"),
+  "c-avatar-14": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-14"),
+  "c-avatar-15": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-15"),
+  "c-avatar-16": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-16"),
+  "c-avatar-17": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-17"),
+  "c-avatar-18": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-18"),
+  "c-avatar-19": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-19"),
+  "c-avatar-2": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-2"),
+  "c-avatar-20": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-20"),
+  "c-avatar-21": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-21"),
+  "c-avatar-22": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-22"),
+  "c-avatar-23": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-23"),
+  "c-avatar-24": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-24"),
+  "c-avatar-25": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-25"),
+  "c-avatar-26": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-26"),
+  "c-avatar-27": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-27"),
+  "c-avatar-28": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-28"),
+  "c-avatar-29": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-29"),
+  "c-avatar-3": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-3"),
+  "c-avatar-30": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-30"),
+  "c-avatar-31": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-31"),
+  "c-avatar-32": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-32"),
+  "c-avatar-33": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-33"),
+  "c-avatar-34": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-34"),
+  "c-avatar-35": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-35"),
+  "c-avatar-4": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-4"),
+  "c-avatar-5": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-5"),
+  "c-avatar-6": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-6"),
+  "c-avatar-7": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-7"),
+  "c-avatar-8": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-8"),
+  "c-avatar-9": () => import("../../../../../../../registry/bases/radix/components/avatar/c-avatar-9"),
+}

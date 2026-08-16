@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-phone-input-3",
+  "type": "registry:block",
+  "title": "Large phone input",
+  "description": "Large phone input",
+  "categories": [
+    "phone-input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/phone-input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/phone-input/c-phone-input-3.tsx",
+      "type": "registry:block",
+      "content": "import { PhoneInput } from \"@/components/reui/phone-input\"\n\nexport default function Pattern() {\n  return (\n    <PhoneInput\n      variant=\"lg\"\n      placeholder=\"Enter phone number\"\n      defaultCountry=\"US\"\n      value=\"+12125551234\"\n    />\n  )\n}\n",
+      "target": "components/examples/c-phone-input-3.tsx"
+    }
+  ],
+  "meta": {
+    "order": 3
+  }
+}

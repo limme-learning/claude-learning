@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-badge-10",
+  "type": "registry:block",
+  "title": "Info outline badge",
+  "description": "Info outline badge",
+  "categories": [
+    "badge"
+  ],
+  "registryDependencies": [
+    "@ui-kit/badge-block",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/badge/c-badge-10.tsx",
+      "type": "registry:block",
+      "content": "import { Badge } from \"@/components/reui/badge\"\n\nexport default function Pattern() {\n  return <Badge variant=\"info-outline\">Badge</Badge>\n}\n",
+      "target": "components/examples/c-badge-10.tsx"
+    }
+  ],
+  "meta": {
+    "order": 10
+  }
+}

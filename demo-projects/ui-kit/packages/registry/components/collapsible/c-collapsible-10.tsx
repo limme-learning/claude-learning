@@ -1,0 +1,170 @@
+"use client"
+
+import { useState } from "react"
+
+import { Button } from "@ui-kit/ui/components/button"
+import { Card, CardContent, CardHeader } from "@ui-kit/ui/components/card"
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@ui-kit/ui/components/collapsible"
+import {
+  Item,
+  ItemActions,
+  ItemMedia,
+  ItemTitle,
+} from "@ui-kit/ui/components/item"
+import { Tabs, TabsList, TabsTrigger } from "@ui-kit/ui/components/tabs"
+import {
+  ChevronRightIcon,
+  DownloadIcon,
+  FileIcon,
+  FolderIcon,
+  TrashIcon,
+} from "lucide-react"
+
+type FileTreeItem = { name: string } | { name: string; items: FileTreeItem[] }
+
+const fileTree: FileTreeItem[] = [
+  {
+    name: "components",
+    items: [
+      {
+        name: "ui",
+        items: [
+          { name: "button.tsx" },
+          { name: "card.tsx" },
+          { name: "dialog.tsx" },
+        ],
+      },
+      { name: "login-form.tsx" },
+    ],
+  },
+  {
+    name: "lib",
+    items: [{ name: "utils.ts" }, { name: "api.ts" }],
+  },
+  {
+    name: "hooks",
+    items: [{ name: "use-debounce.ts" }, { name: "use-local-storage.ts" }],
+  },
+  { name: "app.tsx" },
+  { name: "package.json" },
+]
+
+function TreeItem({
+  item,
+  level = 0,
+  selectedId,
+  onSelect,
+}: {
+  item: FileTreeItem
+  level?: number
+  selectedId?: string | null
+  onSelect?: (name: string) => void
+}) {
+  const isFolder = "items" in item
+  const isSelected = selectedId === item.name
+
+  if (isFolder) {
+    return (
+      <Collapsible className="group/collapsible">
+        <CollapsibleTrigger asChild>
+          <Item
+            size="xs"
+            className="cursor-pointer py-1.5 hover:bg-accent data-[state=open]:bg-accent"
+            style={{ paddingLeft: `${level * 12 + 8}px` }}
+          >
+            <ItemMedia variant="icon">
+              <ChevronRightIcon
+                aria-hidden="true"
+                className="size-3 text-muted-foreground transition-transform in-data-[state=open]:rotate-90"
+              />
+              <FolderIcon
+                aria-hidden="true"
+                className="size-3.5 text-muted-foreground group-hover/item:text-foreground"
+              />
+            </ItemMedia>
+            <ItemTitle className="text-sm">{item.name}</ItemTitle>
+          </Item>
+        </CollapsibleTrigger>
+        <CollapsibleContent className="overflow-hidden pt-0.5 data-[state=closed]:animate-collapsible-up data-[state=open]:animate-collapsible-down">
+          <div className="flex flex-col gap-0.5 ps-1.5">
+            {item.items.map((child) => (
+              <TreeItem
+                key={child.name}
+                item={child}
+                level={level + 1}
+                selectedId={selectedId}
+                onSelect={onSelect}
+              />
+            ))}
+          </div>
+        </CollapsibleContent>
+      </Collapsible>
+    )
+  }
+
+  return (
+    <Item
+      className="group/item cursor-pointer py-1.5 hover:bg-accent data-[active=true]:bg-accent"
+      data-active={isSelected}
+      style={{ paddingLeft: `${level * 12 + 9}px` }}
+      onClick={() => onSelect?.(item.name)}
+    >
+      <ItemMedia variant="icon">
+        <FileIcon
+          aria-hidden="true"
+          className="size-4 text-muted-foreground group-hover/item:text-foreground group-data-[active=true]/item:text-foreground"
+        />
+      </ItemMedia>
+      <ItemTitle className="text-sm text-secondary-foreground group-hover/item:text-foreground group-data-[active=true]/item:text-foreground">
+        {item.name}
+      </ItemTitle>
+      <ItemActions className="-mr-2 ml-auto gap-0 opacity-0 transition-opacity group-hover/item:opacity-100 group-data-[active=true]/item:opacity-100">
+        <Button size="icon-xs" variant="ghost">
+          <DownloadIcon aria-hidden="true" />
+        </Button>
+        <Button variant="ghost" size="icon-xs">
+          <TrashIcon aria-hidden="true" />
+        </Button>
+      </ItemActions>
+    </Item>
+  )
+}
+
+export default function Pattern() {
+  const [selectedId, setSelectedId] = useState<string | null>(null)
+
+  return (
+    <div className="min-h-64 w-72">
+      <Card size="sm" className="gap-1 p-1">
+        <CardHeader className="p-0">
+          <Tabs defaultValue="explorer">
+            <TabsList className="h-8 w-full bg-accent p-1">
+              <TabsTrigger value="explorer" className="text-xs">
+                Explorer
+              </TabsTrigger>
+              <TabsTrigger value="outline" className="text-xs">
+                Outline
+              </TabsTrigger>
+            </TabsList>
+          </Tabs>
+        </CardHeader>
+        <CardContent className="p-0">
+          <div className="flex flex-col gap-0.5">
+            {fileTree.map((item) => (
+              <TreeItem
+                key={item.name}
+                item={item}
+                selectedId={selectedId}
+                onSelect={setSelectedId}
+              />
+            ))}
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}

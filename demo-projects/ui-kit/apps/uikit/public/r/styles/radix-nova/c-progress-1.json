@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-progress-1",
+  "type": "registry:block",
+  "title": "Basic progress.",
+  "description": "Basic progress.",
+  "categories": [
+    "progress"
+  ],
+  "registryDependencies": [
+    "@ui-kit/progress",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/progress/c-progress-1.tsx",
+      "type": "registry:block",
+      "content": "import { Progress } from \"@/components/ui/progress\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"mx-auto w-full max-w-xs space-y-2\">\n      <div className=\"flex items-center justify-between\">\n        <span className=\"text-sm font-medium\">Upload progress</span>\n        <span className=\"text-muted-foreground text-sm\">56%</span>\n      </div>\n      <Progress value={56} />\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-progress-1.tsx"
+    }
+  ],
+  "meta": {
+    "order": 1
+  }
+}

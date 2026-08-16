@@ -1,6 +1,8 @@
 packages:
   - "apps/*"
   - "packages/*"
+  - "packages/registry/bases/*/components/*"
+  - "packages/registry/bases/*/blocks/*"
 
 allowBuilds:
   sharp: true

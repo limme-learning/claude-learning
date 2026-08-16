@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-31",
+  "type": "registry:block",
+  "title": "Large button with an icon on the right",
+  "description": "Large button with an icon on the right",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-31.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button size=\"lg\">\n      Send Message\n      <IconPlaceholder\n        lucide=\"SendIcon\"\n        tabler=\"IconSend\"\n        hugeicons=\"SentIcon\"\n        phosphor=\"PaperPlaneTiltIcon\"\n        remixicon=\"RiSendInsLine\"\n        aria-hidden=\"true\"\n      />\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-31.tsx"
+    }
+  ],
+  "meta": {
+    "order": 31
+  }
+}

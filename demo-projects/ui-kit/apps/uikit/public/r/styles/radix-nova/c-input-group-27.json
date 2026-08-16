@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-input-group-27",
+  "type": "registry:block",
+  "title": "Input group wrapped in a button group with text prefixes/suffixes",
+  "description": "Input group wrapped in a button group with text prefixes/suffixes",
+  "categories": [
+    "input-group"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button-group",
+    "@ui-kit/field",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/input-group",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/input-group/c-input-group-27.tsx",
+      "type": "registry:block",
+      "content": "import {\n  ButtonGroup,\n  ButtonGroupText,\n} from \"@/components/ui/button-group\"\nimport { Field } from \"@/components/ui/field\"\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupInput,\n} from \"@/components/ui/input-group\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Field className=\"max-w-xs\">\n      <ButtonGroup>\n        <ButtonGroupText>https://</ButtonGroupText>\n        <InputGroup>\n          <InputGroupInput placeholder=\"example\" />\n          <InputGroupAddon align=\"inline-end\">\n            <IconPlaceholder\n              lucide=\"InfoIcon\"\n              tabler=\"IconInfoCircle\"\n              hugeicons=\"InformationCircleIcon\"\n              phosphor=\"InfoIcon\"\n              remixicon=\"RiInformationLine\"\n              className=\"text-muted-foreground size-4\"\n            />\n          </InputGroupAddon>\n        </InputGroup>\n        <ButtonGroupText>.com</ButtonGroupText>\n      </ButtonGroup>\n    </Field>\n  )\n}\n",
+      "target": "components/examples/c-input-group-27.tsx"
+    }
+  ],
+  "meta": {
+    "order": 27
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-input-13",
+  "type": "registry:block",
+  "title": "Input with required indicator",
+  "description": "Input with required indicator",
+  "categories": [
+    "input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/field",
+    "@ui-kit/input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/input/c-input-13.tsx",
+      "type": "registry:block",
+      "content": "import { Field, FieldLabel } from \"@/components/ui/field\"\nimport { Input } from \"@/components/ui/input\"\n\nexport default function Pattern() {\n  return (\n    <Field className=\"max-w-xs\">\n      <FieldLabel htmlFor=\"company\">\n        Company <span className=\"text-destructive\">*</span>\n      </FieldLabel>\n      <Input id=\"company\" placeholder=\"Wotso Inc.\" />\n    </Field>\n  )\n}\n",
+      "target": "components/examples/c-input-13.tsx"
+    }
+  ],
+  "meta": {
+    "order": 13
+  }
+}

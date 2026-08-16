@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-toggle-group-11",
+  "type": "registry:block",
+  "title": "Toggle group for font size",
+  "description": "Toggle group for font size",
+  "categories": [
+    "toggle-group"
+  ],
+  "registryDependencies": [
+    "@ui-kit/styles",
+    "@ui-kit/toggle-group"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/toggle-group/c-toggle-group-11.tsx",
+      "type": "registry:block",
+      "content": "import {\n  ToggleGroup,\n  ToggleGroupItem,\n} from \"@/components/ui/toggle-group\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <ToggleGroup defaultValue={[\"m\"]} size=\"sm\" variant=\"outline\">\n        <ToggleGroupItem value=\"s\">S</ToggleGroupItem>\n        <ToggleGroupItem value=\"m\">M</ToggleGroupItem>\n        <ToggleGroupItem value=\"l\">L</ToggleGroupItem>\n        <ToggleGroupItem value=\"xl\">XL</ToggleGroupItem>\n      </ToggleGroup>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-toggle-group-11.tsx"
+    }
+  ],
+  "meta": {
+    "order": 11
+  }
+}

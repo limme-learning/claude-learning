@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-label-2",
+  "type": "registry:block",
+  "title": "Label paired with a checkbox.",
+  "description": "Label paired with a checkbox.",
+  "categories": [
+    "label"
+  ],
+  "registryDependencies": [
+    "@ui-kit/checkbox",
+    "@ui-kit/field",
+    "@ui-kit/label",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/label/c-label-2.tsx",
+      "type": "registry:block",
+      "content": "import { Checkbox } from \"@/components/ui/checkbox\"\nimport { Field } from \"@/components/ui/field\"\nimport { Label } from \"@/components/ui/label\"\n\nexport default function Pattern() {\n  return (\n    <Field orientation=\"horizontal\" className=\"mx-auto w-auto\">\n      <Checkbox id=\"label-demo-terms\" />\n      <Label htmlFor=\"label-demo-terms\">Accept terms and conditions</Label>\n    </Field>\n  )\n}\n",
+      "target": "components/examples/c-label-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

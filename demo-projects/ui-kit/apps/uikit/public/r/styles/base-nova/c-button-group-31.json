@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-group-31",
+  "type": "registry:block",
+  "title": "Horizontal button group with primary and secondary labels",
+  "description": "Horizontal button group with primary and secondary labels",
+  "categories": [
+    "button-group"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/button-group",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button-group/c-button-group-31.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport {\n  ButtonGroup,\n  ButtonGroupText,\n} from \"@/components/ui/button-group\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <ButtonGroup>\n      <Button size=\"sm\" className=\"border-primary\">\n        <IconPlaceholder\n          lucide=\"Share2Icon\"\n          tabler=\"IconShare\"\n          hugeicons=\"Share08Icon\"\n          phosphor=\"ShareNetworkIcon\"\n          remixicon=\"RiStackshareLine\"\n          className=\"...\"\n        />\n        Share\n      </Button>\n      <ButtonGroupText className=\"text-muted-foreground bg-transparent px-2\">\n        128 Shares\n      </ButtonGroupText>\n    </ButtonGroup>\n  )\n}\n",
+      "target": "components/examples/c-button-group-31.tsx"
+    }
+  ],
+  "meta": {
+    "order": 31
+  }
+}

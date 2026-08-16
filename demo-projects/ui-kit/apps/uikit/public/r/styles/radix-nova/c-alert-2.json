@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-alert-2",
+  "type": "registry:block",
+  "title": "Alert with icon",
+  "description": "Alert with icon",
+  "categories": [
+    "alert"
+  ],
+  "registryDependencies": [
+    "@ui-kit/alert-block",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/alert/c-alert-2.tsx",
+      "type": "registry:block",
+      "content": "import {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/components/reui/alert\"\n\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Alert>\n      <IconPlaceholder\n        lucide=\"CircleCheckIcon\"\n        tabler=\"IconCircleCheck\"\n        hugeicons=\"CheckmarkCircle01Icon\"\n        phosphor=\"CheckCircleIcon\"\n        remixicon=\"RiCheckboxCircleLine\"\n      />\n      <AlertTitle>Alert!</AlertTitle>\n      <AlertDescription>\n        This is an alert with icon, title and description.\n      </AlertDescription>\n    </Alert>\n  )\n}\n",
+      "target": "components/examples/c-alert-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

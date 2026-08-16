@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-phone-input-7",
+  "type": "registry:block",
+  "title": "Phone input with specific default country",
+  "description": "Phone input with specific default country",
+  "categories": [
+    "phone-input"
+  ],
+  "registryDependencies": [
+    "@ui-kit/phone-input",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/phone-input/c-phone-input-7.tsx",
+      "type": "registry:block",
+      "content": "import { PhoneInput } from \"@/components/reui/phone-input\"\n\nexport default function Pattern() {\n  return <PhoneInput defaultCountry=\"FR\" placeholder=\"Enter phone number\" />\n}\n",
+      "target": "components/examples/c-phone-input-7.tsx"
+    }
+  ],
+  "meta": {
+    "order": 7
+  }
+}

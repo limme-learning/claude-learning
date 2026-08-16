@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-dropdown-menu-10",
+  "type": "registry:block",
+  "title": "Workspace switcher dropdown menu",
+  "description": "Workspace switcher dropdown menu",
+  "categories": [
+    "dropdown-menu"
+  ],
+  "registryDependencies": [
+    "@ui-kit/avatar",
+    "@ui-kit/button",
+    "@ui-kit/dropdown-menu",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles",
+    "@ui-kit/svgs"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/dropdown-menu/c-dropdown-menu-10.tsx",
+      "type": "registry:block",
+      "content": "\"use client\"\n\nimport { ReactNode, useState } from \"react\"\n\nimport { AnthropicBlack } from \"@/components/ui/svgs/anthropicBlack\"\nimport { AnthropicWhite } from \"@/components/ui/svgs/anthropicWhite\"\nimport { ClaudeAiIcon } from \"@/components/ui/svgs/claudeAiIcon\"\nimport {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/components/ui/avatar\"\nimport { Button } from \"@/components/ui/button\"\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuGroup,\n  DropdownMenuItem,\n  DropdownMenuLabel,\n  DropdownMenuSeparator,\n  DropdownMenuTrigger,\n} from \"@/components/ui/dropdown-menu\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\ninterface Workspace {\n  id: string\n  name: string\n  plan: string\n  avatar?: string\n  logo?: ReactNode\n  logoDark?: ReactNode\n}\n\nconst workspaces: Workspace[] = [\n  {\n    id: \"1\",\n    name: \"Anthropic\",\n    plan: \"Enterprise\",\n    logo: <AnthropicBlack />,\n    logoDark: <AnthropicWhite />,\n  },\n  {\n    id: \"2\",\n    name: \"Claude\",\n    plan: \"Pro\",\n    logo: <ClaudeAiIcon />,\n  },\n  {\n    id: \"3\",\n    name: \"Alex Wong\",\n    plan: \"Team\",\n    avatar:\n      \"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=96&h=96&dpr=2&q=80\",\n  },\n]\n\nexport default function Pattern() {\n  const [activeWorkspaceId, setActiveWorkspaceId] = useState(workspaces[1].id)\n  const activeWorkspace =\n    workspaces.find((w) => w.id === activeWorkspaceId) || workspaces[0]\n\n  return (\n    <div className=\"flex items-center justify-center\">\n      <DropdownMenu>\n        <DropdownMenuTrigger\n          render={<Button variant=\"outline\" className=\"w-52\" />}\n        >\n          <div className=\"gap-1.5 flex items-center\">\n            {activeWorkspace.logo}\n            <span className=\"text-sm font-medium\">{activeWorkspace.name}</span>\n          </div>\n\n          <IconPlaceholder\n            lucide=\"ChevronsUpDownIcon\"\n            tabler=\"IconSelector\"\n            hugeicons=\"UnfoldMoreIcon\"\n            phosphor=\"CaretUpDownIcon\"\n            remixicon=\"RiExpandUpDownLine\"\n            className=\"ml-auto size-3.5 opacity-60\"\n            aria-hidden=\"true\"\n          />\n        </DropdownMenuTrigger>\n        <DropdownMenuContent className=\"w-56\" align=\"start\" sideOffset={8}>\n          <DropdownMenuGroup>\n            <DropdownMenuLabel>Workspaces</DropdownMenuLabel>\n            {workspaces.map((workspace) => (\n              <DropdownMenuItem\n                key={workspace.id}\n                className=\"gap-3\"\n                onSelect={() => setActiveWorkspaceId(workspace.id)}\n              >\n                {/* Workspace logo (dark mode) */}\n                {workspace.logoDark ? (\n                  <>\n                    <span aria-hidden className=\"dark:hidden\">\n                      {workspace.logo}\n                    </span>\n                    <span aria-hidden className=\"hidden dark:block\">\n                      {workspace.logoDark}\n                    </span>\n                  </>\n                ) : (\n                  workspace.logo && workspace.logo\n                )}\n\n                {workspace.avatar && (\n                  <Avatar className=\"size-4\">\n                    <AvatarImage src={workspace.avatar} alt={workspace.name} />\n                    <AvatarFallback>{workspace.name.charAt(0)}</AvatarFallback>\n                  </Avatar>\n                )}\n\n                {/* Workspace name and plan */}\n                <div className=\"flex flex-1 flex-col\">\n                  <span className=\"text-sm font-medium\">{workspace.name}</span>\n                  <span className=\"text-muted-foreground text-xs\">\n                    {workspace.plan}\n                  </span>\n                </div>\n\n                {/* Check icon */}\n                {activeWorkspaceId === workspace.id && (\n                  <IconPlaceholder\n                    lucide=\"CheckIcon\"\n                    tabler=\"IconCheck\"\n                    hugeicons=\"Tick02Icon\"\n                    phosphor=\"CheckIcon\"\n                    remixicon=\"RiCheckLine\"\n                    className=\"text-primary size-4\"\n                    aria-hidden=\"true\"\n                  />\n                )}\n              </DropdownMenuItem>\n            ))}\n          </DropdownMenuGroup>\n          <DropdownMenuSeparator />\n          <DropdownMenuGroup>\n            <DropdownMenuItem>\n              <IconPlaceholder\n                lucide=\"PlusIcon\"\n                tabler=\"IconPlus\"\n                hugeicons=\"PlusSignIcon\"\n                phosphor=\"PlusIcon\"\n                remixicon=\"RiAddLine\"\n                aria-hidden=\"true\"\n              />\n              Create Workspace\n            </DropdownMenuItem>\n            <DropdownMenuItem>\n              <IconPlaceholder\n                lucide=\"SettingsIcon\"\n                tabler=\"IconSettings\"\n                hugeicons=\"SettingsIcon\"\n                phosphor=\"GearIcon\"\n                remixicon=\"RiSettings3Line\"\n                aria-hidden=\"true\"\n              />\n              Manage Workspaces\n            </DropdownMenuItem>\n          </DropdownMenuGroup>\n        </DropdownMenuContent>\n      </DropdownMenu>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-dropdown-menu-10.tsx"
+    }
+  ],
+  "meta": {
+    "order": 10
+  }
+}

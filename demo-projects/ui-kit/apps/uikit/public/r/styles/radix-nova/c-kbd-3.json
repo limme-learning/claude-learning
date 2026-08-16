@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-kbd-3",
+  "type": "registry:block",
+  "title": "Keyboard keys combined with icons.",
+  "description": "Keyboard keys combined with icons.",
+  "categories": [
+    "kbd"
+  ],
+  "registryDependencies": [
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/kbd",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/kbd/c-kbd-3.tsx",
+      "type": "registry:block",
+      "content": "import { Kbd, KbdGroup } from \"@/components/ui/kbd\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <KbdGroup>\n        <Kbd>\n          <IconPlaceholder\n            lucide=\"ArrowLeftIcon\"\n            tabler=\"IconArrowLeft\"\n            hugeicons=\"ArrowLeft02Icon\"\n            phosphor=\"ArrowLeftIcon\"\n            remixicon=\"RiArrowLeftLine\"\n          />\n          Left\n        </Kbd>\n        <Kbd>\n          <IconPlaceholder\n            lucide=\"CircleDashedIcon\"\n            tabler=\"IconCircleDashed\"\n            hugeicons=\"DashedLineCircleIcon\"\n            phosphor=\"CircleDashedIcon\"\n            remixicon=\"RiLoaderLine\"\n          />\n          Voice Enabled\n        </Kbd>\n      </KbdGroup>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-kbd-3.tsx"
+    }
+  ],
+  "meta": {
+    "order": 3
+  }
+}

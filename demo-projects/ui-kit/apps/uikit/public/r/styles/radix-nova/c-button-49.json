@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-49",
+  "type": "registry:block",
+  "title": "Go back link button",
+  "description": "Go back link button",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-49.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button variant=\"link\" asChild>\n      <a href=\"#\">\n        <IconPlaceholder\n          lucide=\"ChevronLeftIcon\"\n          tabler=\"IconChevronLeft\"\n          hugeicons=\"ArrowLeft01Icon\"\n          phosphor=\"CaretLeftIcon\"\n          remixicon=\"RiArrowLeftSLine\"\n          data-icon=\"inline-start\"\n          aria-hidden=\"true\"\n        />\n        Go back\n      </a>\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-49.tsx"
+    }
+  ],
+  "meta": {
+    "order": 49
+  }
+}

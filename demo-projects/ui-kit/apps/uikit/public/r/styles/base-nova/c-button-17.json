@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-17",
+  "type": "registry:block",
+  "title": "Secondary button with an icon on the right",
+  "description": "Secondary button with an icon on the right",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button/c-button-17.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button variant=\"secondary\">\n      Open Project\n      <IconPlaceholder\n        lucide=\"ExternalLinkIcon\"\n        tabler=\"IconExternalLink\"\n        hugeicons=\"LinkSquare01Icon\"\n        phosphor=\"ArrowSquareOutIcon\"\n        remixicon=\"RiExternalLinkLine\"\n        aria-hidden=\"true\"\n      />\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-17.tsx"
+    }
+  ],
+  "meta": {
+    "order": 17
+  }
+}

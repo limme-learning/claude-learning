@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-11",
+  "type": "registry:block",
+  "title": "Icon button",
+  "description": "Icon button",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-11.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button size=\"icon\" aria-label=\"Search\">\n      <IconPlaceholder\n        lucide=\"SearchIcon\"\n        tabler=\"IconSearch\"\n        hugeicons=\"Search01Icon\"\n        phosphor=\"MagnifyingGlassIcon\"\n        remixicon=\"RiSearchLine\"\n        aria-hidden=\"true\"\n      />\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-11.tsx"
+    }
+  ],
+  "meta": {
+    "order": 11
+  }
+}

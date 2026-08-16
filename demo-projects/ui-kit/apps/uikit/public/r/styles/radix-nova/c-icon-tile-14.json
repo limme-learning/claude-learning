@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-icon-tile-14",
+  "type": "registry:block",
+  "title": "Status overlay",
+  "description": "Icon tile with status overlay",
+  "categories": [
+    "icon-tile"
+  ],
+  "registryDependencies": [
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/icon-tile",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/icon-tile/c-icon-tile-14.tsx",
+      "type": "registry:block",
+      "content": "import { IconTile } from \"@/components/reui/icon-tile\"\n\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <span className=\"relative inline-flex\" aria-hidden=\"true\">\n        <IconTile variant=\"elevated\">\n          <IconPlaceholder\n            lucide=\"GlobeIcon\"\n            tabler=\"IconWorld\"\n            hugeicons=\"Globe02Icon\"\n            phosphor=\"GlobeSimpleIcon\"\n            remixicon=\"RiGlobalLine\"\n          />\n        </IconTile>\n        <span className=\"border-background bg-success absolute -end-0.5 -top-0.5 size-3 rounded-full border-2\" />\n      </span>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-icon-tile-14.tsx"
+    }
+  ],
+  "meta": {
+    "order": 14,
+    "gridSize": 2
+  }
+}

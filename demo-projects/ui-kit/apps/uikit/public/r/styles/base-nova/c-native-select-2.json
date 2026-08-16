@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-native-select-2",
+  "type": "registry:block",
+  "title": "Native select with options grouped.",
+  "description": "Native select with options grouped.",
+  "categories": [
+    "native-select"
+  ],
+  "registryDependencies": [
+    "@ui-kit/native-select",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/native-select/c-native-select-2.tsx",
+      "type": "registry:block",
+      "content": "import {\n  NativeSelect,\n  NativeSelectOptGroup,\n  NativeSelectOption,\n} from \"@/components/ui/native-select\"\n\nexport default function Pattern() {\n  return (\n    <NativeSelect className=\"w-full max-w-xs\">\n      <NativeSelectOption value=\"\">Select a food</NativeSelectOption>\n      <NativeSelectOptGroup label=\"Fruits\">\n        <NativeSelectOption value=\"apple\">Apple</NativeSelectOption>\n        <NativeSelectOption value=\"banana\">Banana</NativeSelectOption>\n        <NativeSelectOption value=\"blueberry\">Blueberry</NativeSelectOption>\n      </NativeSelectOptGroup>\n      <NativeSelectOptGroup label=\"Vegetables\">\n        <NativeSelectOption value=\"carrot\">Carrot</NativeSelectOption>\n        <NativeSelectOption value=\"broccoli\">Broccoli</NativeSelectOption>\n        <NativeSelectOption value=\"spinach\">Spinach</NativeSelectOption>\n      </NativeSelectOptGroup>\n    </NativeSelect>\n  )\n}\n",
+      "target": "components/examples/c-native-select-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

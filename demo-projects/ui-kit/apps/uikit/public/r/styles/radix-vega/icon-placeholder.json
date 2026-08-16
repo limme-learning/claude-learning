@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "icon-placeholder",
+  "type": "registry:ui",
+  "title": "icon-placeholder",
+  "categories": [
+    "ui"
+  ],
+  "registryDependencies": [
+    "@ui-kit/styles"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "files": [
+    {
+      "path": "packages/ui/src/components/icon-placeholder.tsx",
+      "type": "registry:ui",
+      "content": "import * as React from \"react\"\nimport * as LucideIcons from \"lucide-react\"\n\ntype LucideIconName = keyof typeof LucideIcons\n\n/**\n * reui's `ui/*.tsx` primitives pass icon names for five icon libraries\n * (lucide/tabler/hugeicons/phosphor/remixicon) since reui's own site lets\n * users swap icon sets. This project only ships `lucide` (see\n * `components.json`'s `iconLibrary`), so only the `lucide` name is used —\n * the other props are accepted (so call sites don't need editing) and\n * ignored.\n */\nexport function IconPlaceholder({\n  lucide,\n  tabler: _tabler,\n  hugeicons: _hugeicons,\n  phosphor: _phosphor,\n  remixicon: _remixicon,\n  ...props\n}: {\n  lucide: string\n  tabler?: string\n  hugeicons?: string\n  phosphor?: string\n  remixicon?: string\n} & React.ComponentProps<\"svg\">) {\n  const Icon = LucideIcons[lucide as LucideIconName] as\n    | React.ComponentType<React.ComponentProps<\"svg\">>\n    | undefined\n\n  if (!Icon) return null\n\n  return <Icon {...props} />\n}\n",
+      "target": "components/ui/icon-placeholder.tsx"
+    }
+  ]
+}

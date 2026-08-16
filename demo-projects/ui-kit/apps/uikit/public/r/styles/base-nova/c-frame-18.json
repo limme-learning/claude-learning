@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-frame-18",
+  "type": "registry:block",
+  "title": "Frame with content-only panels",
+  "description": "Frame with content-only panels",
+  "categories": [
+    "frame"
+  ],
+  "registryDependencies": [
+    "@ui-kit/frame",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/frame/c-frame-18.tsx",
+      "type": "registry:block",
+      "content": "import { Frame, FramePanel } from \"@/components/reui/frame\"\n\nexport default function Pattern() {\n  return (\n    <Frame className=\"w-full max-w-sm\">\n      <FramePanel>\n        <h2 className=\"text-sm font-semibold\">Account Snapshot</h2>\n        <p className=\"text-muted-foreground text-sm\">\n          Active seats, usage limits, and billing status are ready for review.\n        </p>\n      </FramePanel>\n      <FramePanel>\n        <h2 className=\"text-sm font-semibold\">Team Activity</h2>\n        <p className=\"text-muted-foreground text-sm\">\n          24 members signed in this week with no unresolved security alerts.\n        </p>\n      </FramePanel>\n    </Frame>\n  )\n}\n",
+      "target": "components/examples/c-frame-18.tsx"
+    }
+  ],
+  "meta": {
+    "order": 18
+  }
+}

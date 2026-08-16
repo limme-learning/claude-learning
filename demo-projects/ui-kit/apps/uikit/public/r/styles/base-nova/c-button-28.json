@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-28",
+  "type": "registry:block",
+  "title": "Link button with an icon on the left",
+  "description": "Link button with an icon on the left",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button/c-button-28.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button variant=\"link\">\n      <IconPlaceholder\n        lucide=\"HelpCircleIcon\"\n        tabler=\"IconHelpCircle\"\n        hugeicons=\"HelpCircleIcon\"\n        phosphor=\"QuestionIcon\"\n        remixicon=\"RiQuestionLine\"\n        aria-hidden=\"true\"\n      />\n      Help Center\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-28.tsx"
+    }
+  ],
+  "meta": {
+    "order": 28
+  }
+}

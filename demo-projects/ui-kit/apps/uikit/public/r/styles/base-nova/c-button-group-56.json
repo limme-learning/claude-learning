@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-group-56",
+  "type": "registry:block",
+  "title": "Attachment button group with download action",
+  "description": "Attachment button group with download action",
+  "categories": [
+    "button-group"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/button-group",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/button-group/c-button-group-56.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { ButtonGroup } from \"@/components/ui/button-group\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nconst attachment = {\n  name: \"Q4-Product-Roadmap.pdf\",\n  size: \"2.4 MB\",\n}\n\nexport default function Pattern() {\n  return (\n    <ButtonGroup>\n      <Button variant=\"outline\" size=\"xs\">\n        <IconPlaceholder\n          lucide=\"PaperclipIcon\"\n          tabler=\"IconPaperclip\"\n          hugeicons=\"Attachment02Icon\"\n          phosphor=\"PaperclipIcon\"\n          remixicon=\"RiAttachment2\"\n          aria-hidden=\"true\"\n        />\n        {attachment.name}\n        <span className=\"opacity-60\">({attachment.size})</span>\n      </Button>\n      <Button variant=\"outline\" size=\"icon-xs\" aria-label=\"Download attachment\">\n        <IconPlaceholder\n          lucide=\"DownloadIcon\"\n          tabler=\"IconDownload\"\n          hugeicons=\"Download01Icon\"\n          phosphor=\"DownloadSimpleIcon\"\n          remixicon=\"RiDownload2Line\"\n          aria-hidden=\"true\"\n        />\n      </Button>\n    </ButtonGroup>\n  )\n}\n",
+      "target": "components/examples/c-button-group-56.tsx"
+    }
+  ],
+  "meta": {
+    "order": 56
+  }
+}

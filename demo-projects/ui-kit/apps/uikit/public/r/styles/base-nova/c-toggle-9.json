@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-toggle-9",
+  "type": "registry:block",
+  "title": "Toggle with icon swap on press",
+  "description": "Toggle with icon swap on press",
+  "categories": [
+    "toggle"
+  ],
+  "registryDependencies": [
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles",
+    "@ui-kit/toggle"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/toggle/c-toggle-9.tsx",
+      "type": "registry:block",
+      "content": "\"use client\"\n\nimport { useState } from \"react\"\n\nimport { Toggle } from \"@/components/ui/toggle\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  const [pressed, setPressed] = useState(false)\n\n  return (\n    <div className=\"flex items-center justify-center\">\n      <Toggle\n        aria-label=\"Toggle favorite\"\n        pressed={pressed}\n        onPressedChange={setPressed}\n      >\n        {pressed ? (\n          <IconPlaceholder\n            lucide=\"HeartIcon\"\n            tabler=\"IconHeart\"\n            hugeicons=\"FavouriteIcon\"\n            phosphor=\"HeartIcon\"\n            remixicon=\"RiHeartLine\"\n            className=\"fill-current\"\n          />\n        ) : (\n          <IconPlaceholder\n            lucide=\"HeartIcon\"\n            tabler=\"IconHeart\"\n            hugeicons=\"FavouriteIcon\"\n            phosphor=\"HeartIcon\"\n            remixicon=\"RiHeartLine\"\n          />\n        )}\n      </Toggle>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-toggle-9.tsx"
+    }
+  ],
+  "meta": {
+    "order": 9
+  }
+}

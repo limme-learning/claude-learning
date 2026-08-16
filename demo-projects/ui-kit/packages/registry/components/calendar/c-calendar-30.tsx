@@ -1,0 +1,95 @@
+"use client"
+
+import { useId, useState } from "react"
+import { format } from "date-fns"
+
+import { cn } from "@ui-kit/ui/lib/utils"
+import { Button } from "@ui-kit/ui/components/button"
+import { Calendar } from "@ui-kit/ui/components/calendar"
+import {
+  Field,
+  FieldGroup,
+  FieldLabel,
+} from "@ui-kit/ui/components/field"
+import {
+  InputGroup,
+  InputGroupAddon,
+  InputGroupInput,
+} from "@ui-kit/ui/components/input-group"
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@ui-kit/ui/components/popover"
+import { Separator } from "@ui-kit/ui/components/separator"
+import { CalendarIcon, ClockIcon } from "lucide-react"
+
+export default function Pattern() {
+  const id = useId()
+  const [date, setDate] = useState<Date | undefined>(
+    new Date(new Date().getFullYear(), new Date().getMonth(), 12)
+  )
+
+  return (
+    <Popover>
+      <PopoverTrigger>
+        <Button
+          className="group/pick-date w-60 justify-between"
+          id={id}
+          variant={"outline"}
+        >
+          <span className={cn("truncate", date && "text-muted-foreground")}>
+            {date ? format(date, "PPP") : "Pick a date and time"}
+          </span>
+          <CalendarIcon
+            aria-hidden="true"
+            className="shrink-0 text-muted-foreground/80 transition-colors group-hover:text-foreground"
+          />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent align="start" className="w-auto">
+        <Calendar
+          mode="single"
+          selected={date}
+          onSelect={setDate}
+          className="p-0"
+        />
+
+        <Separator />
+
+        <FieldGroup className="grid grid-cols-2 gap-2.5">
+          <Field className="gap-1.5">
+            <FieldLabel htmlFor="time-from">Start Time</FieldLabel>
+            <InputGroup>
+              <InputGroupInput
+                id="time-from"
+                type="time"
+                step="1"
+                defaultValue="10:30:00"
+                className="appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+              />
+              <InputGroupAddon>
+                <ClockIcon />
+              </InputGroupAddon>
+            </InputGroup>
+          </Field>
+          <Field className="gap-1.5">
+            <FieldLabel htmlFor="time-to">End Time</FieldLabel>
+            <InputGroup>
+              <InputGroupInput
+                id="time-to"
+                type="time"
+                step="1"
+                defaultValue="12:30:00"
+                className="appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+              />
+              <InputGroupAddon>
+                <ClockIcon />
+              </InputGroupAddon>
+            </InputGroup>
+          </Field>
+        </FieldGroup>
+      </PopoverContent>
+    </Popover>
+  )
+}

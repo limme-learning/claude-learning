@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-toggle-group-2",
+  "type": "registry:block",
+  "title": "Toggle group with outline variant.",
+  "description": "Toggle group with outline variant.",
+  "categories": [
+    "toggle-group"
+  ],
+  "registryDependencies": [
+    "@ui-kit/styles",
+    "@ui-kit/toggle-group"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/base/components/toggle-group/c-toggle-group-2.tsx",
+      "type": "registry:block",
+      "content": "import {\n  ToggleGroup,\n  ToggleGroupItem,\n} from \"@/components/ui/toggle-group\"\n\nexport default function Pattern() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <ToggleGroup variant=\"outline\" defaultValue={[\"all\"]}>\n        <ToggleGroupItem value=\"all\" aria-label=\"Toggle all\">\n          All\n        </ToggleGroupItem>\n        <ToggleGroupItem value=\"missed\" aria-label=\"Toggle missed\">\n          Missed\n        </ToggleGroupItem>\n      </ToggleGroup>\n    </div>\n  )\n}\n",
+      "target": "components/examples/c-toggle-group-2.tsx"
+    }
+  ],
+  "meta": {
+    "order": 2
+  }
+}

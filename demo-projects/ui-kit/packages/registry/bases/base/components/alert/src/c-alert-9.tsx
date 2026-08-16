@@ -1,0 +1,26 @@
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@ui-kit/ui/base-blocks/alert"
+
+import { IconPlaceholder } from "@ui-kit/ui/components/icon-placeholder"
+
+export default function Pattern() {
+  return (
+    <Alert variant="invert">
+      <IconPlaceholder
+        lucide="CircleAlertIcon"
+        tabler="IconAlertCircle"
+        hugeicons="AlertCircleIcon"
+        phosphor="WarningCircleIcon"
+        remixicon="RiErrorWarningLine"
+        className="text-success"
+      />
+      <AlertTitle>Notification! All good</AlertTitle>
+      <AlertDescription>
+        This is a notification alert with a title and description.
+      </AlertDescription>
+    </Alert>
+  )
+}

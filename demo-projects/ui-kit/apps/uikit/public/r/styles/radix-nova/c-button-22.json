@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-22",
+  "type": "registry:block",
+  "title": "Destructive button with an icon on the left",
+  "description": "Destructive button with an icon on the left",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "@ui-kit/button",
+    "@ui-kit/icon-placeholder",
+    "@ui-kit/styles"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-22.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { IconPlaceholder } from \"@/components/ui/icon-placeholder\"\n\nexport default function Pattern() {\n  return (\n    <Button variant=\"destructive\">\n      <IconPlaceholder\n        lucide=\"Trash2Icon\"\n        tabler=\"IconTrash\"\n        hugeicons=\"Delete02Icon\"\n        phosphor=\"TrashIcon\"\n        remixicon=\"RiDeleteBinLine\"\n        aria-hidden=\"true\"\n      />\n      Delete Account\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-22.tsx"
+    }
+  ],
+  "meta": {
+    "order": 22
+  }
+}

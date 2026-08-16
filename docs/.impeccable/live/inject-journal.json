@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "appRoot": "E:\\me\\devops\\claude-partices\\demo-projects\\ui-kit\\apps\\uikit",
+  "framework": "nextjs",
+  "port": 8400,
+  "pid": 11908,
+  "recordedAt": "2026-08-15T04:20:19.770Z",
+  "artifacts": [
+    {
+      "kind": "patched",
+      "path": "app/layout.tsx",
+      "patch": "live-tag",
+      "markers": [
+        "impeccable-live-start",
+        "data-impeccable-csp-original"
+      ]
+    }
+  ]
+}

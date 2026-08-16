@@ -1,0 +1,40 @@
+// Auto-generated preview loader shard. Do not edit manually.
+import type { ComponentType } from "react"
+
+export type PreviewModule = { default: ComponentType }
+
+export const loaders: Record<string, () => Promise<PreviewModule>> = {
+  "c-select-1": () => import("../../../../../../../registry/bases/base/components/select/c-select-1"),
+  "c-select-10": () => import("../../../../../../../registry/bases/base/components/select/c-select-10"),
+  "c-select-11": () => import("../../../../../../../registry/bases/base/components/select/c-select-11"),
+  "c-select-12": () => import("../../../../../../../registry/bases/base/components/select/c-select-12"),
+  "c-select-13": () => import("../../../../../../../registry/bases/base/components/select/c-select-13"),
+  "c-select-14": () => import("../../../../../../../registry/bases/base/components/select/c-select-14"),
+  "c-select-15": () => import("../../../../../../../registry/bases/base/components/select/c-select-15"),
+  "c-select-16": () => import("../../../../../../../registry/bases/base/components/select/c-select-16"),
+  "c-select-17": () => import("../../../../../../../registry/bases/base/components/select/c-select-17"),
+  "c-select-18": () => import("../../../../../../../registry/bases/base/components/select/c-select-18"),
+  "c-select-19": () => import("../../../../../../../registry/bases/base/components/select/c-select-19"),
+  "c-select-2": () => import("../../../../../../../registry/bases/base/components/select/c-select-2"),
+  "c-select-20": () => import("../../../../../../../registry/bases/base/components/select/c-select-20"),
+  "c-select-21": () => import("../../../../../../../registry/bases/base/components/select/c-select-21"),
+  "c-select-22": () => import("../../../../../../../registry/bases/base/components/select/c-select-22"),
+  "c-select-23": () => import("../../../../../../../registry/bases/base/components/select/c-select-23"),
+  "c-select-24": () => import("../../../../../../../registry/bases/base/components/select/c-select-24"),
+  "c-select-25": () => import("../../../../../../../registry/bases/base/components/select/c-select-25"),
+  "c-select-26": () => import("../../../../../../../registry/bases/base/components/select/c-select-26"),
+  "c-select-27": () => import("../../../../../../../registry/bases/base/components/select/c-select-27"),
+  "c-select-28": () => import("../../../../../../../registry/bases/base/components/select/c-select-28"),
+  "c-select-29": () => import("../../../../../../../registry/bases/base/components/select/c-select-29"),
+  "c-select-3": () => import("../../../../../../../registry/bases/base/components/select/c-select-3"),
+  "c-select-30": () => import("../../../../../../../registry/bases/base/components/select/c-select-30"),
+  "c-select-31": () => import("../../../../../../../registry/bases/base/components/select/c-select-31"),
+  "c-select-32": () => import("../../../../../../../registry/bases/base/components/select/c-select-32"),
+  "c-select-33": () => import("../../../../../../../registry/bases/base/components/select/c-select-33"),
+  "c-select-4": () => import("../../../../../../../registry/bases/base/components/select/c-select-4"),
+  "c-select-5": () => import("../../../../../../../registry/bases/base/components/select/c-select-5"),
+  "c-select-6": () => import("../../../../../../../registry/bases/base/components/select/c-select-6"),
+  "c-select-7": () => import("../../../../../../../registry/bases/base/components/select/c-select-7"),
+  "c-select-8": () => import("../../../../../../../registry/bases/base/components/select/c-select-8"),
+  "c-select-9": () => import("../../../../../../../registry/bases/base/components/select/c-select-9"),
+}
