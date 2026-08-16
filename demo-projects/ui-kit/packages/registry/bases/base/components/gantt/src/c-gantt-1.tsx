@@ -348,7 +348,7 @@ function SettingSelect({
       <Label htmlFor={id} className="font-normal">
         {label}
       </Label>
-      <Select value={value} onValueChange={onValueChange}>
+      <Select value={value} onValueChange={(v) => v !== null && onValueChange(v)}>
         <SelectTrigger id={id} size="sm" className="w-36">
           {/* Base UI's Value renders the raw value string by default; the
               selected option's label reads better here. */}
@@ -652,7 +652,7 @@ function SettingsMenu({
 
 export default function Pattern() {
   const bars = useMemo(() => buildBars(new Date()), [])
-  const apiRef = useRef<GanttApi | null>(null)
+  const apiRef = useRef<GanttApi<any> | null>(null)
   const [rowCheckboxes, setRowCheckboxes] = useState(
     SETTINGS_DEFAULTS.rowCheckboxes
   )

@@ -166,7 +166,7 @@ function renderTooltip({
 
 export default function Pattern() {
   const events = useMemo(() => buildEvents(new Date()), [])
-  const apiRef = useRef<EventCalendarApi | null>(null)
+  const apiRef = useRef<EventCalendarApi<any> | null>(null)
   const counter = useRef(0)
 
   // Add a multi-day design project starting today and jump to it - a minimal

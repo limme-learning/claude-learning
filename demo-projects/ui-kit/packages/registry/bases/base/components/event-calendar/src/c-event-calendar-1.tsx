@@ -450,7 +450,7 @@ function SettingsTextSelect({
       <Label htmlFor={id} className="font-normal">
         {label}
       </Label>
-      <Select value={value} onValueChange={onValueChange}>
+      <Select value={value} onValueChange={(v) => v !== null && onValueChange(v)}>
         <SelectTrigger id={id} size="sm" className="w-36">
           {/* Base UI's Value renders the raw value string by default; the
               selected option's label reads better for every control here. */}
@@ -472,7 +472,7 @@ function SettingsTextSelect({
 
 export default function Pattern() {
   const events = useMemo(() => buildEvents(new Date()), [])
-  const apiRef = useRef<EventCalendarApi | null>(null)
+  const apiRef = useRef<EventCalendarApi<any> | null>(null)
   const newEventCount = useRef(0)
   const [settings, setSettings] = useState<DemoSettings>(DEFAULT_SETTINGS)
   // Mirror the active view so the settings panel can show the time-grid

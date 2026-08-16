@@ -100,7 +100,7 @@ function buildBookings(anchor: Date): CalendarEvent<BookingData>[] {
 
 export default function Pattern() {
   const events = useMemo(() => buildBookings(new Date()), [])
-  const apiRef = useRef<EventCalendarApi | null>(null)
+  const apiRef = useRef<EventCalendarApi<any> | null>(null)
   const bookingCount = useRef(0)
 
   // Add a one-hour booking at noon in the first room and jump to it - a minimal

@@ -13,7 +13,7 @@ import {
 export default function Pattern() {
   return (
     <div className="flex items-center justify-center">
-      <Drawer direction="top">
+      <Drawer swipeDirection="up">
         <DrawerTrigger render={<Button variant="outline">Top Drawer</Button>} />
         <DrawerContent className="max-h-[80vh]">
           <DrawerHeader>

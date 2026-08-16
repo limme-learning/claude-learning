@@ -112,7 +112,7 @@ function buildBars(anchor: Date): GanttEvent[] {
 
 export default function Pattern() {
   const bars = useMemo(() => buildBars(new Date()), [])
-  const apiRef = useRef<GanttApi | null>(null)
+  const apiRef = useRef<GanttApi<any> | null>(null)
   // A ref (not state) counts the adds, so it advances synchronously and stays
   // correct even when the button is clicked several times in a row.
   const addedRef = useRef(0)

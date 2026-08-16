@@ -117,7 +117,7 @@ function buildBars(anchor: Date): GanttEvent[] {
 
 export default function Pattern() {
   const bars = useMemo(() => buildBars(new Date()), [])
-  const apiRef = useRef<GanttApi | null>(null)
+  const apiRef = useRef<GanttApi<any> | null>(null)
   // How many backlog initiatives have been scheduled so far.
   const [scheduled, setScheduled] = useState(0)
 

@@ -151,7 +151,7 @@ function renderChip({
 
 export default function Pattern() {
   const events = useMemo(() => buildAppointments(new Date()), [])
-  const apiRef = useRef<EventCalendarApi | null>(null)
+  const apiRef = useRef<EventCalendarApi<any> | null>(null)
   const counter = useRef(0)
 
   // Drag across an open span to book it. The calendar reports the drawn slot

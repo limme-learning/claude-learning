@@ -136,7 +136,7 @@ function buildBars(anchor: Date): GanttEvent[] {
 
 export default function Pattern() {
   const bars = useMemo(() => buildBars(new Date()), [])
-  const apiRef = useRef<GanttApi | null>(null)
+  const apiRef = useRef<GanttApi<any> | null>(null)
   const [resources, setResources] = useState<GanttResource[]>(INITIAL_RESOURCES)
   const [meta, setMeta] = useState<Record<string, TaskMeta>>(INITIAL_META)
   // A ref (not state) numbers each appended task, so ids stay unique even when
