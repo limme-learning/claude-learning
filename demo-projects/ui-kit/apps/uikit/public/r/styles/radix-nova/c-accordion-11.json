@@ -8,14 +8,14 @@
     "accordion"
   ],
   "registryDependencies": [
-    "accordion",
-    "badge-block",
-    "button",
-    "button-group",
-    "icon-placeholder",
-    "input",
-    "spinner",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/accordion.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/spinner.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

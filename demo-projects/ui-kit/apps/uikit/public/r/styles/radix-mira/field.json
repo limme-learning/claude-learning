@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "label",
-    "separator",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-mira/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

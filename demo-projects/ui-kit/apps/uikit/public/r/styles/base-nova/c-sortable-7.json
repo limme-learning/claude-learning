@@ -8,10 +8,10 @@
     "sortable"
   ],
   "registryDependencies": [
-    "frame",
-    "icon-placeholder",
-    "sortable",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/frame.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/sortable.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

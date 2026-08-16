@@ -7,11 +7,11 @@
     "ui"
   ],
   "registryDependencies": [
-    "dialog",
-    "icon-placeholder",
-    "input-group",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/dialog.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "cmdk"

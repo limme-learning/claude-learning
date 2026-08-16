@@ -8,10 +8,10 @@
     "combobox"
   ],
   "registryDependencies": [
-    "button",
-    "combobox",
-    "field",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/combobox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [
     "sonner"

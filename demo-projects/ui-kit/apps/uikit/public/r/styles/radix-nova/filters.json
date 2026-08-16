@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "button-group",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "input-group",
-    "kbd",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/kbd.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

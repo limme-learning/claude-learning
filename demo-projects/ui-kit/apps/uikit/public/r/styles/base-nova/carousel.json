@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [
     "embla-carousel-react"

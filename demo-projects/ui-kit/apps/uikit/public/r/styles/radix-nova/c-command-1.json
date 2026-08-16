@@ -8,10 +8,10 @@
     "command"
   ],
   "registryDependencies": [
-    "card",
-    "command",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/command.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

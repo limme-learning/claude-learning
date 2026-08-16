@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-luma/button.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/utils.json"
   ],
   "dependencies": [],
   "files": [

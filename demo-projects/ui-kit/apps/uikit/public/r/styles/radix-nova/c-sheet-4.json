@@ -8,10 +8,10 @@
     "sheet"
   ],
   "registryDependencies": [
-    "button",
-    "scroll-area",
-    "sheet",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/sheet.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

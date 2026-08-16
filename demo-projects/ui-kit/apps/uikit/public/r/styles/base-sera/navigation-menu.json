@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-sera/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

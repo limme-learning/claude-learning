@@ -7,8 +7,8 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-maia/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/utils.json"
   ],
   "dependencies": [
     "react-resizable-panels"

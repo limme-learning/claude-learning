@@ -8,13 +8,13 @@
     "field"
   ],
   "registryDependencies": [
-    "button",
-    "checkbox",
-    "field",
-    "input",
-    "styles",
-    "switch",
-    "textarea"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/switch.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/textarea.json"
   ],
   "dependencies": [],
   "files": [

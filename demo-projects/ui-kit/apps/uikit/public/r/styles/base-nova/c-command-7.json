@@ -8,10 +8,10 @@
     "command"
   ],
   "registryDependencies": [
-    "button",
-    "command",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/command.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

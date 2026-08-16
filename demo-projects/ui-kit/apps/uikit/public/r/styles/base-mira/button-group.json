@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "separator",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-mira/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

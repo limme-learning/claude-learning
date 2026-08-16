@@ -8,10 +8,10 @@
     "field"
   ],
   "registryDependencies": [
-    "field",
-    "input-otp",
-    "native-select",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input-otp.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/native-select.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

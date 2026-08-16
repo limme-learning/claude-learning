@@ -8,9 +8,9 @@
     "tree"
   ],
   "registryDependencies": [
-    "checkbox",
-    "styles",
-    "tree"
+    "https://uikit.limmengty.com/r/styles/radix-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tree.json"
   ],
   "dependencies": [
     "@headless-tree/core",

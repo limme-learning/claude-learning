@@ -8,11 +8,11 @@
     "dropdown-menu"
   ],
   "registryDependencies": [
-    "button",
-    "dropdown-menu",
-    "icon-placeholder",
-    "styles",
-    "svgs"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/svgs.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,12 +8,12 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "alert",
-    "autocomplete",
-    "button",
-    "field",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/alert.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/autocomplete.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [
     "@hookform/resolvers",

@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "checkbox",
-    "context-menu",
-    "dropdown-menu",
-    "icon-placeholder",
-    "popover",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-sera/button.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/calendar.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/context-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

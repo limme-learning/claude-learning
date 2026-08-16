@@ -7,11 +7,11 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "input",
-    "styles",
-    "textarea",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-sera/button.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/input.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/textarea.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

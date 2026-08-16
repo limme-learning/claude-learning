@@ -7,11 +7,11 @@
     "ui"
   ],
   "registryDependencies": [
-    "dialog",
-    "icon-placeholder",
-    "input-group",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-luma/dialog.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/utils.json"
   ],
   "dependencies": [
     "cmdk"

@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "button-group",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "input-group",
-    "kbd",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-sera/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/button-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/input-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/kbd.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

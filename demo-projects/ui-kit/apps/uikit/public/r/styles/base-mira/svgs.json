@@ -7,7 +7,7 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-mira/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "label",
-    "separator",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/label.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

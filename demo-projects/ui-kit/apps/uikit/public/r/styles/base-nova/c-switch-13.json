@@ -8,9 +8,9 @@
     "switch"
   ],
   "registryDependencies": [
-    "separator",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/base-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

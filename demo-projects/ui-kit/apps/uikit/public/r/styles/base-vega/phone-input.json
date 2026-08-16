@@ -7,13 +7,13 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "combobox",
-    "icon-placeholder",
-    "input",
-    "scroll-area",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/button.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/combobox.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/input.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "react-phone-number-input"

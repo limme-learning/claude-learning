@@ -8,10 +8,10 @@
     "pagination"
   ],
   "registryDependencies": [
-    "card",
-    "icon-placeholder",
-    "pagination",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/pagination.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

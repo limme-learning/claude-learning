@@ -8,12 +8,12 @@
     "rating"
   ],
   "registryDependencies": [
-    "button",
-    "card",
-    "label",
-    "rating",
-    "styles",
-    "textarea"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/rating.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/textarea.json"
   ],
   "dependencies": [],
   "files": [

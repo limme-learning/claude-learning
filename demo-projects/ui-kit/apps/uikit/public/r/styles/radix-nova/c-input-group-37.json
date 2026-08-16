@@ -8,13 +8,13 @@
     "input-group"
   ],
   "registryDependencies": [
-    "checkbox",
-    "field",
-    "icon-placeholder",
-    "input-group",
-    "label",
-    "popover",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,14 +8,14 @@
     "input-group"
   ],
   "registryDependencies": [
-    "checkbox",
-    "dropdown-menu",
-    "field",
-    "icon-placeholder",
-    "input-group",
-    "label",
-    "popover",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "collapsible",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/collapsible.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

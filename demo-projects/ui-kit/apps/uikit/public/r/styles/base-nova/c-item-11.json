@@ -8,11 +8,11 @@
     "item"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "icon-placeholder",
-    "item",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/item.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

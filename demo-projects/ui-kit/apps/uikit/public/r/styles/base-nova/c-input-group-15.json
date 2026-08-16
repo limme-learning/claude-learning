@@ -8,10 +8,10 @@
     "input-group"
   ],
   "registryDependencies": [
-    "field",
-    "input-group",
-    "spinner",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/spinner.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

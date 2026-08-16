@@ -8,13 +8,13 @@
     "card"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "card",
-    "dropdown-menu",
-    "icon-placeholder",
-    "separator",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

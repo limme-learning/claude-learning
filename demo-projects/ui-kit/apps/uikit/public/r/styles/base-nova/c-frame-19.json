@@ -8,8 +8,8 @@
     "frame"
   ],
   "registryDependencies": [
-    "frame",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/frame.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

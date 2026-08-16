@@ -8,9 +8,9 @@
     "menubar"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "menubar",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/menubar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

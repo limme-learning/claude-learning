@@ -17,6 +17,18 @@ const BASES = ["base", "radix"] as const
 const KINDS = ["components"] as const
 const DEFAULT_VARIANT = "nova"
 const REGISTRY_NAMESPACE = "@ui-kit"
+// shadcn CLI resolves a bare registryDependency name to the built-in shadcn/ui
+// registry, never to the registry the parent item came from (confirmed via
+// shadcn's own registry FAQ: "Bare registry dependency names keep the
+// existing shadcn behavior. `button` means the built-in shadcn `button`
+// item."). A same-registry sibling dependency must therefore be a full
+// absolute URL — the one form the CLI always fetches directly, no consumer
+// components.json config required. Override with UIKIT_SITE_URL at build
+// time for previews/self-hosting; defaults to the production domain.
+const SITE_URL = (process.env.UIKIT_SITE_URL || "https://uikit.limmengty.com").replace(
+  /\/$/,
+  ""
+)
 const STYLE_FALLBACK = [
   "vega",
   "nova",
@@ -675,19 +687,18 @@ function toManifestItem(item: RegistryItem) {
   }
 }
 
-// shadcn resolves a bare registryDependency name (no scope, no slash) against
-// the SAME base URL the parent item was fetched from — the standard pattern
-// for a self-hosted registry (https://ui.shadcn.com/docs/registry/examples).
-// A `${REGISTRY_NAMESPACE}/name` form instead tells the CLI to look up a
-// *named* registry called "@ui-kit" in the consumer's components.json, which
-// we don't publish, so it always fails with "Unknown registry \"@ui-kit\"".
-// Only strip our own namespace prefix here (added internally so
-// verify-registry.ts can tell a same-registry dep from an external one);
-// leave genuine external deps (other scopes, URLs) untouched.
-function normalizeDep(dep: string): string {
-  return dep.startsWith(`${REGISTRY_NAMESPACE}/`)
+// Turn an internal same-registry dep name (bare, or "@ui-kit/name") into the
+// absolute URL of its sibling item in this same style directory. External
+// deps (a genuine "@other-scope/name" or an existing URL) pass through
+// untouched — see the SITE_URL comment above for why bare names can't be
+// left as-is.
+function normalizeDep(dep: string, dirName: string): string {
+  if (dep.startsWith("http://") || dep.startsWith("https://")) return dep
+  const name = dep.startsWith(`${REGISTRY_NAMESPACE}/`)
     ? dep.slice(REGISTRY_NAMESPACE.length + 1)
     : dep
+  if (name.startsWith("@") || name.includes("/")) return dep
+  return `${SITE_URL}/r/styles/${dirName}/${name}.json`
 }
 
 function readStyleNames(): string[] {
@@ -759,7 +770,7 @@ export async function buildRegistry() {
       const manifest = {
         $schema: "https://ui.shadcn.com/schema/registry.json",
         name: dirName,
-        homepage: "http://localhost:3001",
+        homepage: SITE_URL,
         items: items.map(toManifestItem),
       }
       await fs.writeFile(
@@ -771,7 +782,9 @@ export async function buildRegistry() {
         const registryItem = {
           $schema: "https://ui.shadcn.com/schema/registry-item.json",
           ...item,
-          registryDependencies: item.registryDependencies.map(normalizeDep),
+          registryDependencies: item.registryDependencies.map((dep) =>
+            normalizeDep(dep, dirName)
+          ),
         }
         await fs.writeFile(
           path.join(outDir, `${item.name}.json`),
@@ -804,7 +817,7 @@ export async function buildRegistry() {
   const flatRegistry = {
     $schema: "https://ui.shadcn.com/schema/registry.json",
     name: "ui-kit",
-    homepage: "http://localhost:3001",
+    homepage: SITE_URL,
     items: flatItems.map(toManifestItem),
   }
   await fs.writeFile(

@@ -8,8 +8,8 @@
     "accordion"
   ],
   "registryDependencies": [
-    "accordion",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/accordion.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

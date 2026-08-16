@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-sera/button.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/utils.json"
   ],
   "dependencies": [
     "@base-ui/react"

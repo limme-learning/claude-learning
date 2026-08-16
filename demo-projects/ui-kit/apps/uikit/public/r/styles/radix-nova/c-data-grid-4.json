@@ -8,11 +8,11 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "avatar",
-    "badge-block",
-    "data-grid",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/data-grid.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [
     "@tanstack/react-table"

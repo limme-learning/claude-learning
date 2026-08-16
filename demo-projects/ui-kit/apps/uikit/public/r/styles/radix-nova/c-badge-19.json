@@ -8,8 +8,8 @@
     "badge"
   ],
   "registryDependencies": [
-    "badge-block",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

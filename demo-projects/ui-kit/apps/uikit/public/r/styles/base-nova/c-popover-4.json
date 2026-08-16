@@ -8,9 +8,9 @@
     "popover"
   ],
   "registryDependencies": [
-    "button",
-    "popover",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

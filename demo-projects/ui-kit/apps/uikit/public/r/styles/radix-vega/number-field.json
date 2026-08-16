@@ -7,10 +7,10 @@
     "blocks"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "label",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-vega/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-vega/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-vega/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

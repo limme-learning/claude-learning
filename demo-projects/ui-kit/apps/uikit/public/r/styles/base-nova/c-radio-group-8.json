@@ -8,11 +8,11 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "card",
-    "field",
-    "radio-group",
-    "separator",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/radio-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

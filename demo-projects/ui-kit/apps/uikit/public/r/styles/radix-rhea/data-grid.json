@@ -7,19 +7,19 @@
     "blocks"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "checkbox",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "popover",
-    "select",
-    "separator",
-    "skeleton",
-    "spinner",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-rhea/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/select.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/skeleton.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/spinner.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

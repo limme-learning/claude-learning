@@ -7,11 +7,11 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "input",
-    "styles",
-    "textarea",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/textarea.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

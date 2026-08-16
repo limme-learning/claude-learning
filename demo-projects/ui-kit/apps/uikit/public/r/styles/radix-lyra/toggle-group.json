@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles",
-    "toggle",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-lyra/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/toggle.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/utils.json"
   ],
   "dependencies": [
     "class-variance-authority",

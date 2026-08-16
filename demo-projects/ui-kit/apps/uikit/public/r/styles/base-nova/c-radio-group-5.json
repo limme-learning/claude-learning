@@ -8,9 +8,9 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "field",
-    "radio-group",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/radio-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

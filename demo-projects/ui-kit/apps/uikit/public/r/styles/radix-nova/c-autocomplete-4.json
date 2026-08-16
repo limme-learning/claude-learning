@@ -8,9 +8,9 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "autocomplete",
-    "label",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/autocomplete.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

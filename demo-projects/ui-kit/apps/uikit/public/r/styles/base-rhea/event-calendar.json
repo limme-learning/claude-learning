@@ -7,16 +7,16 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "dropdown-menu",
-    "icon-placeholder",
-    "icon-stack",
-    "popover",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-rhea/button.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/calendar.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/icon-stack.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

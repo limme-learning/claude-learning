@@ -8,13 +8,13 @@
     "button-group"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "button-group",
-    "icon-placeholder",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

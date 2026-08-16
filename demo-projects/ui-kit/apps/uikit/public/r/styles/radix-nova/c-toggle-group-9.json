@@ -8,9 +8,9 @@
     "toggle-group"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "toggle-group"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/toggle-group.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "combobox"
   ],
   "registryDependencies": [
-    "button",
-    "combobox",
-    "dialog",
-    "field",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/combobox.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [
     "sonner"

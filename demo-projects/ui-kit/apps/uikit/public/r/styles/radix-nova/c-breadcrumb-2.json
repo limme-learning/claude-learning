@@ -8,10 +8,10 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "breadcrumb",
-    "button",
-    "dropdown-menu",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/breadcrumb.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

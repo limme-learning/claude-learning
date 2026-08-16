@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles",
-    "toggle",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-rhea/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/toggle.json",
+    "https://uikit.limmengty.com/r/styles/base-rhea/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

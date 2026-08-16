@@ -8,9 +8,9 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "badge-block",
-    "breadcrumb",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/breadcrumb.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

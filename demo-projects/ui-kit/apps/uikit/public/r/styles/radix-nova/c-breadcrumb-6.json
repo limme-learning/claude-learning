@@ -8,8 +8,8 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "breadcrumb",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/breadcrumb.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

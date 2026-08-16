@@ -86,19 +86,29 @@ function isValidItem(item: unknown): item is RegistryItem {
 
 /**
  * Resolve a registryDependency address to a sibling item JSON file in the same
- * style directory. Namespaced addresses (`@ui-kit/button`) resolve to
- * `<name>.json`; URLs and GitHub addresses are left to the CLI and skipped.
+ * style directory. Same-registry deps are shipped as absolute URLs
+ * (`.../r/styles/<styleDir>/<name>.json` — see build-registry.ts's SITE_URL
+ * comment for why bare/namespaced names can't be used instead); a URL whose
+ * path matches this style's own directory resolves to `<name>.json` here.
+ * Namespaced (`@ui-kit/button`) and bare addresses are legacy/internal forms
+ * checked the same way. A URL pointing anywhere else, or a genuine
+ * "@other-scope/name", is a real external dep and is left to the CLI.
  */
-function resolveDependencyFile(dep: string, dirPath: string): string | null {
+function resolveDependencyFile(
+  dep: string,
+  dirPath: string,
+  styleDir: string
+): string | null {
   let itemName: string | null = null
-  if (dep.startsWith(NAMESPACE)) {
+  if (dep.startsWith("http://") || dep.startsWith("https://")) {
+    const match = dep.match(
+      new RegExp(`/r/styles/${styleDir}/([^/]+)\\.json$`)
+    )
+    itemName = match ? match[1]! : null
+  } else if (dep.startsWith(NAMESPACE)) {
     itemName = dep.slice(NAMESPACE.length + 1)
-  } else if (
-    dep.startsWith("http://") ||
-    dep.startsWith("https://") ||
-    dep.includes("/")
-  ) {
-    return null
+  } else if (!dep.includes("/")) {
+    itemName = dep
   }
   if (!itemName) return null
   const target = path.join(dirPath, `${itemName}.json`)
@@ -177,14 +187,12 @@ function checkItem(
   }
 
   // Every installable item must pull in the ui-kit stylesheet.
-  const rawRegistryDeps = (item.registryDependencies ?? []) as string[]
-  const registryDeps = rawRegistryDeps.map((d) =>
-    d.startsWith(NAMESPACE) || d.includes("/") ? d : `${NAMESPACE}/${d}`
+  const registryDeps = (item.registryDependencies ?? []) as string[]
+  const pullsInStyles = registryDeps.some(
+    (d) => resolveDependencyFile(d, dirPath, styleDir) === path.join(dirPath, "styles.json")
   )
-  if (name !== "styles" && !registryDeps.includes(`${NAMESPACE}/styles`)) {
-    violations.push(
-      `${label}: missing required registryDependency ${NAMESPACE}/styles`
-    )
+  if (name !== "styles" && !pullsInStyles) {
+    violations.push(`${label}: missing required registryDependency on styles`)
   }
 
   const files = item.files
@@ -281,8 +289,7 @@ function checkItem(
 
   // Every registryDependency must resolve to a sibling item JSON file.
   for (const dep of registryDeps) {
-    if (dep === `${NAMESPACE}/styles` && name === "styles") continue
-    if (resolveDependencyFile(dep, dirPath) === null) {
+    if (resolveDependencyFile(dep, dirPath, styleDir) === null) {
       violations.push(
         `${label}: registryDependency '${dep}' does not resolve to a file in ${styleDir}`
       )

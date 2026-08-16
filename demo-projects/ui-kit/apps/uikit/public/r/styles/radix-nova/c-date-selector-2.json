@@ -8,12 +8,12 @@
     "date-selector"
   ],
   "registryDependencies": [
-    "button",
-    "date-selector",
-    "icon-placeholder",
-    "popover",
-    "separator",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/date-selector.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

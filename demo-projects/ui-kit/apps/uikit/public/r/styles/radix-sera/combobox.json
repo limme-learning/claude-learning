@@ -7,11 +7,11 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "input-group",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-sera/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/input-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/utils.json"
   ],
   "dependencies": [
     "@base-ui/react"

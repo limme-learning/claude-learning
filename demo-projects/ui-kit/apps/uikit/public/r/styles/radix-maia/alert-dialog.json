@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-maia/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/utils.json"
   ],
   "dependencies": [
     "radix-ui"

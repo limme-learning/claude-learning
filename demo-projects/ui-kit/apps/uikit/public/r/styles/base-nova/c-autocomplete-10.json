@@ -8,8 +8,8 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "autocomplete",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/autocomplete.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

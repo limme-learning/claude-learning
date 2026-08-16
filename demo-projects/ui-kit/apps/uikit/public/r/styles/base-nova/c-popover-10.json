@@ -8,12 +8,12 @@
     "popover"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "popover",
-    "slider",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/slider.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,9 +8,9 @@
     "spinner"
   ],
   "registryDependencies": [
-    "button",
-    "spinner",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/spinner.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

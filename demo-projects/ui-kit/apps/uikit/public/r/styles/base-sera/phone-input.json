@@ -7,13 +7,13 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "combobox",
-    "icon-placeholder",
-    "input",
-    "scroll-area",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-sera/button.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/combobox.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/input.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-sera/utils.json"
   ],
   "dependencies": [
     "react-phone-number-input"

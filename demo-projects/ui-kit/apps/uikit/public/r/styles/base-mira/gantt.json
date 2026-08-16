@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "checkbox",
-    "context-menu",
-    "dropdown-menu",
-    "icon-placeholder",
-    "popover",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-mira/button.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/calendar.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/context-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

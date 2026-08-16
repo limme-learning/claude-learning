@@ -7,7 +7,7 @@
     "hooks"
   ],
   "registryDependencies": [
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-luma/styles.json"
   ],
   "dependencies": [],
   "files": [

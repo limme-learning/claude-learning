@@ -8,11 +8,11 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "card",
-    "collapsible",
-    "icon-placeholder",
-    "item",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/collapsible.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/item.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

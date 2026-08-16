@@ -8,14 +8,14 @@
     "combobox"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "combobox",
-    "dialog",
-    "field",
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/combobox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [
     "date-fns"

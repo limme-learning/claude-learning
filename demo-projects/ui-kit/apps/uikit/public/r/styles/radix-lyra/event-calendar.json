@@ -7,16 +7,16 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "dropdown-menu",
-    "icon-placeholder",
-    "icon-stack",
-    "popover",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-lyra/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/icon-stack.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/utils.json"
   ],
   "dependencies": [
     "@date-fns/tz",

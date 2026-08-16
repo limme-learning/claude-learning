@@ -8,10 +8,10 @@
     "tooltip"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "styles",
-    "tooltip"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/tooltip.json"
   ],
   "dependencies": [],
   "files": [

@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "separator",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

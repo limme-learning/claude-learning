@@ -8,9 +8,9 @@
     "scroll-area"
   ],
   "registryDependencies": [
-    "scroll-area",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,13 +8,13 @@
     "card"
   ],
   "registryDependencies": [
-    "button",
-    "card",
-    "field",
-    "icon-placeholder",
-    "input",
-    "input-group",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

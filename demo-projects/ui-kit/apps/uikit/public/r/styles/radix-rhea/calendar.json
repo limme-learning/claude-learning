@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-rhea/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/utils.json"
   ],
   "dependencies": [
     "react-day-picker"

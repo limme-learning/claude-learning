@@ -8,9 +8,9 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "breadcrumb",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/breadcrumb.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

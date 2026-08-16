@@ -8,11 +8,11 @@
     "input-group"
   ],
   "registryDependencies": [
-    "dropdown-menu",
-    "field",
-    "icon-placeholder",
-    "input-group",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,8 +8,8 @@
     "rating"
   ],
   "registryDependencies": [
-    "rating",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/rating.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

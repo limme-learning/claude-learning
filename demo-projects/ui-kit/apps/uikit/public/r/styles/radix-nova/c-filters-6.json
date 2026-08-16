@@ -8,17 +8,17 @@
     "filters"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "date-selector",
-    "dialog",
-    "filters",
-    "icon-placeholder",
-    "popover",
-    "scroll-area",
-    "slider",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/date-selector.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/filters.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/slider.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [
     "date-fns",

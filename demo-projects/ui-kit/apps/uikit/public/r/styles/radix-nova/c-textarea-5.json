@@ -8,9 +8,9 @@
     "textarea"
   ],
   "registryDependencies": [
-    "field",
-    "styles",
-    "textarea"
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/textarea.json"
   ],
   "dependencies": [],
   "files": [

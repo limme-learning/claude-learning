@@ -8,10 +8,10 @@
     "tabs"
   ],
   "registryDependencies": [
-    "badge-block",
-    "card",
-    "styles",
-    "tabs"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/tabs.json"
   ],
   "dependencies": [],
   "files": [

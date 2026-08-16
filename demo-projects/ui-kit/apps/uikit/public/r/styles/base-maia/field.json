@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "label",
-    "separator",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-maia/label.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

@@ -8,14 +8,14 @@
     "file-upload"
   ],
   "registryDependencies": [
-    "alert-block",
-    "button",
-    "card",
-    "icon-placeholder",
-    "progress",
-    "sortable",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/alert-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/progress.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/sortable.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [
     "sonner"

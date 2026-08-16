@@ -8,11 +8,11 @@
     "label"
   ],
   "registryDependencies": [
-    "badge-block",
-    "field",
-    "input",
-    "label",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

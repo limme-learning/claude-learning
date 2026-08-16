@@ -8,11 +8,11 @@
     "accordion"
   ],
   "registryDependencies": [
-    "accordion",
-    "avatar",
-    "badge-block",
-    "frame",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/accordion.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/frame.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

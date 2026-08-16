@@ -8,9 +8,9 @@
     "skeleton"
   ],
   "registryDependencies": [
-    "separator",
-    "skeleton",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/skeleton.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

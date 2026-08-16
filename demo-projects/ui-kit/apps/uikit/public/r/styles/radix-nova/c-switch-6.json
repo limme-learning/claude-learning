@@ -8,11 +8,11 @@
     "switch"
   ],
   "registryDependencies": [
-    "card",
-    "field",
-    "separator",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

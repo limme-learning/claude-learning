@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-luma/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-luma/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-luma/utils.json"
   ],
   "dependencies": [],
   "files": [

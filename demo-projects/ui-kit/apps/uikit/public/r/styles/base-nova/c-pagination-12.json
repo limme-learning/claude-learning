@@ -8,10 +8,10 @@
     "pagination"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "native-select",
-    "pagination",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/native-select.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/pagination.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

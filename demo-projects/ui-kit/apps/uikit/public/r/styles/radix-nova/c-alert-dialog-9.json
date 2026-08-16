@@ -8,13 +8,13 @@
     "alert-dialog"
   ],
   "registryDependencies": [
-    "alert-dialog",
-    "button",
-    "checkbox",
-    "frame",
-    "icon-placeholder",
-    "label",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/alert-dialog.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/frame.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

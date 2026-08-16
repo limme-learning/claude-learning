@@ -8,8 +8,8 @@
     "progress"
   ],
   "registryDependencies": [
-    "progress",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/progress.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

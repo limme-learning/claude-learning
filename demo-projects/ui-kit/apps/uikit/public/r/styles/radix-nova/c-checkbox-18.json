@@ -8,11 +8,11 @@
     "checkbox"
   ],
   "registryDependencies": [
-    "checkbox",
-    "field",
-    "icon-placeholder",
-    "styles",
-    "tooltip"
+    "https://uikit.limmengty.com/r/styles/radix-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tooltip.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "date-selector"
   ],
   "registryDependencies": [
-    "button",
-    "date-selector",
-    "dialog",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/date-selector.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

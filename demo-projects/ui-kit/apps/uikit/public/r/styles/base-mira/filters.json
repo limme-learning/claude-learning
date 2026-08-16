@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "button-group",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "input-group",
-    "kbd",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-mira/button.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/button-group.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/input.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/kbd.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

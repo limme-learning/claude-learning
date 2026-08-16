@@ -8,13 +8,13 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "avatar",
-    "badge-block",
-    "button",
-    "card",
-    "data-grid",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/data-grid.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [
     "@tanstack/react-table",

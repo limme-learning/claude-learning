@@ -8,13 +8,13 @@
     "item"
   ],
   "registryDependencies": [
-    "avatar",
-    "badge-block",
-    "button",
-    "icon-placeholder",
-    "item",
-    "progress",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/item.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/progress.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "button-group"
   ],
   "registryDependencies": [
-    "button-group",
-    "icon-placeholder",
-    "select",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/select.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

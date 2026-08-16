@@ -8,9 +8,9 @@
     "context-menu"
   ],
   "registryDependencies": [
-    "context-menu",
-    "icon-placeholder",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/context-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,17 +8,17 @@
     "event-calendar"
   ],
   "registryDependencies": [
-    "button",
-    "card",
-    "dialog",
-    "event-calendar",
-    "field",
-    "icon-placeholder",
-    "input",
-    "select",
-    "styles",
-    "switch",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/event-calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/select.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/switch.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [
     "date-fns"

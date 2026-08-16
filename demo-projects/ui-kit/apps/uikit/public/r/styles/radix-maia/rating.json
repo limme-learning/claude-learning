@@ -7,9 +7,9 @@
     "blocks"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-maia/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

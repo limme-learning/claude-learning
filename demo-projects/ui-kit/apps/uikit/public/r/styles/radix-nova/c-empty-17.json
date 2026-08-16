@@ -8,9 +8,9 @@
     "empty"
   ],
   "registryDependencies": [
-    "button",
-    "empty",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/empty.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

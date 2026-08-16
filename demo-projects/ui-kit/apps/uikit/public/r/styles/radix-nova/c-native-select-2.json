@@ -8,8 +8,8 @@
     "native-select"
   ],
   "registryDependencies": [
-    "native-select",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/native-select.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

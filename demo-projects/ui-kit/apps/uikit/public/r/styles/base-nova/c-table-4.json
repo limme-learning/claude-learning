@@ -8,12 +8,12 @@
     "table"
   ],
   "registryDependencies": [
-    "button",
-    "card",
-    "dropdown-menu",
-    "icon-placeholder",
-    "styles",
-    "table"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/table.json"
   ],
   "dependencies": [],
   "files": [

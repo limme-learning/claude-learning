@@ -8,14 +8,14 @@
     "dropdown-menu"
   ],
   "registryDependencies": [
-    "avatar",
-    "badge-block",
-    "button",
-    "dropdown-menu",
-    "icon-placeholder",
-    "styles",
-    "tabs",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tabs.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

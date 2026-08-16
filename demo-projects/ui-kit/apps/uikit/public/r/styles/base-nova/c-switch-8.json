@@ -8,11 +8,11 @@
     "switch"
   ],
   "registryDependencies": [
-    "field",
-    "frame",
-    "separator",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/frame.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

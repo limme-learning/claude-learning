@@ -8,10 +8,10 @@
     "checkbox"
   ],
   "registryDependencies": [
-    "badge-block",
-    "checkbox",
-    "field",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

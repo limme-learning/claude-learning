@@ -8,10 +8,10 @@
     "rating"
   ],
   "registryDependencies": [
-    "progress",
-    "rating",
-    "separator",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/progress.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/rating.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

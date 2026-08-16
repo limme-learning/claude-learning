@@ -7,7 +7,7 @@
     "blocks"
   ],
   "registryDependencies": [
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-lyra/styles.json"
   ],
   "dependencies": [],
   "files": [

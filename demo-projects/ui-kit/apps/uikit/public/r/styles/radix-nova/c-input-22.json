@@ -8,11 +8,11 @@
     "input"
   ],
   "registryDependencies": [
-    "field",
-    "icon-placeholder",
-    "input",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

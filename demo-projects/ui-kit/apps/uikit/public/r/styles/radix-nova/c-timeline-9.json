@@ -8,8 +8,8 @@
     "timeline"
   ],
   "registryDependencies": [
-    "styles",
-    "timeline"
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/timeline.json"
   ],
   "dependencies": [],
   "files": [

@@ -7,8 +7,8 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-rhea/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/utils.json"
   ],
   "dependencies": [],
   "files": [

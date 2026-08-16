@@ -8,17 +8,17 @@
     "event-calendar"
   ],
   "registryDependencies": [
-    "avatar",
-    "button",
-    "card",
-    "event-calendar",
-    "icon-placeholder",
-    "label",
-    "popover",
-    "select",
-    "styles",
-    "switch",
-    "tabs"
+    "https://uikit.limmengty.com/r/styles/radix-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/event-calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/select.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/switch.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tabs.json"
   ],
   "dependencies": [
     "date-fns"

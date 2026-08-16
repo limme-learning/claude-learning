@@ -7,19 +7,19 @@
     "blocks"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "checkbox",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "popover",
-    "select",
-    "separator",
-    "skeleton",
-    "spinner",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/button.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/input.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/select.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/skeleton.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/spinner.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

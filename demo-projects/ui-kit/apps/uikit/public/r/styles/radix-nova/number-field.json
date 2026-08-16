@@ -7,10 +7,10 @@
     "blocks"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "label",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

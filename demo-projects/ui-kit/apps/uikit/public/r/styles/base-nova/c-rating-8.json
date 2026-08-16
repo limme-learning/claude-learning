@@ -8,8 +8,8 @@
     "rating"
   ],
   "registryDependencies": [
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

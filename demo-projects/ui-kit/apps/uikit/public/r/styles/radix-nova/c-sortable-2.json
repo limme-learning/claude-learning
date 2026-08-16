@@ -8,11 +8,11 @@
     "sortable"
   ],
   "registryDependencies": [
-    "badge-block",
-    "icon-placeholder",
-    "sortable",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/sortable.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [
     "sonner"

@@ -7,19 +7,19 @@
     "blocks"
   ],
   "registryDependencies": [
-    "badge-block",
-    "button",
-    "checkbox",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "popover",
-    "select",
-    "separator",
-    "skeleton",
-    "spinner",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-mira/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/button.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/input.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/select.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/skeleton.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/spinner.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

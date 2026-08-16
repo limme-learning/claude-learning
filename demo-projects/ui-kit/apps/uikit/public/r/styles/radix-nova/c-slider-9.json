@@ -8,9 +8,9 @@
     "slider"
   ],
   "registryDependencies": [
-    "label",
-    "slider",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/slider.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

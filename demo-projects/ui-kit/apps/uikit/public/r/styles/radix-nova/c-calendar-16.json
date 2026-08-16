@@ -8,10 +8,10 @@
     "calendar"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "card",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [
     "date-fns",

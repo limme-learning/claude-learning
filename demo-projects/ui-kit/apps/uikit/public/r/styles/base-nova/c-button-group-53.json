@@ -8,13 +8,13 @@
     "button-group"
   ],
   "registryDependencies": [
-    "avatar",
-    "button",
-    "button-group",
-    "dropdown-menu",
-    "icon-placeholder",
-    "separator",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/button-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

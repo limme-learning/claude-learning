@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-vega/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-vega/utils.json"
   ],
   "dependencies": [
     "radix-ui"

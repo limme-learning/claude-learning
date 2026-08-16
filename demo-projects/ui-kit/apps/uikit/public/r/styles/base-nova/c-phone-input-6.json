@@ -8,8 +8,8 @@
     "phone-input"
   ],
   "registryDependencies": [
-    "phone-input",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/phone-input.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

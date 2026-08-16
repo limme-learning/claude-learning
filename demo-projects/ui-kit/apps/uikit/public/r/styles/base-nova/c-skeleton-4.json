@@ -8,8 +8,8 @@
     "skeleton"
   ],
   "registryDependencies": [
-    "skeleton",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/skeleton.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

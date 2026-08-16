@@ -8,9 +8,9 @@
     "date-selector"
   ],
   "registryDependencies": [
-    "card",
-    "date-selector",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/date-selector.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [
     "date-fns"

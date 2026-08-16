@@ -8,8 +8,8 @@
     "table"
   ],
   "registryDependencies": [
-    "styles",
-    "table"
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/table.json"
   ],
   "dependencies": [],
   "files": [

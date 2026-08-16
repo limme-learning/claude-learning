@@ -8,8 +8,8 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "data-grid",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/data-grid.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [
     "@tanstack/react-table"

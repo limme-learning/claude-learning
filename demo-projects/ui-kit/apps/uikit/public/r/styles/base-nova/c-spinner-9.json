@@ -8,8 +8,8 @@
     "spinner"
   ],
   "registryDependencies": [
-    "spinner",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/spinner.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

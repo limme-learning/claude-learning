@@ -7,7 +7,7 @@
     "lib"
   ],
   "registryDependencies": [
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-lyra/styles.json"
   ],
   "dependencies": [
     "clsx",

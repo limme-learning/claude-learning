@@ -8,11 +8,11 @@
     "dialog"
   ],
   "registryDependencies": [
-    "button",
-    "dialog",
-    "label",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

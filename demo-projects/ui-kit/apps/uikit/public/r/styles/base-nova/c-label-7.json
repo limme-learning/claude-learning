@@ -8,12 +8,12 @@
     "label"
   ],
   "registryDependencies": [
-    "field",
-    "icon-placeholder",
-    "input",
-    "label",
-    "styles",
-    "tooltip"
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/tooltip.json"
   ],
   "dependencies": [],
   "files": [

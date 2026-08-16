@@ -8,10 +8,10 @@
     "item"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "item",
-    "kbd",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/item.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/kbd.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

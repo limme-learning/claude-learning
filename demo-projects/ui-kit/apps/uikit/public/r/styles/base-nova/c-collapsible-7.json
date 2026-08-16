@@ -8,13 +8,13 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "button",
-    "collapsible",
-    "dropdown-menu",
-    "frame",
-    "icon-placeholder",
-    "styles",
-    "use-copy-to-clipboard"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/collapsible.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/frame.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/use-copy-to-clipboard.json"
   ],
   "dependencies": [],
   "files": [

@@ -7,8 +7,8 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "@base-ui/react"

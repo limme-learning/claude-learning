@@ -8,10 +8,10 @@
     "alert-dialog"
   ],
   "registryDependencies": [
-    "alert-dialog",
-    "button",
-    "dialog",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/alert-dialog.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

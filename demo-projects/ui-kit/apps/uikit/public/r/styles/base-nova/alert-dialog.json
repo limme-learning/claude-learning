@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "button",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [
     "@base-ui/react"

@@ -8,10 +8,10 @@
     "hover-card"
   ],
   "registryDependencies": [
-    "badge-block",
-    "hover-card",
-    "separator",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/hover-card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [
     "date-fns"

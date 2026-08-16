@@ -8,8 +8,8 @@
     "slider"
   ],
   "registryDependencies": [
-    "slider",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/slider.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

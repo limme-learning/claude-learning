@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "label",
-    "separator",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-lyra/label.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-lyra/utils.json"
   ],
   "dependencies": [
     "class-variance-authority"

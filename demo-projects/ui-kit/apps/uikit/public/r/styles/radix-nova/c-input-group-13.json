@@ -8,10 +8,10 @@
     "input-group"
   ],
   "registryDependencies": [
-    "field",
-    "input-group",
-    "kbd",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/kbd.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,9 +8,9 @@
     "pagination"
   ],
   "registryDependencies": [
-    "native-select",
-    "pagination",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/native-select.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/pagination.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

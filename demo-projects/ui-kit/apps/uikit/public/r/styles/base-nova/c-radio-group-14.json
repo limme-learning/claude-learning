@@ -8,11 +8,11 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "field",
-    "icon-placeholder",
-    "radio-group",
-    "styles",
-    "tooltip"
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/radio-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/tooltip.json"
   ],
   "dependencies": [],
   "files": [

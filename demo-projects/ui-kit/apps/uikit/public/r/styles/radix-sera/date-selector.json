@@ -7,15 +7,15 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "icon-placeholder",
-    "input",
-    "scroll-area",
-    "styles",
-    "tabs",
-    "use-mobile",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-sera/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/tabs.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/use-mobile.json",
+    "https://uikit.limmengty.com/r/styles/radix-sera/utils.json"
   ],
   "dependencies": [
     "date-fns",

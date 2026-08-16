@@ -8,9 +8,9 @@
     "carousel"
   ],
   "registryDependencies": [
-    "carousel",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/carousel.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

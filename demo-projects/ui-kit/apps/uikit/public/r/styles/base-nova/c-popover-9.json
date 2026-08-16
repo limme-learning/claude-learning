@@ -8,9 +8,9 @@
     "popover"
   ],
   "registryDependencies": [
-    "badge-block",
-    "popover",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [
     "date-fns"

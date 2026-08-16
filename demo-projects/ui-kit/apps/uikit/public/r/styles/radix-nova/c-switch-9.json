@@ -8,11 +8,11 @@
     "switch"
   ],
   "registryDependencies": [
-    "field",
-    "icon-placeholder",
-    "styles",
-    "switch",
-    "tooltip"
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/switch.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tooltip.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "toggle"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "toggle",
-    "tooltip"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/toggle.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/tooltip.json"
   ],
   "dependencies": [],
   "files": [

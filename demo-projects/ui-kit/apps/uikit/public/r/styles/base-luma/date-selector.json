@@ -7,15 +7,15 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "icon-placeholder",
-    "input",
-    "scroll-area",
-    "styles",
-    "tabs",
-    "use-mobile",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-luma/button.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/calendar.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/input.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/tabs.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/use-mobile.json",
+    "https://uikit.limmengty.com/r/styles/base-luma/utils.json"
   ],
   "dependencies": [
     "date-fns",

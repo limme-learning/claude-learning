@@ -8,14 +8,14 @@
     "file-upload"
   ],
   "registryDependencies": [
-    "alert-block",
-    "badge-block",
-    "button",
-    "icon-placeholder",
-    "styles",
-    "table",
-    "use-file-upload",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-nova/alert-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/table.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/use-file-upload.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

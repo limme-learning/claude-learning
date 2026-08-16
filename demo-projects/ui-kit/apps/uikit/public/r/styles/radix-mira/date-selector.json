@@ -7,15 +7,15 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "icon-placeholder",
-    "input",
-    "scroll-area",
-    "styles",
-    "tabs",
-    "use-mobile",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-mira/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/tabs.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/use-mobile.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/utils.json"
   ],
   "dependencies": [
     "date-fns",

@@ -8,8 +8,8 @@
     "textarea"
   ],
   "registryDependencies": [
-    "styles",
-    "textarea"
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/textarea.json"
   ],
   "dependencies": [],
   "files": [

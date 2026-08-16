@@ -8,8 +8,8 @@
     "toggle"
   ],
   "registryDependencies": [
-    "styles",
-    "toggle"
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/toggle.json"
   ],
   "dependencies": [],
   "files": [

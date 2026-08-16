@@ -7,7 +7,7 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-rhea/styles.json"
   ],
   "dependencies": [
     "lucide-react"

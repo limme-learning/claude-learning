@@ -8,9 +8,9 @@
     "tree"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "tree"
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/tree.json"
   ],
   "dependencies": [
     "@headless-tree/core",

@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "dropdown-menu",
-    "icon-placeholder",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "@base-ui/react"

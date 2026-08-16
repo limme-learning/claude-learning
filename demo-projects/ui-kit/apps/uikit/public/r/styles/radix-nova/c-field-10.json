@@ -8,10 +8,10 @@
     "field"
   ],
   "registryDependencies": [
-    "checkbox",
-    "field",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/radix-nova/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

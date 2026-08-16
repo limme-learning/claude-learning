@@ -8,8 +8,8 @@
     "icon-tile"
   ],
   "registryDependencies": [
-    "icon-tile",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-tile.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

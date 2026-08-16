@@ -8,10 +8,10 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "badge",
-    "field",
-    "radio-group",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/badge.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/radio-group.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

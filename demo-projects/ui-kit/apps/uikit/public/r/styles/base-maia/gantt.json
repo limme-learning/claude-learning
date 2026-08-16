@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "checkbox",
-    "context-menu",
-    "dropdown-menu",
-    "icon-placeholder",
-    "popover",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-maia/button.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/calendar.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/context-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/popover.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/base-maia/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

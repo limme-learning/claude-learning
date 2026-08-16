@@ -8,9 +8,9 @@
     "switch"
   ],
   "registryDependencies": [
-    "label",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/base-nova/label.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

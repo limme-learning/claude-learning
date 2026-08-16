@@ -8,12 +8,12 @@
     "table"
   ],
   "registryDependencies": [
-    "button",
-    "card",
-    "dropdown-menu",
-    "icon-placeholder",
-    "styles",
-    "table"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/table.json"
   ],
   "dependencies": [],
   "files": [

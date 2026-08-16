@@ -8,10 +8,10 @@
     "navigation-menu"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "navigation-menu",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/navigation-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

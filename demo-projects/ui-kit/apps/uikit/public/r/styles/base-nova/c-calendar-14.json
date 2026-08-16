@@ -8,11 +8,11 @@
     "calendar"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "card",
-    "scroll-area",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/calendar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [
     "date-fns"

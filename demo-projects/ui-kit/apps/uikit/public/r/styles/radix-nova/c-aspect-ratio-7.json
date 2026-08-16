@@ -8,8 +8,8 @@
     "aspect-ratio"
   ],
   "registryDependencies": [
-    "aspect-ratio",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/aspect-ratio.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

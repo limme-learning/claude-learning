@@ -8,10 +8,10 @@
     "dialog"
   ],
   "registryDependencies": [
-    "button",
-    "dialog",
-    "kbd",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/dialog.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/kbd.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

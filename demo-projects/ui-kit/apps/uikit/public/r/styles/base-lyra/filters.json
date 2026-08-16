@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "button-group",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "input-group",
-    "kbd",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-lyra/button.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/button-group.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/input.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/kbd.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/base-lyra/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

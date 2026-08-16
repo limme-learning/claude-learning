@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "ui-kit",
-  "homepage": "http://localhost:3001",
+  "homepage": "https://uikit.limmengty.com",
   "items": [
     {
       "name": "c-accordion-1",

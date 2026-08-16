@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "checkbox",
-    "context-menu",
-    "dropdown-menu",
-    "icon-placeholder",
-    "popover",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-rhea/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/context-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/radix-rhea/utils.json"
   ],
   "dependencies": [
     "@date-fns/tz",

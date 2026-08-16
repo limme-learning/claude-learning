@@ -8,9 +8,9 @@
     "icon-stack"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "icon-stack",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-stack.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

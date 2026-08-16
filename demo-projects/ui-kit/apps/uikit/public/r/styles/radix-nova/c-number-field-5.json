@@ -8,9 +8,9 @@
     "number-field"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "number-field",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/number-field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

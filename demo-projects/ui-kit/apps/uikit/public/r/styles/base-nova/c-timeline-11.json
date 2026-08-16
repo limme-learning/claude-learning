@@ -8,9 +8,9 @@
     "timeline"
   ],
   "registryDependencies": [
-    "avatar",
-    "styles",
-    "timeline"
+    "https://uikit.limmengty.com/r/styles/base-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/timeline.json"
   ],
   "dependencies": [],
   "files": [

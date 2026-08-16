@@ -8,10 +8,10 @@
     "calendar"
   ],
   "registryDependencies": [
-    "calendar",
-    "card",
-    "select",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/calendar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/select.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [
     "react-day-picker"

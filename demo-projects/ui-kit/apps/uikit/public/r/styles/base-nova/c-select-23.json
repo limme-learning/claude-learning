@@ -8,11 +8,11 @@
     "select"
   ],
   "registryDependencies": [
-    "badge-block",
-    "field",
-    "select",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/select.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

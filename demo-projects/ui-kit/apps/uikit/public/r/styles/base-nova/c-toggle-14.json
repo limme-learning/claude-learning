@@ -8,9 +8,9 @@
     "toggle"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "toggle"
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/toggle.json"
   ],
   "dependencies": [],
   "files": [

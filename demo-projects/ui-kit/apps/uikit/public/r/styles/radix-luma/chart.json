@@ -7,8 +7,8 @@
     "ui"
   ],
   "registryDependencies": [
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-luma/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-luma/utils.json"
   ],
   "dependencies": [
     "recharts"

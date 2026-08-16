@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "checkbox",
-    "context-menu",
-    "dropdown-menu",
-    "icon-placeholder",
-    "popover",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-mira/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/checkbox.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/context-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/radix-mira/utils.json"
   ],
   "dependencies": [
     "@date-fns/tz",

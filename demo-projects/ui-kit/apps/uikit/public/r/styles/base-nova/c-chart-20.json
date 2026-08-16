@@ -8,9 +8,9 @@
     "chart"
   ],
   "registryDependencies": [
-    "card",
-    "chart",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/chart.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [
     "recharts"

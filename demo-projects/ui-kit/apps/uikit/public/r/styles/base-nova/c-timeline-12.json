@@ -8,11 +8,11 @@
     "timeline"
   ],
   "registryDependencies": [
-    "badge-block",
-    "icon-placeholder",
-    "styles",
-    "timeline",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-nova/badge-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/timeline.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/utils.json"
   ],
   "dependencies": [],
   "files": [

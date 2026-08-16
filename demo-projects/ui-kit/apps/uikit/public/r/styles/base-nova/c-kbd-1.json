@@ -8,8 +8,8 @@
     "kbd"
   ],
   "registryDependencies": [
-    "kbd",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/kbd.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

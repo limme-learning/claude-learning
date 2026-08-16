@@ -7,7 +7,7 @@
     "lib"
   ],
   "registryDependencies": [
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-mira/styles.json"
   ],
   "dependencies": [
     "clsx",

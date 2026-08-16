@@ -8,9 +8,9 @@
     "table"
   ],
   "registryDependencies": [
-    "card",
-    "styles",
-    "table"
+    "https://uikit.limmengty.com/r/styles/radix-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/table.json"
   ],
   "dependencies": [],
   "files": [

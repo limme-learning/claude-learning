@@ -7,15 +7,15 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "calendar",
-    "icon-placeholder",
-    "input",
-    "scroll-area",
-    "styles",
-    "tabs",
-    "use-mobile",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-maia/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/calendar.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/tabs.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/use-mobile.json",
+    "https://uikit.limmengty.com/r/styles/radix-maia/utils.json"
   ],
   "dependencies": [
     "date-fns",

@@ -8,11 +8,11 @@
     "icon-stack"
   ],
   "registryDependencies": [
-    "button",
-    "empty",
-    "icon-placeholder",
-    "icon-stack",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/empty.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-stack.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,8 +8,8 @@
     "number-field"
   ],
   "registryDependencies": [
-    "number-field",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/number-field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

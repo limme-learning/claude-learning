@@ -8,8 +8,8 @@
     "pagination"
   ],
   "registryDependencies": [
-    "pagination",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/pagination.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

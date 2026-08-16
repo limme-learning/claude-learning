@@ -8,9 +8,9 @@
     "timeline"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "styles",
-    "timeline"
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/timeline.json"
   ],
   "dependencies": [],
   "files": [

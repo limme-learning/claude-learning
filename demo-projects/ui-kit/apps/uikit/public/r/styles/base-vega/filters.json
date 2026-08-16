@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "button",
-    "button-group",
-    "dropdown-menu",
-    "icon-placeholder",
-    "input",
-    "input-group",
-    "kbd",
-    "scroll-area",
-    "styles",
-    "tooltip",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-vega/button.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/button-group.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/dropdown-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/input.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/kbd.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/scroll-area.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/tooltip.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

@@ -8,9 +8,9 @@
     "kbd"
   ],
   "registryDependencies": [
-    "kbd",
-    "separator",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/kbd.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/separator.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

@@ -8,9 +8,9 @@
     "avatar"
   ],
   "registryDependencies": [
-    "avatar",
-    "spinner",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/avatar.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/spinner.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

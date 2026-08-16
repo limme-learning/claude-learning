@@ -8,12 +8,12 @@
     "popover"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "popover",
-    "slider",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/popover.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/slider.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

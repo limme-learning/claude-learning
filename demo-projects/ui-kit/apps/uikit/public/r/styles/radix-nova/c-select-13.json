@@ -8,9 +8,9 @@
     "select"
   ],
   "registryDependencies": [
-    "input",
-    "select",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/input.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/select.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

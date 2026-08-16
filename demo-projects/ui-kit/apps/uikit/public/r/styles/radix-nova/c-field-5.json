@@ -8,10 +8,10 @@
     "field"
   ],
   "registryDependencies": [
-    "field",
-    "slider",
-    "styles",
-    "switch"
+    "https://uikit.limmengty.com/r/styles/radix-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/slider.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/switch.json"
   ],
   "dependencies": [],
   "files": [

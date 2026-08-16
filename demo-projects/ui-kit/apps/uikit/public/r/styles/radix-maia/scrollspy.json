@@ -7,7 +7,7 @@
     "blocks"
   ],
   "registryDependencies": [
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-maia/styles.json"
   ],
   "dependencies": [],
   "files": [

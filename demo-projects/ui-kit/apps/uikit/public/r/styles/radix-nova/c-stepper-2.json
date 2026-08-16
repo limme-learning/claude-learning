@@ -8,8 +8,8 @@
     "stepper"
   ],
   "registryDependencies": [
-    "stepper",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/stepper.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

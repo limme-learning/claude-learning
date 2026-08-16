@@ -8,8 +8,8 @@
     "resizable"
   ],
   "registryDependencies": [
-    "resizable",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/resizable.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

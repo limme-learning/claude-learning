@@ -8,11 +8,11 @@
     "input-group"
   ],
   "registryDependencies": [
-    "field",
-    "icon-placeholder",
-    "input-group",
-    "kbd",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/field.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/input-group.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/kbd.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

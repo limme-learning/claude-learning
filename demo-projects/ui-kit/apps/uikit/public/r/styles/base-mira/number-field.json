@@ -7,10 +7,10 @@
     "blocks"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "label",
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/base-mira/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/label.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-mira/utils.json"
   ],
   "dependencies": [
     "@base-ui/react",

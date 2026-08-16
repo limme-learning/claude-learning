@@ -8,8 +8,8 @@
     "navigation-menu"
   ],
   "registryDependencies": [
-    "navigation-menu",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/navigation-menu.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

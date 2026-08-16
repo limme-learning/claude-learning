@@ -8,10 +8,10 @@
     "progress"
   ],
   "registryDependencies": [
-    "icon-placeholder",
-    "item",
-    "progress",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/item.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/progress.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

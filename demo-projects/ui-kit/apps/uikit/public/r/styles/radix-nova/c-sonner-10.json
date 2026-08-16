@@ -8,10 +8,10 @@
     "sonner"
   ],
   "registryDependencies": [
-    "button",
-    "icon-placeholder",
-    "progress",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/icon-placeholder.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/progress.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
   ],
   "dependencies": [
     "sonner"

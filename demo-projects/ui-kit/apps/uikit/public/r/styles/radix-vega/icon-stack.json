@@ -7,8 +7,8 @@
     "blocks"
   ],
   "registryDependencies": [
-    "styles",
-    "utils"
+    "https://uikit.limmengty.com/r/styles/radix-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/radix-vega/utils.json"
   ],
   "dependencies": [],
   "files": [

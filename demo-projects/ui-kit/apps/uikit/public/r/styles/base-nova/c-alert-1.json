@@ -8,8 +8,8 @@
     "alert"
   ],
   "registryDependencies": [
-    "alert-block",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/alert-block.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [],
   "files": [

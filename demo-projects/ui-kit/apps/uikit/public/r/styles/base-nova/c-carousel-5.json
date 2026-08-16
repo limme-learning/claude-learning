@@ -8,9 +8,9 @@
     "carousel"
   ],
   "registryDependencies": [
-    "card",
-    "carousel",
-    "styles"
+    "https://uikit.limmengty.com/r/styles/base-nova/card.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/carousel.json",
+    "https://uikit.limmengty.com/r/styles/base-nova/styles.json"
   ],
   "dependencies": [
     "embla-carousel-autoplay"
