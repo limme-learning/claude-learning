@@ -19,7 +19,7 @@ export default function Pattern() {
       </IconTile>
       <IconTile
         aria-hidden="true"
-        className="border-success/15 bg-success/10 text-success-foreground dark:border-success/25 dark:bg-success/15 dark:text-success"
+        className="border-success/15 bg-success/10 text-success dark:border-success/25 dark:bg-success/15 dark:text-success"
       >
         <IconPlaceholder
           lucide="CircleCheckIcon"
@@ -31,7 +31,7 @@ export default function Pattern() {
       </IconTile>
       <IconTile
         aria-hidden="true"
-        className="border-warning/15 bg-warning/10 text-warning-foreground dark:border-warning/25 dark:bg-warning/15 dark:text-warning"
+        className="border-warning/15 bg-warning/10 text-warning dark:border-warning/25 dark:bg-warning/15 dark:text-warning"
       >
         <IconPlaceholder
           lucide="ClockIcon"
@@ -43,7 +43,7 @@ export default function Pattern() {
       </IconTile>
       <IconTile
         aria-hidden="true"
-        className="border-destructive/15 bg-destructive/10 text-destructive-foreground dark:border-destructive/25 dark:bg-destructive/15 dark:text-destructive"
+        className="border-destructive/15 bg-destructive/10 text-destructive dark:border-destructive/25 dark:bg-destructive/15 dark:text-destructive"
       >
         <IconPlaceholder
           lucide="CircleAlertIcon"
