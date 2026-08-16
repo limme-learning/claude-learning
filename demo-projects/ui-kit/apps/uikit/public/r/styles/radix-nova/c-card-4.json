@@ -8,9 +8,9 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/styles"
+    "button",
+    "card",
+    "styles"
   ],
   "dependencies": [],
   "files": [

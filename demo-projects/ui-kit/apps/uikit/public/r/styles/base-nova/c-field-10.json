@@ -8,10 +8,10 @@
     "field"
   ],
   "registryDependencies": [
-    "@ui-kit/checkbox",
-    "@ui-kit/field",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "checkbox",
+    "field",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

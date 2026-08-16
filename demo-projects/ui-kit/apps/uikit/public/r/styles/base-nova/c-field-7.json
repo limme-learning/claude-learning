@@ -8,13 +8,13 @@
     "field"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/checkbox",
-    "@ui-kit/field",
-    "@ui-kit/input",
-    "@ui-kit/styles",
-    "@ui-kit/switch",
-    "@ui-kit/textarea"
+    "button",
+    "checkbox",
+    "field",
+    "input",
+    "styles",
+    "switch",
+    "textarea"
   ],
   "dependencies": [],
   "files": [

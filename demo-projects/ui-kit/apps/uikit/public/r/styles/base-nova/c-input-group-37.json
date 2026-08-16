@@ -8,13 +8,13 @@
     "input-group"
   ],
   "registryDependencies": [
-    "@ui-kit/checkbox",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-group",
-    "@ui-kit/label",
-    "@ui-kit/popover",
-    "@ui-kit/styles"
+    "checkbox",
+    "field",
+    "icon-placeholder",
+    "input-group",
+    "label",
+    "popover",
+    "styles"
   ],
   "dependencies": [],
   "files": [

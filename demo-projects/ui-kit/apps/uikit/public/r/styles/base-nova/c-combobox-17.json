@@ -8,11 +8,11 @@
     "combobox"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/combobox",
-    "@ui-kit/dialog",
-    "@ui-kit/field",
-    "@ui-kit/styles"
+    "button",
+    "combobox",
+    "dialog",
+    "field",
+    "styles"
   ],
   "dependencies": [
     "sonner"

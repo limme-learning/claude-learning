@@ -8,10 +8,10 @@
     "button"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/use-copy-to-clipboard"
+    "button",
+    "icon-placeholder",
+    "styles",
+    "use-copy-to-clipboard"
   ],
   "dependencies": [],
   "files": [

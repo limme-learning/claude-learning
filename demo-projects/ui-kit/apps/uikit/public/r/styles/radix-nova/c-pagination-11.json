@@ -8,9 +8,9 @@
     "pagination"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/pagination",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "pagination",
+    "styles"
   ],
   "dependencies": [],
   "files": [

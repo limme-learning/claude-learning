@@ -8,8 +8,8 @@
     "aspect-ratio"
   ],
   "registryDependencies": [
-    "@ui-kit/aspect-ratio",
-    "@ui-kit/styles"
+    "aspect-ratio",
+    "styles"
   ],
   "dependencies": [],
   "files": [

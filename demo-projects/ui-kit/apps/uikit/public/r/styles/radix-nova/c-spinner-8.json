@@ -8,9 +8,9 @@
     "spinner"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/spinner",
-    "@ui-kit/styles"
+    "card",
+    "spinner",
+    "styles"
   ],
   "dependencies": [],
   "files": [

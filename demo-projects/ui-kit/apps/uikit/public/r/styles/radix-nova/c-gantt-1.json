@@ -8,17 +8,17 @@
     "gantt"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/gantt",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/label",
-    "@ui-kit/popover",
-    "@ui-kit/radio-group",
-    "@ui-kit/select",
-    "@ui-kit/styles",
-    "@ui-kit/switch",
-    "@ui-kit/tabs"
+    "button",
+    "card",
+    "gantt",
+    "icon-placeholder",
+    "label",
+    "popover",
+    "radio-group",
+    "select",
+    "styles",
+    "switch",
+    "tabs"
   ],
   "dependencies": [
     "date-fns"

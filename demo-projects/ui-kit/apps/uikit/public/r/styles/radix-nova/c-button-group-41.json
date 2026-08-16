@@ -8,13 +8,13 @@
     "button-group"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/button-group",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip",
-    "@ui-kit/utils"
+    "badge-block",
+    "button",
+    "button-group",
+    "icon-placeholder",
+    "styles",
+    "tooltip",
+    "utils"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/collapsible",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "badge-block",
+    "button",
+    "collapsible",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

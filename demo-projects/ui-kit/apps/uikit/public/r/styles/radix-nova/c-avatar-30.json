@@ -8,9 +8,9 @@
     "avatar"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/spinner",
-    "@ui-kit/styles"
+    "avatar",
+    "spinner",
+    "styles"
   ],
   "dependencies": [],
   "files": [

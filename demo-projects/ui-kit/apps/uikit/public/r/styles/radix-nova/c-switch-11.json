@@ -8,9 +8,9 @@
     "switch"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "field",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

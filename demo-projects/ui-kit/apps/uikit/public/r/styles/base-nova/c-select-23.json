@@ -8,11 +8,11 @@
     "select"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/field",
-    "@ui-kit/select",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "badge-block",
+    "field",
+    "select",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "switch"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/switch",
-    "@ui-kit/tooltip"
+    "field",
+    "icon-placeholder",
+    "styles",
+    "switch",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

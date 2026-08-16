@@ -8,9 +8,9 @@
     "stepper"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/stepper",
-    "@ui-kit/styles"
+    "button",
+    "stepper",
+    "styles"
   ],
   "dependencies": [],
   "files": [

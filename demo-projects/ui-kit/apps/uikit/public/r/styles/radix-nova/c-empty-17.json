@@ -8,9 +8,9 @@
     "empty"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/empty",
-    "@ui-kit/styles"
+    "button",
+    "empty",
+    "styles"
   ],
   "dependencies": [],
   "files": [

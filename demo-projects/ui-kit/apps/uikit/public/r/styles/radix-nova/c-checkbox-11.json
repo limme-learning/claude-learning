@@ -8,11 +8,11 @@
     "checkbox"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/checkbox",
-    "@ui-kit/field",
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "card",
+    "checkbox",
+    "field",
+    "separator",
+    "styles"
   ],
   "dependencies": [],
   "files": [

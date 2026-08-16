@@ -8,13 +8,13 @@
     "item"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/item",
-    "@ui-kit/styles"
+    "avatar",
+    "badge-block",
+    "button",
+    "dropdown-menu",
+    "icon-placeholder",
+    "item",
+    "styles"
   ],
   "dependencies": [],
   "files": [

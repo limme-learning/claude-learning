@@ -8,10 +8,10 @@
     "tooltip"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip"
+    "avatar",
+    "badge-block",
+    "styles",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

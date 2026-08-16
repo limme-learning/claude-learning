@@ -8,10 +8,10 @@
     "command"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/command",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "command",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

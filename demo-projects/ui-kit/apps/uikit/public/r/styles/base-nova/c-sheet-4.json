@@ -8,10 +8,10 @@
     "sheet"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/scroll-area",
-    "@ui-kit/sheet",
-    "@ui-kit/styles"
+    "button",
+    "scroll-area",
+    "sheet",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "calendar"
   ],
   "registryDependencies": [
-    "@ui-kit/calendar",
-    "@ui-kit/card",
-    "@ui-kit/select",
-    "@ui-kit/styles"
+    "calendar",
+    "card",
+    "select",
+    "styles"
   ],
   "dependencies": [
     "react-day-picker"

@@ -8,11 +8,11 @@
     "accordion"
   ],
   "registryDependencies": [
-    "@ui-kit/accordion",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "accordion",
+    "button",
+    "card",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

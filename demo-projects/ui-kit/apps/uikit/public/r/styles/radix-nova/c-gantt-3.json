@@ -8,11 +8,11 @@
     "gantt"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/gantt",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "card",
+    "gantt",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "date-fns"

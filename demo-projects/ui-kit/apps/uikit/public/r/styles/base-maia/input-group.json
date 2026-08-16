@@ -7,11 +7,11 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/input",
-    "@ui-kit/styles",
-    "@ui-kit/textarea",
-    "@ui-kit/utils"
+    "button",
+    "input",
+    "styles",
+    "textarea",
+    "utils"
   ],
   "dependencies": [
     "class-variance-authority"

@@ -7,10 +7,10 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/label",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "icon-placeholder",
+    "label",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react",

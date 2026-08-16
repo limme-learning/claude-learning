@@ -8,11 +8,11 @@
     "timeline"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/timeline",
-    "@ui-kit/utils"
+    "badge-block",
+    "icon-placeholder",
+    "styles",
+    "timeline",
+    "utils"
   ],
   "dependencies": [],
   "files": [

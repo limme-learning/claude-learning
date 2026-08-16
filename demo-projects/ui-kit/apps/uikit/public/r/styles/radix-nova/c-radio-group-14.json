@@ -8,11 +8,11 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/radio-group",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip"
+    "field",
+    "icon-placeholder",
+    "radio-group",
+    "styles",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

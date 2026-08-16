@@ -8,9 +8,9 @@
     "toggle"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/toggle"
+    "icon-placeholder",
+    "styles",
+    "toggle"
   ],
   "dependencies": [],
   "files": [

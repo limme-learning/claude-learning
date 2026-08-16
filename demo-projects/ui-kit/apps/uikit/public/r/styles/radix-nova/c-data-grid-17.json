@@ -8,11 +8,11 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/data-grid",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "avatar",
+    "badge-block",
+    "data-grid",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "@tanstack/react-table"

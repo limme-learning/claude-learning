@@ -8,9 +8,9 @@
     "menubar"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/menubar",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "menubar",
+    "styles"
   ],
   "dependencies": [],
   "files": [

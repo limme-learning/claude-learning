@@ -8,8 +8,8 @@
     "native-select"
   ],
   "registryDependencies": [
-    "@ui-kit/native-select",
-    "@ui-kit/styles"
+    "native-select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

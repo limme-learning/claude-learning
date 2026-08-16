@@ -8,12 +8,12 @@
     "button-group"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/button-group",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/styles"
+    "button",
+    "button-group",
+    "dropdown-menu",
+    "icon-placeholder",
+    "input",
+    "styles"
   ],
   "dependencies": [],
   "files": [

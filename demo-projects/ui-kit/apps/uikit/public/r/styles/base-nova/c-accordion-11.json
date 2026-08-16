@@ -8,14 +8,14 @@
     "accordion"
   ],
   "registryDependencies": [
-    "@ui-kit/accordion",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/button-group",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/spinner",
-    "@ui-kit/styles"
+    "accordion",
+    "badge-block",
+    "button",
+    "button-group",
+    "icon-placeholder",
+    "input",
+    "spinner",
+    "styles"
   ],
   "dependencies": [],
   "files": [

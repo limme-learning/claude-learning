@@ -8,9 +8,9 @@
     "select"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/select",
-    "@ui-kit/styles"
+    "button",
+    "select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

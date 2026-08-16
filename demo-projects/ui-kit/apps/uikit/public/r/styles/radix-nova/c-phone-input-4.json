@@ -8,8 +8,8 @@
     "phone-input"
   ],
   "registryDependencies": [
-    "@ui-kit/phone-input",
-    "@ui-kit/styles"
+    "phone-input",
+    "styles"
   ],
   "dependencies": [],
   "files": [

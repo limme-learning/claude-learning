@@ -8,9 +8,9 @@
     "popover"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/popover",
-    "@ui-kit/styles"
+    "badge-block",
+    "popover",
+    "styles"
   ],
   "dependencies": [
     "date-fns"

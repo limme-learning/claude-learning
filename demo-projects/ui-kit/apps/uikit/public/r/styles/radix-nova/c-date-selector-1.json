@@ -8,9 +8,9 @@
     "date-selector"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/date-selector",
-    "@ui-kit/styles"
+    "card",
+    "date-selector",
+    "styles"
   ],
   "dependencies": [
     "date-fns"

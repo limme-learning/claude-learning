@@ -8,9 +8,9 @@
     "stepper"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/stepper",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "stepper",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,9 +8,9 @@
     "gantt"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/gantt",
-    "@ui-kit/styles"
+    "card",
+    "gantt",
+    "styles"
   ],
   "dependencies": [
     "date-fns"

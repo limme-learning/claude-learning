@@ -8,12 +8,12 @@
     "command"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/command",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/kbd",
-    "@ui-kit/styles"
+    "badge-block",
+    "button",
+    "command",
+    "icon-placeholder",
+    "kbd",
+    "styles"
   ],
   "dependencies": [],
   "files": [

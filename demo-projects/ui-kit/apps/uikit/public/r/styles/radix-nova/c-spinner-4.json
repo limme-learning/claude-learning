@@ -8,10 +8,10 @@
     "spinner"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/input-group",
-    "@ui-kit/spinner",
-    "@ui-kit/styles"
+    "field",
+    "input-group",
+    "spinner",
+    "styles"
   ],
   "dependencies": [],
   "files": [

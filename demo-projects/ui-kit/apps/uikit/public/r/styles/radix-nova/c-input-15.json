@@ -8,11 +8,11 @@
     "input"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/field",
-    "@ui-kit/input",
-    "@ui-kit/select",
-    "@ui-kit/styles"
+    "button",
+    "field",
+    "input",
+    "select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

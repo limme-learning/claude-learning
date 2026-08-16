@@ -8,9 +8,9 @@
     "kbd"
   ],
   "registryDependencies": [
-    "@ui-kit/input-group",
-    "@ui-kit/kbd",
-    "@ui-kit/styles"
+    "input-group",
+    "kbd",
+    "styles"
   ],
   "dependencies": [],
   "files": [

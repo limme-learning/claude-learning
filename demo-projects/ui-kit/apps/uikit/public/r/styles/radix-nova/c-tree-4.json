@@ -8,9 +8,9 @@
     "tree"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tree"
+    "icon-placeholder",
+    "styles",
+    "tree"
   ],
   "dependencies": [
     "@headless-tree/core",

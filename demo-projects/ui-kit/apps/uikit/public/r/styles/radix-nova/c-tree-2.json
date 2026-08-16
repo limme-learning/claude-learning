@@ -8,8 +8,8 @@
     "tree"
   ],
   "registryDependencies": [
-    "@ui-kit/styles",
-    "@ui-kit/tree"
+    "styles",
+    "tree"
   ],
   "dependencies": [
     "@headless-tree/core",

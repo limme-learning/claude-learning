@@ -8,10 +8,10 @@
     "switch"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "field",
+    "icon-placeholder",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

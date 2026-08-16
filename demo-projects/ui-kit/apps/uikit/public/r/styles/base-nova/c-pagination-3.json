@@ -8,8 +8,8 @@
     "pagination"
   ],
   "registryDependencies": [
-    "@ui-kit/pagination",
-    "@ui-kit/styles"
+    "pagination",
+    "styles"
   ],
   "dependencies": [],
   "files": [

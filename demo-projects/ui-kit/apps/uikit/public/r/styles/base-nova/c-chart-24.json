@@ -8,9 +8,9 @@
     "chart"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/chart",
-    "@ui-kit/styles"
+    "card",
+    "chart",
+    "styles"
   ],
   "dependencies": [
     "recharts"

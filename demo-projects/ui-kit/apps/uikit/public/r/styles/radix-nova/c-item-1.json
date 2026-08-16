@@ -8,8 +8,8 @@
     "item"
   ],
   "registryDependencies": [
-    "@ui-kit/item",
-    "@ui-kit/styles"
+    "item",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "spinner"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/empty",
-    "@ui-kit/spinner",
-    "@ui-kit/styles"
+    "button",
+    "empty",
+    "spinner",
+    "styles"
   ],
   "dependencies": [],
   "files": [

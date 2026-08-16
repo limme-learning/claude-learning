@@ -8,13 +8,13 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/input-group",
-    "@ui-kit/styles"
+    "button",
+    "card",
+    "field",
+    "icon-placeholder",
+    "input",
+    "input-group",
+    "styles"
   ],
   "dependencies": [],
   "files": [

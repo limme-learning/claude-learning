@@ -8,9 +8,9 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "@ui-kit/autocomplete",
-    "@ui-kit/avatar",
-    "@ui-kit/styles"
+    "autocomplete",
+    "avatar",
+    "styles"
   ],
   "dependencies": [
     "@base-ui/react"

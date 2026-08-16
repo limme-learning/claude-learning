@@ -8,15 +8,15 @@
     "timeline"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/collapsible",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/spinner",
-    "@ui-kit/styles",
-    "@ui-kit/timeline",
-    "@ui-kit/utils"
+    "avatar",
+    "badge-block",
+    "collapsible",
+    "frame",
+    "icon-placeholder",
+    "spinner",
+    "styles",
+    "timeline",
+    "utils"
   ],
   "dependencies": [],
   "files": [

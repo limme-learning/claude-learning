@@ -8,9 +8,9 @@
     "textarea"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/styles",
-    "@ui-kit/textarea"
+    "field",
+    "styles",
+    "textarea"
   ],
   "dependencies": [],
   "files": [

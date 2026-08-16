@@ -8,8 +8,8 @@
     "badge"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/styles"
+    "badge-block",
+    "styles"
   ],
   "dependencies": [],
   "files": [

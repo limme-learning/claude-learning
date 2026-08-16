@@ -8,10 +8,10 @@
     "toggle"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/toggle",
-    "@ui-kit/tooltip"
+    "icon-placeholder",
+    "styles",
+    "toggle",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

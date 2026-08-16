@@ -8,8 +8,8 @@
     "skeleton"
   ],
   "registryDependencies": [
-    "@ui-kit/skeleton",
-    "@ui-kit/styles"
+    "skeleton",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "date-selector"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/date-selector",
-    "@ui-kit/dialog",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "date-selector",
+    "dialog",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,9 +8,9 @@
     "tree"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/styles",
-    "@ui-kit/tree"
+    "avatar",
+    "styles",
+    "tree"
   ],
   "dependencies": [
     "@headless-tree/core",

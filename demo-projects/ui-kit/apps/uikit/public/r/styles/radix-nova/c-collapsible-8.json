@@ -8,11 +8,11 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/collapsible",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "avatar",
+    "collapsible",
+    "frame",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

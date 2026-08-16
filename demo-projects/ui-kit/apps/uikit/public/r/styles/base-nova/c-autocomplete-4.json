@@ -8,9 +8,9 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "@ui-kit/autocomplete",
-    "@ui-kit/label",
-    "@ui-kit/styles"
+    "autocomplete",
+    "label",
+    "styles"
   ],
   "dependencies": [],
   "files": [

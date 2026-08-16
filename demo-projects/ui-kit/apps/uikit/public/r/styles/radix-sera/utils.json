@@ -7,7 +7,7 @@
     "lib"
   ],
   "registryDependencies": [
-    "@ui-kit/styles"
+    "styles"
   ],
   "dependencies": [
     "clsx",

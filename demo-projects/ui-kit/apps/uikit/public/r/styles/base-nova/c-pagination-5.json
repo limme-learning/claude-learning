@@ -8,10 +8,10 @@
     "pagination"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/pagination",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "input",
+    "pagination",
+    "styles"
   ],
   "dependencies": [],
   "files": [

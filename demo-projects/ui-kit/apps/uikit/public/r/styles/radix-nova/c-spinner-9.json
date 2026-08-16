@@ -8,8 +8,8 @@
     "spinner"
   ],
   "registryDependencies": [
-    "@ui-kit/spinner",
-    "@ui-kit/styles"
+    "spinner",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "context-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/context-menu",
-    "@ui-kit/dialog",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "context-menu",
+    "dialog",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

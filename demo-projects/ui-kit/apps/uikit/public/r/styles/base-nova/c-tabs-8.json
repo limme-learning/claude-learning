@@ -8,11 +8,11 @@
     "tabs"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tabs"
+    "badge-block",
+    "card",
+    "icon-placeholder",
+    "styles",
+    "tabs"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "button"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/kbd",
-    "@ui-kit/styles"
+    "button",
+    "icon-placeholder",
+    "kbd",
+    "styles"
   ],
   "dependencies": [],
   "files": [

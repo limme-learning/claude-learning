@@ -8,10 +8,10 @@
     "icon-tile"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/icon-tile",
-    "@ui-kit/item",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "icon-tile",
+    "item",
+    "styles"
   ],
   "dependencies": [],
   "files": [

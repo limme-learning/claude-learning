@@ -8,12 +8,12 @@
     "gantt"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/gantt",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "avatar",
+    "button",
+    "card",
+    "gantt",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "date-fns"

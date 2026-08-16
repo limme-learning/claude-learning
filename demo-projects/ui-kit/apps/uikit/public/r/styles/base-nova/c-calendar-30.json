@@ -8,15 +8,15 @@
     "calendar"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/calendar",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-group",
-    "@ui-kit/popover",
-    "@ui-kit/separator",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "calendar",
+    "field",
+    "icon-placeholder",
+    "input-group",
+    "popover",
+    "separator",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "date-fns"

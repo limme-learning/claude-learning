@@ -8,9 +8,9 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/breadcrumb",
-    "@ui-kit/styles"
+    "badge-block",
+    "breadcrumb",
+    "styles"
   ],
   "dependencies": [],
   "files": [

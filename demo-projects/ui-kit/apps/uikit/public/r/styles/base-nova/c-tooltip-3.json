@@ -8,10 +8,10 @@
     "tooltip"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip"
+    "button",
+    "icon-placeholder",
+    "styles",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

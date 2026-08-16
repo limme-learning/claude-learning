@@ -7,7 +7,7 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/styles"
+    "styles"
   ],
   "dependencies": [
     "@base-ui/react"

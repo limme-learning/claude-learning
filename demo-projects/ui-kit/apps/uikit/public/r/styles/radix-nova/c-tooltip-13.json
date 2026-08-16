@@ -8,9 +8,9 @@
     "tooltip"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip"
+    "avatar",
+    "styles",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

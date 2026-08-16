@@ -8,9 +8,9 @@
     "sheet"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/sheet",
-    "@ui-kit/styles"
+    "button",
+    "sheet",
+    "styles"
   ],
   "dependencies": [],
   "files": [

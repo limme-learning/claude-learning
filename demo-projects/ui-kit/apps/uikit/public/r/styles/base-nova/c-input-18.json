@@ -8,10 +8,10 @@
     "input"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/field",
-    "@ui-kit/input",
-    "@ui-kit/styles"
+    "badge-block",
+    "field",
+    "input",
+    "styles"
   ],
   "dependencies": [],
   "files": [

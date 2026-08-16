@@ -8,9 +8,9 @@
     "pagination"
   ],
   "registryDependencies": [
-    "@ui-kit/native-select",
-    "@ui-kit/pagination",
-    "@ui-kit/styles"
+    "native-select",
+    "pagination",
+    "styles"
   ],
   "dependencies": [],
   "files": [

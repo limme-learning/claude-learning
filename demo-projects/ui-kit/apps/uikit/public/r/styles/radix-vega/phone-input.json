@@ -7,13 +7,13 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/combobox",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/scroll-area",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "combobox",
+    "icon-placeholder",
+    "input",
+    "scroll-area",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "react-phone-number-input"

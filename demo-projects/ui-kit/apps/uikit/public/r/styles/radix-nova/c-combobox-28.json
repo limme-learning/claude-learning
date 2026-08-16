@@ -8,14 +8,14 @@
     "combobox"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/combobox",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/item",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "avatar",
+    "button",
+    "combobox",
+    "field",
+    "icon-placeholder",
+    "item",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

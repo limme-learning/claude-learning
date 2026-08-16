@@ -8,8 +8,8 @@
     "rating"
   ],
   "registryDependencies": [
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

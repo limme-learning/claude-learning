@@ -8,9 +8,9 @@
     "context-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/context-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "context-menu",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

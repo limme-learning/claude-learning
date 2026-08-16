@@ -8,12 +8,12 @@
     "input-otp"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-otp",
-    "@ui-kit/styles"
+    "button",
+    "card",
+    "field",
+    "icon-placeholder",
+    "input-otp",
+    "styles"
   ],
   "dependencies": [],
   "files": [

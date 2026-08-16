@@ -8,14 +8,14 @@
     "file-upload"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-block",
-    "@ui-kit/button",
-    "@ui-kit/dialog",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/spinner",
-    "@ui-kit/styles",
-    "@ui-kit/use-file-upload",
-    "@ui-kit/utils"
+    "alert-block",
+    "button",
+    "dialog",
+    "icon-placeholder",
+    "spinner",
+    "styles",
+    "use-file-upload",
+    "utils"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "scrollspy"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/scroll-area",
-    "@ui-kit/scrollspy",
-    "@ui-kit/styles"
+    "button",
+    "scroll-area",
+    "scrollspy",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "tooltip"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip"
+    "badge-block",
+    "button",
+    "icon-placeholder",
+    "styles",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

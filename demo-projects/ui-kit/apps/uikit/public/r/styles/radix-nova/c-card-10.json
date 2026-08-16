@@ -8,10 +8,10 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/card",
-    "@ui-kit/styles"
+    "avatar",
+    "badge-block",
+    "card",
+    "styles"
   ],
   "dependencies": [],
   "files": [

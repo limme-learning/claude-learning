@@ -8,12 +8,12 @@
     "number-field"
   ],
   "registryDependencies": [
-    "@ui-kit/alert",
-    "@ui-kit/button",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/number-field",
-    "@ui-kit/styles"
+    "alert",
+    "button",
+    "field",
+    "icon-placeholder",
+    "number-field",
+    "styles"
   ],
   "dependencies": [
     "@hookform/resolvers",

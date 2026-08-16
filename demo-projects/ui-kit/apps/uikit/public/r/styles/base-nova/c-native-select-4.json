@@ -8,9 +8,9 @@
     "native-select"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/native-select",
-    "@ui-kit/styles"
+    "field",
+    "native-select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

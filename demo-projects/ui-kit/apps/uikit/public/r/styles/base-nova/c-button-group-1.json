@@ -8,9 +8,9 @@
     "button-group"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/button-group",
-    "@ui-kit/styles"
+    "button",
+    "button-group",
+    "styles"
   ],
   "dependencies": [],
   "files": [

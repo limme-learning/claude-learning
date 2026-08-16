@@ -8,12 +8,12 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/collapsible",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/progress",
-    "@ui-kit/styles"
+    "button",
+    "card",
+    "collapsible",
+    "icon-placeholder",
+    "progress",
+    "styles"
   ],
   "dependencies": [],
   "files": [

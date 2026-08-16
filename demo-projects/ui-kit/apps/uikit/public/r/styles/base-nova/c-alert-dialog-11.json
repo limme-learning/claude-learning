@@ -8,11 +8,11 @@
     "alert-dialog"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-dialog",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "alert-dialog",
+    "badge-block",
+    "button",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

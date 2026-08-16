@@ -8,10 +8,10 @@
     "select"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/item",
-    "@ui-kit/select",
-    "@ui-kit/styles"
+    "field",
+    "item",
+    "select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

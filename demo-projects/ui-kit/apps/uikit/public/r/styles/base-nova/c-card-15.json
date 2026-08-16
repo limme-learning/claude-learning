@@ -8,13 +8,13 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "badge-block",
+    "button",
+    "card",
+    "dropdown-menu",
+    "icon-placeholder",
+    "separator",
+    "styles"
   ],
   "dependencies": [],
   "files": [

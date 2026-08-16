@@ -8,10 +8,10 @@
     "hover-card"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/hover-card",
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "badge-block",
+    "hover-card",
+    "separator",
+    "styles"
   ],
   "dependencies": [
     "date-fns"

@@ -8,10 +8,10 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "@ui-kit/autocomplete",
-    "@ui-kit/avatar",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "autocomplete",
+    "avatar",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "@base-ui/react"

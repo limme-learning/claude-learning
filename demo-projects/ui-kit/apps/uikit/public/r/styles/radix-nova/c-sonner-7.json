@@ -8,8 +8,8 @@
     "sonner"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/styles"
+    "button",
+    "styles"
   ],
   "dependencies": [
     "sonner"

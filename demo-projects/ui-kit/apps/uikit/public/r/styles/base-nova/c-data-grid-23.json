@@ -8,19 +8,19 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/checkbox",
-    "@ui-kit/data-grid",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-group",
-    "@ui-kit/label",
-    "@ui-kit/popover",
-    "@ui-kit/styles",
-    "@ui-kit/use-copy-to-clipboard"
+    "avatar",
+    "badge-block",
+    "button",
+    "checkbox",
+    "data-grid",
+    "dropdown-menu",
+    "frame",
+    "icon-placeholder",
+    "input-group",
+    "label",
+    "popover",
+    "styles",
+    "use-copy-to-clipboard"
   ],
   "dependencies": [
     "@tanstack/react-table",

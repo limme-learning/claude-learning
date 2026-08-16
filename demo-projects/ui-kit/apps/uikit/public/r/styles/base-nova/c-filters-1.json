@@ -8,12 +8,12 @@
     "filters"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/filters",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "avatar",
+    "button",
+    "filters",
+    "icon-placeholder",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

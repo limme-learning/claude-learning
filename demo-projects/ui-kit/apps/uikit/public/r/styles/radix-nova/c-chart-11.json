@@ -8,12 +8,12 @@
     "chart"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/card",
-    "@ui-kit/chart",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "badge-block",
+    "card",
+    "chart",
+    "icon-placeholder",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "motion",

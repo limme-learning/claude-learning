@@ -8,17 +8,17 @@
     "event-calendar"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/event-calendar",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/label",
-    "@ui-kit/popover",
-    "@ui-kit/select",
-    "@ui-kit/styles",
-    "@ui-kit/switch",
-    "@ui-kit/tabs"
+    "avatar",
+    "button",
+    "card",
+    "event-calendar",
+    "icon-placeholder",
+    "label",
+    "popover",
+    "select",
+    "styles",
+    "switch",
+    "tabs"
   ],
   "dependencies": [
     "date-fns"

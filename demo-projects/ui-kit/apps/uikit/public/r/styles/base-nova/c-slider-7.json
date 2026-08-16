@@ -8,10 +8,10 @@
     "slider"
   ],
   "registryDependencies": [
-    "@ui-kit/input",
-    "@ui-kit/label",
-    "@ui-kit/slider",
-    "@ui-kit/styles"
+    "input",
+    "label",
+    "slider",
+    "styles"
   ],
   "dependencies": [],
   "files": [

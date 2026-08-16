@@ -8,10 +8,10 @@
     "navigation-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/navigation-menu",
-    "@ui-kit/styles"
+    "button",
+    "icon-placeholder",
+    "navigation-menu",
+    "styles"
   ],
   "dependencies": [],
   "files": [

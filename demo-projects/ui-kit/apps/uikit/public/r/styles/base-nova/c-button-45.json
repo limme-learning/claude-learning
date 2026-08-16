@@ -8,9 +8,9 @@
     "button"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/styles"
+    "badge-block",
+    "button",
+    "styles"
   ],
   "dependencies": [],
   "files": [

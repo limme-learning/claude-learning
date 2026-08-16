@@ -8,9 +8,9 @@
     "carousel"
   ],
   "registryDependencies": [
-    "@ui-kit/carousel",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "carousel",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

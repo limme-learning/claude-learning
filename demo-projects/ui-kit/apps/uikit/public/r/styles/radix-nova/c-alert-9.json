@@ -8,9 +8,9 @@
     "alert"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-block",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "alert-block",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

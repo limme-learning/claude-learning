@@ -8,8 +8,8 @@
     "button"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/styles"
+    "button",
+    "styles"
   ],
   "dependencies": [],
   "files": [

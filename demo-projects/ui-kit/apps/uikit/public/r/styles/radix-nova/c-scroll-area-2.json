@@ -8,8 +8,8 @@
     "scroll-area"
   ],
   "registryDependencies": [
-    "@ui-kit/scroll-area",
-    "@ui-kit/styles"
+    "scroll-area",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "carousel"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/carousel",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "card",
+    "carousel",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

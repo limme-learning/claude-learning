@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/styles",
-    "@ui-kit/toggle",
-    "@ui-kit/utils"
+    "styles",
+    "toggle",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react",

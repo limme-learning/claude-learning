@@ -8,10 +8,10 @@
     "tabs"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tabs"
+    "card",
+    "icon-placeholder",
+    "styles",
+    "tabs"
   ],
   "dependencies": [],
   "files": [

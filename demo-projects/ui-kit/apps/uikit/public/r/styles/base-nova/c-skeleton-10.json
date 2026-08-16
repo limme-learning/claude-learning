@@ -8,9 +8,9 @@
     "skeleton"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/skeleton",
-    "@ui-kit/styles"
+    "card",
+    "skeleton",
+    "styles"
   ],
   "dependencies": [],
   "files": [

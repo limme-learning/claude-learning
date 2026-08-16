@@ -8,10 +8,10 @@
     "sortable"
   ],
   "registryDependencies": [
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/sortable",
-    "@ui-kit/styles"
+    "frame",
+    "icon-placeholder",
+    "sortable",
+    "styles"
   ],
   "dependencies": [],
   "files": [

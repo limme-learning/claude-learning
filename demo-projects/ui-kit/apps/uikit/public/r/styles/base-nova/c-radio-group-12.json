@@ -8,10 +8,10 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/field",
-    "@ui-kit/radio-group",
-    "@ui-kit/styles"
+    "avatar",
+    "field",
+    "radio-group",
+    "styles"
   ],
   "dependencies": [],
   "files": [

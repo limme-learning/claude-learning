@@ -8,11 +8,11 @@
     "table"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/frame",
-    "@ui-kit/styles",
-    "@ui-kit/table"
+    "avatar",
+    "badge-block",
+    "frame",
+    "styles",
+    "table"
   ],
   "dependencies": [],
   "files": [

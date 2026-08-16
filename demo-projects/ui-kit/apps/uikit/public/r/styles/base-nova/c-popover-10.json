@@ -8,12 +8,12 @@
     "popover"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/popover",
-    "@ui-kit/slider",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "button",
+    "icon-placeholder",
+    "popover",
+    "slider",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

@@ -8,13 +8,13 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/collapsible",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/use-copy-to-clipboard"
+    "button",
+    "collapsible",
+    "dropdown-menu",
+    "frame",
+    "icon-placeholder",
+    "styles",
+    "use-copy-to-clipboard"
   ],
   "dependencies": [],
   "files": [

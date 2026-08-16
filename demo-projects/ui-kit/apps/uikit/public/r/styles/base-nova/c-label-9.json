@@ -8,10 +8,10 @@
     "label"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/label",
-    "@ui-kit/styles",
-    "@ui-kit/textarea"
+    "field",
+    "label",
+    "styles",
+    "textarea"
   ],
   "dependencies": [],
   "files": [

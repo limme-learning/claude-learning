@@ -8,10 +8,10 @@
     "skeleton"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/separator",
-    "@ui-kit/skeleton",
-    "@ui-kit/styles"
+    "card",
+    "separator",
+    "skeleton",
+    "styles"
   ],
   "dependencies": [],
   "files": [

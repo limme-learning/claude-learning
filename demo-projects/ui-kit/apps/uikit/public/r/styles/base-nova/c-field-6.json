@@ -8,10 +8,10 @@
     "field"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/input-otp",
-    "@ui-kit/native-select",
-    "@ui-kit/styles"
+    "field",
+    "input-otp",
+    "native-select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

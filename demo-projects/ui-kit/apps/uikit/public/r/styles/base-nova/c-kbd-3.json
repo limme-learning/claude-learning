@@ -8,9 +8,9 @@
     "kbd"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/kbd",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "kbd",
+    "styles"
   ],
   "dependencies": [],
   "files": [

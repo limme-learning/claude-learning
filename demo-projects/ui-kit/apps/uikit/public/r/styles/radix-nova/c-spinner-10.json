@@ -8,7 +8,7 @@
     "spinner"
   ],
   "registryDependencies": [
-    "@ui-kit/styles"
+    "styles"
   ],
   "dependencies": [],
   "files": [

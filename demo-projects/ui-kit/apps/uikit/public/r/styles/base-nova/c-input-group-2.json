@@ -8,9 +8,9 @@
     "input-group"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/input-group",
-    "@ui-kit/styles"
+    "field",
+    "input-group",
+    "styles"
   ],
   "dependencies": [],
   "files": [

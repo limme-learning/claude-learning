@@ -8,9 +8,9 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/radio-group",
-    "@ui-kit/styles"
+    "field",
+    "radio-group",
+    "styles"
   ],
   "dependencies": [],
   "files": [

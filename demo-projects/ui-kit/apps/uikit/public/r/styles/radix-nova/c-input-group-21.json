@@ -8,10 +8,10 @@
     "input-group"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-group",
-    "@ui-kit/styles"
+    "field",
+    "icon-placeholder",
+    "input-group",
+    "styles"
   ],
   "dependencies": [
     "sonner"

@@ -8,11 +8,11 @@
     "kanban"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/kanban",
-    "@ui-kit/styles"
+    "badge-block",
+    "frame",
+    "icon-placeholder",
+    "kanban",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/field",
-    "@ui-kit/radio-group",
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "card",
+    "field",
+    "radio-group",
+    "separator",
+    "styles"
   ],
   "dependencies": [],
   "files": [

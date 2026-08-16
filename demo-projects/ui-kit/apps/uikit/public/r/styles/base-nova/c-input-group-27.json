@@ -8,11 +8,11 @@
     "input-group"
   ],
   "registryDependencies": [
-    "@ui-kit/button-group",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-group",
-    "@ui-kit/styles"
+    "button-group",
+    "field",
+    "icon-placeholder",
+    "input-group",
+    "styles"
   ],
   "dependencies": [],
   "files": [

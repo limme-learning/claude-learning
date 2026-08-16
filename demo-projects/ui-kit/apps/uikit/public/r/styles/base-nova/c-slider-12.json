@@ -8,9 +8,9 @@
     "slider"
   ],
   "registryDependencies": [
-    "@ui-kit/label",
-    "@ui-kit/slider",
-    "@ui-kit/styles"
+    "label",
+    "slider",
+    "styles"
   ],
   "dependencies": [],
   "files": [

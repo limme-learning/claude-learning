@@ -8,8 +8,8 @@
     "calendar"
   ],
   "registryDependencies": [
-    "@ui-kit/calendar",
-    "@ui-kit/styles"
+    "calendar",
+    "styles"
   ],
   "dependencies": [],
   "files": [

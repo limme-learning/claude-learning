@@ -8,10 +8,10 @@
     "hover-card"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/hover-card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "hover-card",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "avatar"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip"
+    "avatar",
+    "button",
+    "icon-placeholder",
+    "styles",
+    "tooltip"
   ],
   "dependencies": [],
   "files": [

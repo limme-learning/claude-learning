@@ -8,9 +8,9 @@
     "skeleton"
   ],
   "registryDependencies": [
-    "@ui-kit/separator",
-    "@ui-kit/skeleton",
-    "@ui-kit/styles"
+    "separator",
+    "skeleton",
+    "styles"
   ],
   "dependencies": [],
   "files": [

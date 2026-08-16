@@ -8,8 +8,8 @@
     "menubar"
   ],
   "registryDependencies": [
-    "@ui-kit/menubar",
-    "@ui-kit/styles"
+    "menubar",
+    "styles"
   ],
   "dependencies": [],
   "files": [

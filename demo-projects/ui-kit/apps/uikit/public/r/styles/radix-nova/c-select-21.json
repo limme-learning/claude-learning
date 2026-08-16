@@ -8,11 +8,11 @@
     "select"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/select",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "field",
+    "icon-placeholder",
+    "select",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

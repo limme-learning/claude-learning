@@ -8,11 +8,11 @@
     "badge"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "avatar",
+    "badge-block",
+    "button",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

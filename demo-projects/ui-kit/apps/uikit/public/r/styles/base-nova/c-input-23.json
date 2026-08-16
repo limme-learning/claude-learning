@@ -8,10 +8,10 @@
     "input"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/styles"
+    "field",
+    "icon-placeholder",
+    "input",
+    "styles"
   ],
   "dependencies": [],
   "files": [

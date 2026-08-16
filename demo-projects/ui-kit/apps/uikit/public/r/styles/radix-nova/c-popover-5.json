@@ -8,10 +8,10 @@
     "popover"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/dialog",
-    "@ui-kit/popover",
-    "@ui-kit/styles"
+    "button",
+    "dialog",
+    "popover",
+    "styles"
   ],
   "dependencies": [],
   "files": [

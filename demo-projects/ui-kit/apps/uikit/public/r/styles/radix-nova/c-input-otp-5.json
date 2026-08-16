@@ -8,9 +8,9 @@
     "input-otp"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/input-otp",
-    "@ui-kit/styles"
+    "field",
+    "input-otp",
+    "styles"
   ],
   "dependencies": [
     "input-otp"

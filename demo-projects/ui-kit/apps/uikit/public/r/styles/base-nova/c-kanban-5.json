@@ -8,13 +8,13 @@
     "kanban"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/kanban",
-    "@ui-kit/progress",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "badge-block",
+    "frame",
+    "icon-placeholder",
+    "kanban",
+    "progress",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

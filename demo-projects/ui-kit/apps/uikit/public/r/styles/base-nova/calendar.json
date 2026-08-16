@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "icon-placeholder",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "react-day-picker"

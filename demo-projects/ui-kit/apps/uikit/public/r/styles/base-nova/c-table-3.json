@@ -8,9 +8,9 @@
     "table"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/styles",
-    "@ui-kit/table"
+    "card",
+    "styles",
+    "table"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "chart"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/card",
-    "@ui-kit/chart",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "badge-block",
+    "card",
+    "chart",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "recharts"

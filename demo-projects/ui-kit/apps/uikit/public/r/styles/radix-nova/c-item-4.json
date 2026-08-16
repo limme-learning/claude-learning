@@ -8,9 +8,9 @@
     "item"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/item",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "item",
+    "styles"
   ],
   "dependencies": [],
   "files": [

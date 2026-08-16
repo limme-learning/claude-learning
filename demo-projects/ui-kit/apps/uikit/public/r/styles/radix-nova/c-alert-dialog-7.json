@@ -8,12 +8,12 @@
     "alert-dialog"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-dialog",
-    "@ui-kit/button",
-    "@ui-kit/checkbox",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/label",
-    "@ui-kit/styles"
+    "alert-dialog",
+    "button",
+    "checkbox",
+    "icon-placeholder",
+    "label",
+    "styles"
   ],
   "dependencies": [],
   "files": [

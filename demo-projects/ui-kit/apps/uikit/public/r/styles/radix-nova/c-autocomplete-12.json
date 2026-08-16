@@ -8,12 +8,12 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "@ui-kit/alert",
-    "@ui-kit/autocomplete",
-    "@ui-kit/button",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "alert",
+    "autocomplete",
+    "button",
+    "field",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "@hookform/resolvers",

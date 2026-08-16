@@ -8,11 +8,11 @@
     "alert"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-block",
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/frame",
-    "@ui-kit/styles"
+    "alert-block",
+    "avatar",
+    "button",
+    "frame",
+    "styles"
   ],
   "dependencies": [],
   "files": [

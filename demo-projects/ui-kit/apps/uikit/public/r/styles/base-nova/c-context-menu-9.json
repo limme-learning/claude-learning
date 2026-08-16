@@ -8,8 +8,8 @@
     "context-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/context-menu",
-    "@ui-kit/styles"
+    "context-menu",
+    "styles"
   ],
   "dependencies": [],
   "files": [

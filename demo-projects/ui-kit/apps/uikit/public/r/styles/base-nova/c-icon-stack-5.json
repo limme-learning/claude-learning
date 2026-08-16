@@ -8,11 +8,11 @@
     "icon-stack"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/empty",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/icon-stack",
-    "@ui-kit/styles"
+    "button",
+    "empty",
+    "icon-placeholder",
+    "icon-stack",
+    "styles"
   ],
   "dependencies": [],
   "files": [

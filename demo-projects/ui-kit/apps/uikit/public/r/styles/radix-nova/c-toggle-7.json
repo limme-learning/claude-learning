@@ -8,10 +8,10 @@
     "toggle"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/toggle"
+    "badge-block",
+    "icon-placeholder",
+    "styles",
+    "toggle"
   ],
   "dependencies": [],
   "files": [

@@ -8,12 +8,12 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/progress",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "card",
+    "icon-placeholder",
+    "progress",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

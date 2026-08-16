@@ -8,11 +8,11 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/breadcrumb",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "avatar",
+    "breadcrumb",
+    "frame",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

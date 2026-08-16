@@ -7,19 +7,19 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/checkbox",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/popover",
-    "@ui-kit/select",
-    "@ui-kit/separator",
-    "@ui-kit/skeleton",
-    "@ui-kit/spinner",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "badge-block",
+    "button",
+    "checkbox",
+    "dropdown-menu",
+    "icon-placeholder",
+    "input",
+    "popover",
+    "select",
+    "separator",
+    "skeleton",
+    "spinner",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react",

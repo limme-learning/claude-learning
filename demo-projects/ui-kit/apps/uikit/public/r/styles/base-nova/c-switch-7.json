@@ -8,12 +8,12 @@
     "switch"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/separator",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "card",
+    "field",
+    "icon-placeholder",
+    "separator",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

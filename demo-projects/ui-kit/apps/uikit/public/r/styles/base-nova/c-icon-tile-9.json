@@ -8,8 +8,8 @@
     "icon-tile"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-tile",
-    "@ui-kit/styles"
+    "icon-tile",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,10 +8,10 @@
     "select"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/field",
-    "@ui-kit/select",
-    "@ui-kit/styles"
+    "avatar",
+    "field",
+    "select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

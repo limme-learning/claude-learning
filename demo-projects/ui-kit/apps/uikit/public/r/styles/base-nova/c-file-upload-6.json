@@ -8,14 +8,14 @@
     "file-upload"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-block",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/table",
-    "@ui-kit/use-file-upload",
-    "@ui-kit/utils"
+    "alert-block",
+    "badge-block",
+    "button",
+    "icon-placeholder",
+    "styles",
+    "table",
+    "use-file-upload",
+    "utils"
   ],
   "dependencies": [],
   "files": [

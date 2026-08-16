@@ -8,13 +8,13 @@
     "kanban"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/kanban",
-    "@ui-kit/styles"
+    "avatar",
+    "badge-block",
+    "button",
+    "card",
+    "icon-placeholder",
+    "kanban",
+    "styles"
   ],
   "dependencies": [],
   "files": [

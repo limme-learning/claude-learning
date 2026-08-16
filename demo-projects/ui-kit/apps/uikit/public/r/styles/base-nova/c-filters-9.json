@@ -8,11 +8,11 @@
     "filters"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/filters",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "dropdown-menu",
+    "filters",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

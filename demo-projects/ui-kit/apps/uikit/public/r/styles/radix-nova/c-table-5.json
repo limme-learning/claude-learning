@@ -8,10 +8,10 @@
     "table"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/input",
-    "@ui-kit/styles",
-    "@ui-kit/table"
+    "card",
+    "input",
+    "styles",
+    "table"
   ],
   "dependencies": [],
   "files": [

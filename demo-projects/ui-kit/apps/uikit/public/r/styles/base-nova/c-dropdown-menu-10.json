@@ -8,12 +8,12 @@
     "dropdown-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/svgs"
+    "avatar",
+    "button",
+    "dropdown-menu",
+    "icon-placeholder",
+    "styles",
+    "svgs"
   ],
   "dependencies": [],
   "files": [

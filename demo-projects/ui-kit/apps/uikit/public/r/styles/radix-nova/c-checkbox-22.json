@@ -8,10 +8,10 @@
     "checkbox"
   ],
   "registryDependencies": [
-    "@ui-kit/badge",
-    "@ui-kit/checkbox",
-    "@ui-kit/field",
-    "@ui-kit/styles"
+    "badge",
+    "checkbox",
+    "field",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,14 +8,14 @@
     "dropdown-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/tabs",
-    "@ui-kit/utils"
+    "avatar",
+    "badge-block",
+    "button",
+    "dropdown-menu",
+    "icon-placeholder",
+    "styles",
+    "tabs",
+    "utils"
   ],
   "dependencies": [],
   "files": [

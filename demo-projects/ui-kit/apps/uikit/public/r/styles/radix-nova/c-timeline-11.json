@@ -8,9 +8,9 @@
     "timeline"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/styles",
-    "@ui-kit/timeline"
+    "avatar",
+    "styles",
+    "timeline"
   ],
   "dependencies": [],
   "files": [

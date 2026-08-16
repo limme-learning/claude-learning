@@ -8,9 +8,9 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/data-grid",
-    "@ui-kit/styles"
+    "avatar",
+    "data-grid",
+    "styles"
   ],
   "dependencies": [
     "@dnd-kit/core",

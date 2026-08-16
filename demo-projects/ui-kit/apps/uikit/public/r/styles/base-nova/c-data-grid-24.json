@@ -8,16 +8,16 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/data-grid",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/separator",
-    "@ui-kit/styles",
-    "@ui-kit/use-copy-to-clipboard"
+    "avatar",
+    "badge-block",
+    "button",
+    "card",
+    "data-grid",
+    "dropdown-menu",
+    "icon-placeholder",
+    "separator",
+    "styles",
+    "use-copy-to-clipboard"
   ],
   "dependencies": [
     "@tanstack/react-table",

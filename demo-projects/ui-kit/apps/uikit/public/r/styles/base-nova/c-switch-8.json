@@ -8,11 +8,11 @@
     "switch"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/frame",
-    "@ui-kit/separator",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "field",
+    "frame",
+    "separator",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

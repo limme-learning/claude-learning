@@ -8,8 +8,8 @@
     "kbd"
   ],
   "registryDependencies": [
-    "@ui-kit/kbd",
-    "@ui-kit/styles"
+    "kbd",
+    "styles"
   ],
   "dependencies": [],
   "files": [

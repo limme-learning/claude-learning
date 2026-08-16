@@ -8,9 +8,9 @@
     "accordion"
   ],
   "registryDependencies": [
-    "@ui-kit/accordion",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "accordion",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

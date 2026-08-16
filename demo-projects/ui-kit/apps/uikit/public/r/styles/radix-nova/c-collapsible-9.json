@@ -8,11 +8,11 @@
     "collapsible"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/collapsible",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/item",
-    "@ui-kit/styles"
+    "card",
+    "collapsible",
+    "icon-placeholder",
+    "item",
+    "styles"
   ],
   "dependencies": [],
   "files": [

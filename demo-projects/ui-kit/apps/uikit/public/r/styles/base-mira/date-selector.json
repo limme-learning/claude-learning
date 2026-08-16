@@ -7,15 +7,15 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/calendar",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input",
-    "@ui-kit/scroll-area",
-    "@ui-kit/styles",
-    "@ui-kit/tabs",
-    "@ui-kit/use-mobile",
-    "@ui-kit/utils"
+    "button",
+    "calendar",
+    "icon-placeholder",
+    "input",
+    "scroll-area",
+    "styles",
+    "tabs",
+    "use-mobile",
+    "utils"
   ],
   "dependencies": [
     "date-fns",

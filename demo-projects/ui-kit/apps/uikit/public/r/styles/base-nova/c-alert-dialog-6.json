@@ -8,10 +8,10 @@
     "alert-dialog"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-dialog",
-    "@ui-kit/button",
-    "@ui-kit/dialog",
-    "@ui-kit/styles"
+    "alert-dialog",
+    "button",
+    "dialog",
+    "styles"
   ],
   "dependencies": [],
   "files": [

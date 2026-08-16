@@ -8,10 +8,10 @@
     "filters"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/filters",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "filters",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "zod"

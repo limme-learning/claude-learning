@@ -8,11 +8,11 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "badge-block",
+    "button",
+    "card",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,13 +8,13 @@
     "item"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/item",
-    "@ui-kit/progress",
-    "@ui-kit/styles"
+    "avatar",
+    "badge-block",
+    "button",
+    "icon-placeholder",
+    "item",
+    "progress",
+    "styles"
   ],
   "dependencies": [],
   "files": [

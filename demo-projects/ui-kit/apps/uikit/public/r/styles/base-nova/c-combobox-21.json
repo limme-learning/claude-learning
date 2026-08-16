@@ -8,12 +8,12 @@
     "combobox"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/combobox",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "combobox",
+    "field",
+    "icon-placeholder",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

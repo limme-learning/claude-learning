@@ -8,16 +8,16 @@
     "filters"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-block",
-    "@ui-kit/avatar",
-    "@ui-kit/badge-block",
-    "@ui-kit/button",
-    "@ui-kit/data-grid",
-    "@ui-kit/filters",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/scroll-area",
-    "@ui-kit/skeleton",
-    "@ui-kit/styles"
+    "alert-block",
+    "avatar",
+    "badge-block",
+    "button",
+    "data-grid",
+    "filters",
+    "icon-placeholder",
+    "scroll-area",
+    "skeleton",
+    "styles"
   ],
   "dependencies": [
     "@tanstack/react-table"

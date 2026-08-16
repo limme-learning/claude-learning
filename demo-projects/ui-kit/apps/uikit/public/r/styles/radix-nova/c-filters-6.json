@@ -8,17 +8,17 @@
     "filters"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/calendar",
-    "@ui-kit/date-selector",
-    "@ui-kit/dialog",
-    "@ui-kit/filters",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/popover",
-    "@ui-kit/scroll-area",
-    "@ui-kit/slider",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "calendar",
+    "date-selector",
+    "dialog",
+    "filters",
+    "icon-placeholder",
+    "popover",
+    "scroll-area",
+    "slider",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "date-fns",

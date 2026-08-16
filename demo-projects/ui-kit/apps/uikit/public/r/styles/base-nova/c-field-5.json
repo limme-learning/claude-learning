@@ -8,10 +8,10 @@
     "field"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/slider",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "field",
+    "slider",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

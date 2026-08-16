@@ -8,9 +8,9 @@
     "number-field"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/number-field",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "number-field",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,9 +8,9 @@
     "progress"
   ],
   "registryDependencies": [
-    "@ui-kit/progress",
-    "@ui-kit/slider",
-    "@ui-kit/styles"
+    "progress",
+    "slider",
+    "styles"
   ],
   "dependencies": [],
   "files": [

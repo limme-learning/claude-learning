@@ -8,11 +8,11 @@
     "sortable"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/sortable",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "badge-block",
+    "icon-placeholder",
+    "sortable",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "sonner"

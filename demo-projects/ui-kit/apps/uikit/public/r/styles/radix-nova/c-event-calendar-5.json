@@ -8,12 +8,12 @@
     "event-calendar"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/event-calendar",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "avatar",
+    "button",
+    "card",
+    "event-calendar",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "date-fns"

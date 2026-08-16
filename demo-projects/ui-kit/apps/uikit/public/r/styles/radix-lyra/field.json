@@ -7,10 +7,10 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/label",
-    "@ui-kit/separator",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "label",
+    "separator",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "class-variance-authority"

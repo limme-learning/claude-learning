@@ -7,11 +7,11 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-group",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "icon-placeholder",
+    "input-group",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react"

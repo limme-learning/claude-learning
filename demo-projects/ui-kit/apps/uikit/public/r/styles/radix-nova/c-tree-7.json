@@ -8,9 +8,9 @@
     "tree"
   ],
   "registryDependencies": [
-    "@ui-kit/checkbox",
-    "@ui-kit/styles",
-    "@ui-kit/tree"
+    "checkbox",
+    "styles",
+    "tree"
   ],
   "dependencies": [
     "@headless-tree/core",

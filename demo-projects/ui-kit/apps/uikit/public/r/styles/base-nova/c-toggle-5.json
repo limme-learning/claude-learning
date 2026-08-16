@@ -8,8 +8,8 @@
     "toggle"
   ],
   "registryDependencies": [
-    "@ui-kit/styles",
-    "@ui-kit/toggle"
+    "styles",
+    "toggle"
   ],
   "dependencies": [],
   "files": [

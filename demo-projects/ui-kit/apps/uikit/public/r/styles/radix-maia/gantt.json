@@ -7,17 +7,17 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/calendar",
-    "@ui-kit/checkbox",
-    "@ui-kit/context-menu",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/popover",
-    "@ui-kit/scroll-area",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip",
-    "@ui-kit/utils"
+    "button",
+    "calendar",
+    "checkbox",
+    "context-menu",
+    "dropdown-menu",
+    "icon-placeholder",
+    "popover",
+    "scroll-area",
+    "styles",
+    "tooltip",
+    "utils"
   ],
   "dependencies": [
     "@date-fns/tz",

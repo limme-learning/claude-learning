@@ -8,10 +8,10 @@
     "radio-group"
   ],
   "registryDependencies": [
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/radio-group",
-    "@ui-kit/styles"
+    "field",
+    "icon-placeholder",
+    "radio-group",
+    "styles"
   ],
   "dependencies": [],
   "files": [

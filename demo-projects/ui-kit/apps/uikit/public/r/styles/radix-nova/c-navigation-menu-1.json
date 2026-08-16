@@ -8,8 +8,8 @@
     "navigation-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/navigation-menu",
-    "@ui-kit/styles"
+    "navigation-menu",
+    "styles"
   ],
   "dependencies": [],
   "files": [

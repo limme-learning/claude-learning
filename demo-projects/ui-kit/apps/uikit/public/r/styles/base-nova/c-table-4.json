@@ -8,12 +8,12 @@
     "table"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/table"
+    "button",
+    "card",
+    "dropdown-menu",
+    "icon-placeholder",
+    "styles",
+    "table"
   ],
   "dependencies": [],
   "files": [

@@ -8,11 +8,11 @@
     "sheet"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/field",
-    "@ui-kit/input",
-    "@ui-kit/sheet",
-    "@ui-kit/styles"
+    "button",
+    "field",
+    "input",
+    "sheet",
+    "styles"
   ],
   "dependencies": [],
   "files": [

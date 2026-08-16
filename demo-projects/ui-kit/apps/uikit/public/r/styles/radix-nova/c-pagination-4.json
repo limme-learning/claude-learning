@@ -8,10 +8,10 @@
     "pagination"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/pagination",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "pagination",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

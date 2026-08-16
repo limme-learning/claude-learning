@@ -8,12 +8,12 @@
     "rating"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/label",
-    "@ui-kit/rating",
-    "@ui-kit/styles",
-    "@ui-kit/textarea"
+    "button",
+    "card",
+    "label",
+    "rating",
+    "styles",
+    "textarea"
   ],
   "dependencies": [],
   "files": [

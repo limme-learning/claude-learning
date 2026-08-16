@@ -8,9 +8,9 @@
     "drawer"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/drawer",
-    "@ui-kit/styles"
+    "button",
+    "drawer",
+    "styles"
   ],
   "dependencies": [],
   "files": [

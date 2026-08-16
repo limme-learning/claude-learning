@@ -8,8 +8,8 @@
     "data-grid"
   ],
   "registryDependencies": [
-    "@ui-kit/data-grid",
-    "@ui-kit/styles"
+    "data-grid",
+    "styles"
   ],
   "dependencies": [
     "@tanstack/react-table"

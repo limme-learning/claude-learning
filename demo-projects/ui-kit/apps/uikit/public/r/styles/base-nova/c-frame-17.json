@@ -8,8 +8,8 @@
     "frame"
   ],
   "registryDependencies": [
-    "@ui-kit/frame",
-    "@ui-kit/styles"
+    "frame",
+    "styles"
   ],
   "dependencies": [],
   "files": [

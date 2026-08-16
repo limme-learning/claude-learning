@@ -8,10 +8,10 @@
     "empty"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/empty",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "empty",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

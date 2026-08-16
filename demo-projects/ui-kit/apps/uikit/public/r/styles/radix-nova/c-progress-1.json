@@ -8,8 +8,8 @@
     "progress"
   ],
   "registryDependencies": [
-    "@ui-kit/progress",
-    "@ui-kit/styles"
+    "progress",
+    "styles"
   ],
   "dependencies": [],
   "files": [

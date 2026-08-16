@@ -8,8 +8,8 @@
     "rating"
   ],
   "registryDependencies": [
-    "@ui-kit/rating",
-    "@ui-kit/styles"
+    "rating",
+    "styles"
   ],
   "dependencies": [
     "sonner"

@@ -8,10 +8,10 @@
     "hover-card"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/hover-card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "avatar",
+    "hover-card",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "lucide-react"

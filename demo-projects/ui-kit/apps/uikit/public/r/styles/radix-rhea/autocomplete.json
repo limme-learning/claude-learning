@@ -7,10 +7,10 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/scroll-area",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "icon-placeholder",
+    "scroll-area",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react",

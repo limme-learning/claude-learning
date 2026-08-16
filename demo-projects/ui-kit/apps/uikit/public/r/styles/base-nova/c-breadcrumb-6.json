@@ -8,8 +8,8 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "@ui-kit/breadcrumb",
-    "@ui-kit/styles"
+    "breadcrumb",
+    "styles"
   ],
   "dependencies": [],
   "files": [

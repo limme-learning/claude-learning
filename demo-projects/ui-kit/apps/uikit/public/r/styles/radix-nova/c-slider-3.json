@@ -8,8 +8,8 @@
     "slider"
   ],
   "registryDependencies": [
-    "@ui-kit/slider",
-    "@ui-kit/styles"
+    "slider",
+    "styles"
   ],
   "dependencies": [],
   "files": [

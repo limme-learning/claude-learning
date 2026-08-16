@@ -8,9 +8,9 @@
     "icon-stack"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/icon-stack",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "icon-stack",
+    "styles"
   ],
   "dependencies": [],
   "files": [

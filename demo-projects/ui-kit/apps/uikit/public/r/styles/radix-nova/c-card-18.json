@@ -8,9 +8,9 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "card",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

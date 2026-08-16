@@ -8,12 +8,12 @@
     "tabs"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/card",
-    "@ui-kit/input",
-    "@ui-kit/label",
-    "@ui-kit/styles",
-    "@ui-kit/tabs"
+    "button",
+    "card",
+    "input",
+    "label",
+    "styles",
+    "tabs"
   ],
   "dependencies": [],
   "files": [

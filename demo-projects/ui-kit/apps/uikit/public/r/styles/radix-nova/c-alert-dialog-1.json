@@ -8,9 +8,9 @@
     "alert-dialog"
   ],
   "registryDependencies": [
-    "@ui-kit/alert-dialog",
-    "@ui-kit/button",
-    "@ui-kit/styles"
+    "alert-dialog",
+    "button",
+    "styles"
   ],
   "dependencies": [],
   "files": [

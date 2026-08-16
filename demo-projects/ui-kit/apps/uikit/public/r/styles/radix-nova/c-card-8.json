@@ -8,8 +8,8 @@
     "card"
   ],
   "registryDependencies": [
-    "@ui-kit/card",
-    "@ui-kit/styles"
+    "card",
+    "styles"
   ],
   "dependencies": [],
   "files": [

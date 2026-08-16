@@ -8,14 +8,14 @@
     "combobox"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/calendar",
-    "@ui-kit/combobox",
-    "@ui-kit/dialog",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "calendar",
+    "combobox",
+    "dialog",
+    "field",
+    "icon-placeholder",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "date-fns"

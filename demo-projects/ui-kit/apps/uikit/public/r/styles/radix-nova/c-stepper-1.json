@@ -8,8 +8,8 @@
     "stepper"
   ],
   "registryDependencies": [
-    "@ui-kit/stepper",
-    "@ui-kit/styles"
+    "stepper",
+    "styles"
   ],
   "dependencies": [],
   "files": [

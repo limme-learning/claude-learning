@@ -8,9 +8,9 @@
     "dropdown-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/styles"
+    "button",
+    "dropdown-menu",
+    "styles"
   ],
   "dependencies": [],
   "files": [

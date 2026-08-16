@@ -8,9 +8,9 @@
     "select"
   ],
   "registryDependencies": [
-    "@ui-kit/input",
-    "@ui-kit/select",
-    "@ui-kit/styles"
+    "input",
+    "select",
+    "styles"
   ],
   "dependencies": [],
   "files": [

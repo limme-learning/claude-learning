@@ -8,10 +8,10 @@
     "dialog"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/dialog",
-    "@ui-kit/kbd",
-    "@ui-kit/styles"
+    "button",
+    "dialog",
+    "kbd",
+    "styles"
   ],
   "dependencies": [],
   "files": [

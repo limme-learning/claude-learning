@@ -8,8 +8,8 @@
     "accordion"
   ],
   "registryDependencies": [
-    "@ui-kit/accordion",
-    "@ui-kit/styles"
+    "accordion",
+    "styles"
   ],
   "dependencies": [],
   "files": [

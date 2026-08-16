@@ -8,12 +8,12 @@
     "input-group"
   ],
   "registryDependencies": [
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/input-group",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "dropdown-menu",
+    "field",
+    "icon-placeholder",
+    "input-group",
+    "styles",
+    "utils"
   ],
   "dependencies": [],
   "files": [

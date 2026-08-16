@@ -8,13 +8,13 @@
     "button-group"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/button-group",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "avatar",
+    "button",
+    "button-group",
+    "dropdown-menu",
+    "icon-placeholder",
+    "separator",
+    "styles"
   ],
   "dependencies": [],
   "files": [

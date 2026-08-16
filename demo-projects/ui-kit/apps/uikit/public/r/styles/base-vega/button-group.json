@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/separator",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "separator",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react",

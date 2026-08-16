@@ -8,9 +8,9 @@
     "timeline"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/timeline"
+    "icon-placeholder",
+    "styles",
+    "timeline"
   ],
   "dependencies": [],
   "files": [

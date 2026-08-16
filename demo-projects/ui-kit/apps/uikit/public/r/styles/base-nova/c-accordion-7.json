@@ -8,11 +8,11 @@
     "accordion"
   ],
   "registryDependencies": [
-    "@ui-kit/accordion",
-    "@ui-kit/badge-block",
-    "@ui-kit/frame",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "accordion",
+    "badge-block",
+    "frame",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

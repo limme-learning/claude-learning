@@ -7,9 +7,9 @@
     "ui"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "icon-placeholder",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "radix-ui"

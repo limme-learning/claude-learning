@@ -8,10 +8,10 @@
     "combobox"
   ],
   "registryDependencies": [
-    "@ui-kit/combobox",
-    "@ui-kit/field",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "combobox",
+    "field",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "@base-ui/react"

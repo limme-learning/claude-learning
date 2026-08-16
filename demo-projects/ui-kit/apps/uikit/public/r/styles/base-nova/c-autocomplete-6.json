@@ -8,8 +8,8 @@
     "autocomplete"
   ],
   "registryDependencies": [
-    "@ui-kit/autocomplete",
-    "@ui-kit/styles"
+    "autocomplete",
+    "styles"
   ],
   "dependencies": [],
   "files": [

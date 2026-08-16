@@ -675,10 +675,19 @@ function toManifestItem(item: RegistryItem) {
   }
 }
 
+// shadcn resolves a bare registryDependency name (no scope, no slash) against
+// the SAME base URL the parent item was fetched from — the standard pattern
+// for a self-hosted registry (https://ui.shadcn.com/docs/registry/examples).
+// A `${REGISTRY_NAMESPACE}/name` form instead tells the CLI to look up a
+// *named* registry called "@ui-kit" in the consumer's components.json, which
+// we don't publish, so it always fails with "Unknown registry \"@ui-kit\"".
+// Only strip our own namespace prefix here (added internally so
+// verify-registry.ts can tell a same-registry dep from an external one);
+// leave genuine external deps (other scopes, URLs) untouched.
 function normalizeDep(dep: string): string {
-  return dep.startsWith("@") || dep.includes("/")
-    ? dep
-    : `${REGISTRY_NAMESPACE}/${dep}`
+  return dep.startsWith(`${REGISTRY_NAMESPACE}/`)
+    ? dep.slice(REGISTRY_NAMESPACE.length + 1)
+    : dep
 }
 
 function readStyleNames(): string[] {

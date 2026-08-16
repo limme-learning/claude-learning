@@ -8,10 +8,10 @@
     "sonner"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/progress",
-    "@ui-kit/styles"
+    "button",
+    "icon-placeholder",
+    "progress",
+    "styles"
   ],
   "dependencies": [
     "sonner"

@@ -8,9 +8,9 @@
     "badge"
   ],
   "registryDependencies": [
-    "@ui-kit/badge-block",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "badge-block",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [],
   "files": [

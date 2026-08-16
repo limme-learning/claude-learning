@@ -8,9 +8,9 @@
     "sonner"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles"
+    "button",
+    "icon-placeholder",
+    "styles"
   ],
   "dependencies": [
     "sonner"

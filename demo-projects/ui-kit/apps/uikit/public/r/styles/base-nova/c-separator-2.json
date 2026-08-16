@@ -8,8 +8,8 @@
     "separator"
   ],
   "registryDependencies": [
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "separator",
+    "styles"
   ],
   "dependencies": [],
   "files": [

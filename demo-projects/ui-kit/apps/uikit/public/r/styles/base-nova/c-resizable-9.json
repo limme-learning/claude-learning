@@ -8,8 +8,8 @@
     "resizable"
   ],
   "registryDependencies": [
-    "@ui-kit/resizable",
-    "@ui-kit/styles"
+    "resizable",
+    "styles"
   ],
   "dependencies": [],
   "files": [

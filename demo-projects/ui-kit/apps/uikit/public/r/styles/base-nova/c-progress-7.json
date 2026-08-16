@@ -8,9 +8,9 @@
     "progress"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/progress",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "progress",
+    "styles"
   ],
   "dependencies": [],
   "files": [

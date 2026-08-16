@@ -8,9 +8,9 @@
     "breadcrumb"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/breadcrumb",
-    "@ui-kit/styles"
+    "avatar",
+    "breadcrumb",
+    "styles"
   ],
   "dependencies": [],
   "files": [

@@ -8,12 +8,12 @@
     "combobox"
   ],
   "registryDependencies": [
-    "@ui-kit/avatar",
-    "@ui-kit/button",
-    "@ui-kit/combobox",
-    "@ui-kit/field",
-    "@ui-kit/item",
-    "@ui-kit/styles"
+    "avatar",
+    "button",
+    "combobox",
+    "field",
+    "item",
+    "styles"
   ],
   "dependencies": [],
   "files": [

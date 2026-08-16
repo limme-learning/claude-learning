@@ -8,14 +8,14 @@
     "calendar"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/calendar",
-    "@ui-kit/card",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/popover",
-    "@ui-kit/scroll-area",
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "button",
+    "calendar",
+    "card",
+    "icon-placeholder",
+    "popover",
+    "scroll-area",
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "date-fns",

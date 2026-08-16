@@ -8,10 +8,10 @@
     "rating"
   ],
   "registryDependencies": [
-    "@ui-kit/progress",
-    "@ui-kit/rating",
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "progress",
+    "rating",
+    "separator",
+    "styles"
   ],
   "dependencies": [],
   "files": [

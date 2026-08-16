@@ -7,16 +7,16 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/calendar",
-    "@ui-kit/dropdown-menu",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/icon-stack",
-    "@ui-kit/popover",
-    "@ui-kit/scroll-area",
-    "@ui-kit/styles",
-    "@ui-kit/tooltip",
-    "@ui-kit/utils"
+    "button",
+    "calendar",
+    "dropdown-menu",
+    "icon-placeholder",
+    "icon-stack",
+    "popover",
+    "scroll-area",
+    "styles",
+    "tooltip",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react",

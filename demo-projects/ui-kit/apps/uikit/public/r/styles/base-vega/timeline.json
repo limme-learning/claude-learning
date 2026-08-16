@@ -7,8 +7,8 @@
     "blocks"
   ],
   "registryDependencies": [
-    "@ui-kit/styles",
-    "@ui-kit/utils"
+    "styles",
+    "utils"
   ],
   "dependencies": [
     "@base-ui/react"

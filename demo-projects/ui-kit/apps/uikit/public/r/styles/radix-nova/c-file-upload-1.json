@@ -8,10 +8,10 @@
     "file-upload"
   ],
   "registryDependencies": [
-    "@ui-kit/button",
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/styles",
-    "@ui-kit/use-file-upload"
+    "button",
+    "icon-placeholder",
+    "styles",
+    "use-file-upload"
   ],
   "dependencies": [],
   "files": [

@@ -8,9 +8,9 @@
     "navigation-menu"
   ],
   "registryDependencies": [
-    "@ui-kit/icon-placeholder",
-    "@ui-kit/navigation-menu",
-    "@ui-kit/styles"
+    "icon-placeholder",
+    "navigation-menu",
+    "styles"
   ],
   "dependencies": [],
   "files": [

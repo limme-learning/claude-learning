@@ -8,9 +8,9 @@
     "switch"
   ],
   "registryDependencies": [
-    "@ui-kit/separator",
-    "@ui-kit/styles",
-    "@ui-kit/switch"
+    "separator",
+    "styles",
+    "switch"
   ],
   "dependencies": [],
   "files": [

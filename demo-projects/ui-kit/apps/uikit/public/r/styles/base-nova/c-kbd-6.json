@@ -8,9 +8,9 @@
     "kbd"
   ],
   "registryDependencies": [
-    "@ui-kit/kbd",
-    "@ui-kit/separator",
-    "@ui-kit/styles"
+    "kbd",
+    "separator",
+    "styles"
   ],
   "dependencies": [],
   "files": [
